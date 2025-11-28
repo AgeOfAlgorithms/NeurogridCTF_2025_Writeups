@@ -1,10 +1,10 @@
-# NeurogridCTF 2025
+# Neurogrid CTF 2025
 
-My writeups and solutions for NeurogridCTF 2025.
+My writeups and solutions for [Neurogrid CTF 2025](https://ctf.hackthebox.com/event/details/neurogrid-ctf-the-ultimate-ai-security-showdown-2712).
 
 ## About the Event
 
-NeurogridCTF 2025 was an MCP-focused CTF hosted by Hack The Box, featuring two separate competitions:
+Neurogrid CTF 2025 was an MCP-focused CTF hosted by Hack The Box, featuring two separate competitions:
 - **AI Competition** - Challenges solved using AI agents
 - **Human Competition** - Traditional human-only solving
 

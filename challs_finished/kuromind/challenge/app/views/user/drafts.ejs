@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Drafts - KuroMind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-neutral-900 text-neutral-100">
+  <%- include('../partials/header') %>
+  
+  <main class="min-h-screen py-12">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center mb-8">
+        <h1 class="text-4xl font-bold">My Drafts</h1>
+        <a href="/user/add" class="btn-primary">Create New Draft</a>
+      </div>
+
+      <% if (drafts.length === 0) { %>
+        <div class="card text-center py-12">
+          <p class="text-neutral-400 text-lg mb-4">No drafts yet.</p>
+          <a href="/user/add" class="btn-primary inline-block">Create Your First Draft</a>
+        </div>
+      <% } else { %>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <% drafts.forEach(draft => { %>
+            <div class="card hover-lift">
+              <img 
+                src="/images/<%= draft.image %>" 
+                alt="<%= draft.title %>"
+                class="w-full h-48 object-cover rounded-xl mb-4"
+              >
+              <% if (draft.tags && draft.tags.categories && draft.tags.categories.length > 0) { %>
+                <div class="mb-3 flex flex-wrap gap-2">
+                  <% draft.tags.categories.forEach(cat => { %>
+                    <span class="badge badge-<%= cat %>"><%= cat %></span>
+                  <% }); %>
+                  <% if (draft.tags.difficulty && (draft.tags.categories.includes('spell') || draft.tags.categories.includes('jutsu'))) { %>
+                    <span class="text-xs bg-purple-600 px-2 py-1 rounded"><%= draft.tags.difficulty %></span>
+                  <% } %>
+                  <% if (draft.tags.element && draft.tags.categories.includes('jutsu')) { %>
+                    <span class="text-xs bg-orange-600 px-2 py-1 rounded">Element: <%= draft.tags.element %></span>
+                  <% } %>
+                </div>
+              <% } %>
+              <h3 class="text-xl font-bold mb-2"><%= draft.title %></h3>
+              <p class="text-neutral-400 mb-4 line-clamp-3"><%= draft.description %></p>
+              <p class="text-xs text-neutral-500 mb-4">
+                Last updated: <%= new Date(draft.updatedAt).toLocaleDateString() %>
+              </p>
+              
+              <div class="flex gap-2 mb-2">
+                <a href="/user/edit/<%= draft.id %>" class="flex-1 text-center px-6 py-3 rounded-lg font-semibold transition-all"
+                   style="background: rgba(139, 122, 168, 0.2); color: var(--shinju-glow); border: 1px solid var(--shinju-glow);">
+                  Edit
+                </a>
+                <form action="/user/drafts/delete/<%= draft.id %>" method="POST" class="flex-1">
+                  <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                  <button type="submit" class="px-6 py-3 rounded-lg font-semibold transition-all w-full js-confirm-delete"
+                          style="background: rgba(139, 90, 90, 0.2); color: var(--error); border: 1px solid var(--error);">
+                    Delete
+                  </button>
+                </form>
+              </div>
+
+              <form action="/user/drafts/submit/<%= draft.id %>" method="POST">
+                <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                <button type="submit" class="btn-primary w-full">
+                  Submit for Review
+                </button>
+              </form>
+            </div>
+          <% }) %>
+        </div>
+      <% } %>
+    </div>
+  </main>
+
+
+</body>
+</html>

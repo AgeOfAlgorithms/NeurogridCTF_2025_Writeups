@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error - Library of Thoughts</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-neutral-900 text-neutral-100">
+  <%- include('partials/header') %>
+  
+  <main class="min-h-screen flex items-center justify-center py-12">
+    <div class="container mx-auto px-4 text-center">
+      <div class="card max-w-2xl mx-auto">
+        <div class="mb-6">
+          <svg class="w-24 h-24 mx-auto text-error" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+        </div>
+        
+        <h1 class="text-4xl font-bold mb-4">Oops! Something went wrong</h1>
+        <p class="text-neutral-400 mb-8"><%= message || 'An unexpected error occurred' %></p>
+        
+        <div class="flex gap-4 justify-center">
+          <a href="/" class="btn-primary">Go Home</a>
+          <button class="btn-secondary" data-action="go-back">Go Back</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="/js/common.js"></script>
+</body>
+</html>

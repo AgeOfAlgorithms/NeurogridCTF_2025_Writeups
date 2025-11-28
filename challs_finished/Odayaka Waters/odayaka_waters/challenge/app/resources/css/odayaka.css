@@ -1,0 +1,155 @@
+:root {
+    --ow-bg-1: #0a1b27;     /* deep night blue */
+    --ow-bg-2: #0e2a37;     /* teal navy */
+    --ow-bg-3: #133a49;     /* water highlight */
+    --ow-glass: rgba(8, 16, 24, .55);
+    --ow-border: rgba(255, 255, 255, .10);
+    --ow-text: #e9f0f7;
+    --ow-muted: rgba(233, 240, 247, .75);
+    --ow-accent: #5cc2c9;   /* calm teal */
+    --ow-accent-2: #d69ab1; /* sakura pink (sparingly) */
+    --ow-focus: rgba(92, 194, 201, .35);
+  }
+  
+  /* Central water background (use everywhere) */
+  .ow-water-bg {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background:
+      radial-gradient(120% 120% at 75% 15%, var(--ow-bg-3) 0%, transparent 45%),
+      radial-gradient(120% 120% at 20% 80%, #0b2330 0%, transparent 40%),
+      linear-gradient(180deg, var(--ow-bg-2) 0%, var(--ow-bg-1) 70%);
+    /* subtle shimmer lines */
+    overflow: hidden;
+  }
+  .ow-water-bg::after {
+    content: "";
+    position: absolute; inset: 0;
+    background:
+      repeating-linear-gradient( to right,
+        rgba(255,255,255, .06) 0 1px,
+        transparent 1px 16px
+      );
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  /* Optional: ultra-subtle falling leaves (CSS only, very light) */
+  .ow-leaf {
+    position: absolute; top: -40px; width: 12px; height: 12px;
+    background: radial-gradient(circle at 30% 30%, #f6d1df 0 50%, #e7a9c0 51% 100%);
+    border-radius: 50% 45% 50% 30%;
+    opacity: .15;
+    filter: blur(.2px);
+    animation: ow-fall 12s linear infinite;
+    transform: rotate(20deg);
+  }
+  .ow-leaf:nth-child(2){ left: 20%; animation-delay: 3s; width: 10px; height: 10px;}
+  .ow-leaf:nth-child(3){ left: 40%; animation-delay: 6s; width: 8px;  height: 8px; }
+  .ow-leaf:nth-child(4){ left: 65%; animation-delay: 1s; width: 11px; height: 11px;}
+  .ow-leaf:nth-child(5){ left: 82%; animation-delay: 8s; width: 9px;  height: 9px; }
+  @keyframes ow-fall {
+    0%   { transform: translateY(-40px) translateX(0) rotate(0deg);   opacity: .10; }
+    50%  { transform: translateY(55vh) translateX(20px) rotate(120deg); opacity: .15; }
+    100% { transform: translateY(100vh) translateX(-10px) rotate(240deg); opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ow-leaf { display: none; }
+  }
+  
+  /* Glass card */
+  .ow-card {
+    background: var(--ow-glass);
+    border: 1px solid var(--ow-border);
+    border-radius: 16px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: var(--ow-text);
+    padding: 22px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.35);
+  }
+  
+  /* Headings and divider */
+  .ow-title {
+    font-weight: 600; letter-spacing: .3px; color: var(--ow-text);
+  }
+  .ow-subtle { color: var(--ow-muted); font-size: .95rem; }
+  .ow-divider {
+    height: 1px; width: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,.18), transparent);
+    margin: 14px 0 18px;
+  }
+  /* tiny sakura mark */
+  .ow-sakura {
+    display: inline-block; width: 18px; height: 18px; margin-left: 6px;
+    background:
+      radial-gradient(circle at 50% 40%, #ffd8e8 0 48%, transparent 49% 100%),
+      radial-gradient(circle at 28% 65%, #ffd8e8 0 48%, transparent 49% 100%),
+      radial-gradient(circle at 72% 65%, #ffd8e8 0 48%, transparent 49% 100%);
+    filter: drop-shadow(0 0 2px rgba(255, 216, 232, .35));
+  }
+  
+  /* Form */
+  .ow-field { display: grid; gap: 6px; margin-bottom: 14px; }
+  .ow-label { font-size: .9rem; color: var(--ow-muted); }
+  .ow-input {
+    width: 100%;
+    background: rgba(10, 21, 32, .65);
+    border: 1px solid var(--ow-border);
+    color: var(--ow-text);
+    padding: 10px 12px;
+    border-radius: 12px;
+    outline: none;
+    transition: border-color .2s, box-shadow .2s, background-color .2s;
+  }
+  .ow-input::placeholder { color: rgba(233,240,247,.45); }
+  .ow-input:focus {
+    border-color: rgba(92, 194, 201, .55);
+    box-shadow: 0 0 0 4px var(--ow-focus);
+    background: rgba(10, 21, 32, .80);
+  }
+  
+  /* Buttons */
+  .ow-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    gap: 8px; min-height: 40px; padding: 10px 16px;
+    background: linear-gradient(180deg, #69c8cf, #4dbac1);
+    color: #04252a; font-weight: 600; border: 0; border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(92, 194, 201, .25);
+    cursor: pointer;
+  }
+  .ow-btn:hover { filter: brightness(1.03); }
+  .ow-btn:active { transform: translateY(1px); }
+  .ow-link { color: var(--ow-accent); text-decoration: underline; text-underline-offset: 3px; }
+  
+  /* Error box */
+  .ow-errors {
+    background: rgba(149, 19, 39, .15);
+    border: 1px solid rgba(255, 89, 117, .35);
+    color: #ffd9e1;
+    border-radius: 12px; padding: 12px 14px; margin-bottom: 16px;
+  }
+
+  /* Layout container + header */
+  .ow-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 16px;
+  }
+
+  .ow-header {
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid var(--ow-border);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+  .ow-header .ow-container {
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .ow-brand { text-decoration: none; color: var(--ow-text); font-weight: 600; letter-spacing: .3px; }
+  .ow-nav { display: flex; gap: 16px; align-items: center; }
+  .ow-user { color: var(--ow-muted); font-size: .95rem; }
+  .ow-btn--small { min-height: 34px; padding: 6px 12px; }
+  

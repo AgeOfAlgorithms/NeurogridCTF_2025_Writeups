@@ -1,0 +1,141 @@
+2025-11-10T18:11:20.628686+00:00 meaow systemd-logind[1105]: New seat seat0.
+2025-11-10T18:11:20.628688+00:00 meaow systemd-logind[1105]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-11-10T18:11:20.628693+00:00 meaow systemd-logind[1105]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-11-10T18:11:20.628729+00:00 meaow polkitd[1079]: Loading rules from directory /etc/polkit-1/rules.d
+2025-11-10T18:11:20.628731+00:00 meaow polkitd[1079]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-11-10T18:11:20.621498+00:00 meaow polkitd[1079]: Finished loading, compiling and executing 16 rules
+2025-11-10T18:11:20.625888+00:00 meaow polkitd[1079]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-11-10T18:11:24.686562+00:00 meaow useradd[1593]: new group: name=meaow, GID=1000
+2025-11-10T18:11:24.688046+00:00 meaow useradd[1593]: new user: name=meaow, UID=1000, GID=1000, home=/home/meaow, shell=/bin/bash, from=none
+2025-11-10T18:11:24.688287+00:00 meaow useradd[1593]: add 'meaow' to group 'adm'
+2025-11-10T18:11:24.688342+00:00 meaow useradd[1593]: add 'meaow' to group 'cdrom'
+2025-11-10T18:11:24.688382+00:00 meaow useradd[1593]: add 'meaow' to group 'sudo'
+2025-11-10T18:11:24.688567+00:00 meaow useradd[1593]: add 'meaow' to group 'dip'
+2025-11-10T18:11:24.689222+00:00 meaow useradd[1593]: add 'meaow' to group 'plugdev'
+2025-11-10T18:11:24.689264+00:00 meaow useradd[1593]: add 'meaow' to group 'users'
+2025-11-10T18:11:24.689291+00:00 meaow useradd[1593]: add 'meaow' to group 'lpadmin'
+2025-11-10T18:11:24.689316+00:00 meaow useradd[1593]: add 'meaow' to shadow group 'adm'
+2025-11-10T18:11:24.689351+00:00 meaow useradd[1593]: add 'meaow' to shadow group 'cdrom'
+2025-11-10T18:11:24.689379+00:00 meaow useradd[1593]: add 'meaow' to shadow group 'sudo'
+2025-11-10T18:11:24.689403+00:00 meaow useradd[1593]: add 'meaow' to shadow group 'dip'
+2025-11-10T18:11:24.689427+00:00 meaow useradd[1593]: add 'meaow' to shadow group 'plugdev'
+2025-11-10T18:11:24.689451+00:00 meaow useradd[1593]: add 'meaow' to shadow group 'users'
+2025-11-10T18:11:24.689475+00:00 meaow useradd[1593]: add 'meaow' to shadow group 'lpadmin'
+2025-11-10T18:11:24.713783+00:00 meaow passwd[1601]: password for 'meaow' changed by 'root'
+2025-11-10T18:11:27.235163+00:00 meaow gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-11-10T18:11:27.279850+00:00 meaow systemd-logind[1105]: New session c1 of user gdm.
+2025-11-10T18:11:27.308820+00:00 meaow (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-11-10T18:11:29.286528+00:00 meaow polkitd[1079]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-11-10T18:11:51.725604+00:00 meaow gdm-password]: gkr-pam: unable to locate daemon control file
+2025-11-10T18:11:51.725691+00:00 meaow gdm-password]: gkr-pam: stashed password to try later in open session
+2025-11-10T18:11:51.736009+00:00 meaow gdm-password]: pam_unix(gdm-password:session): session opened for user meaow(uid=1000) by meaow(uid=0)
+2025-11-10T18:11:51.751277+00:00 meaow systemd-logind[1105]: New session 2 of user meaow.
+2025-11-10T18:11:51.766541+00:00 meaow (systemd): pam_unix(systemd-user:session): session opened for user meaow(uid=1000) by meaow(uid=0)
+2025-11-10T18:11:51.936680+00:00 meaow gdm-password]: gkr-pam: unlocked login keyring
+2025-11-10T18:11:52.503487+00:00 meaow gnome-keyring-daemon[2519]: The PKCS#11 component was already initialized
+2025-11-10T18:11:52.504529+00:00 meaow gnome-keyring-daemon[2519]: The Secret Service was already initialized
+2025-11-10T18:11:52.504747+00:00 meaow gnome-keyring-daemon[2827]: discover_other_daemon: 1
+2025-11-10T18:11:52.506008+00:00 meaow gnome-keyring-daemon[2825]: discover_other_daemon: 1
+2025-11-10T18:11:52.519814+00:00 meaow gnome-keyring-daemon[2831]: discover_other_daemon: 1
+2025-11-10T18:11:53.845462+00:00 meaow polkitd[1079]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-11-10T18:11:55.199787+00:00 meaow gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-11-10T18:11:55.217152+00:00 meaow systemd-logind[1105]: Session c1 logged out. Waiting for processes to exit.
+2025-11-10T18:11:55.236996+00:00 meaow polkitd[1079]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-11-10T18:11:55.243767+00:00 meaow systemd-logind[1105]: Removed session c1.
+2025-11-10T18:12:00.942026+00:00 meaow CRON[3704]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-10T18:12:00.944107+00:00 meaow CRON[3704]: pam_unix(cron:session): session closed for user root
+2025-11-10T18:12:00.946959+00:00 meaow CRON[3706]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-10T18:12:00.948560+00:00 meaow CRON[3706]: pam_unix(cron:session): session closed for user root
+2025-11-10T18:12:05.486958+00:00 meaow (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-11-10T22:55:54.828601+02:00 meaow systemd-logind[1017]: New seat seat0.
+2025-11-10T22:55:54.828788+02:00 meaow systemd-logind[1017]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-11-10T22:55:54.828817+02:00 meaow systemd-logind[1017]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-11-10T22:55:54.828832+02:00 meaow polkitd[998]: Loading rules from directory /etc/polkit-1/rules.d
+2025-11-10T22:55:54.828847+02:00 meaow polkitd[998]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-11-10T22:55:54.828859+02:00 meaow polkitd[998]: Finished loading, compiling and executing 16 rules
+2025-11-10T22:55:54.828866+02:00 meaow polkitd[998]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-11-10T22:55:55.717704+02:00 meaow gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-11-10T22:55:55.734179+02:00 meaow systemd-logind[1017]: New session c1 of user gdm.
+2025-11-10T22:55:55.791243+02:00 meaow (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-11-10T22:55:58.041535+02:00 meaow polkitd[998]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-11-10T22:56:10.349358+02:00 meaow gdm-password]: gkr-pam: unable to locate daemon control file
+2025-11-10T22:56:10.349466+02:00 meaow gdm-password]: gkr-pam: stashed password to try later in open session
+2025-11-10T22:56:10.358880+02:00 meaow gdm-password]: pam_unix(gdm-password:session): session opened for user meaow(uid=1000) by meaow(uid=0)
+2025-11-10T22:56:10.365169+02:00 meaow systemd-logind[1017]: New session 2 of user meaow.
+2025-11-10T22:56:10.397969+02:00 meaow (systemd): pam_unix(systemd-user:session): session opened for user meaow(uid=1000) by meaow(uid=0)
+2025-11-10T22:56:10.577397+02:00 meaow gdm-password]: gkr-pam: unlocked login keyring
+2025-11-10T22:56:11.049875+02:00 meaow gnome-keyring-daemon[1873]: The PKCS#11 component was already initialized
+2025-11-10T22:56:11.050149+02:00 meaow gnome-keyring-daemon[2057]: discover_other_daemon: 1
+2025-11-10T22:56:11.055697+02:00 meaow gnome-keyring-daemon[1873]: The Secret Service was already initialized
+2025-11-10T22:56:11.056268+02:00 meaow gnome-keyring-daemon[2064]: discover_other_daemon: 1
+2025-11-10T22:56:11.060538+02:00 meaow gnome-keyring-daemon[2065]: discover_other_daemon: 1
+2025-11-10T22:56:12.663887+02:00 meaow polkitd[998]: Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-11-10T22:56:13.744163+02:00 meaow gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-11-10T22:56:13.784097+02:00 meaow systemd-logind[1017]: Session c1 logged out. Waiting for processes to exit.
+2025-11-10T22:56:13.792773+02:00 meaow systemd-logind[1017]: Removed session c1.
+2025-11-10T22:56:13.794472+02:00 meaow polkitd[998]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-11-10T22:56:40.069277+02:00 meaow sudo: pam_unix(sudo:auth): authentication failure; logname=meaow uid=1000 euid=0 tty=/dev/pts/0 ruser=meaow rhost=  user=meaow
+2025-11-10T22:56:43.974088+02:00 meaow sudo:    meaow : TTY=pts/0 ; PWD=/opt ; USER=root ; COMMAND=/usr/bin/su
+2025-11-10T22:56:43.974677+02:00 meaow sudo: pam_unix(sudo:session): session opened for user root(uid=0) by meaow(uid=1000)
+2025-11-10T22:56:43.982729+02:00 meaow su[2987]: (to root) root on pts/1
+2025-11-10T22:56:43.983042+02:00 meaow su[2987]: pam_unix(su:session): session opened for user root(uid=0) by meaow(uid=0)
+2025-11-10T22:58:28.427528+02:00 meaow sudo:     root : TTY=pts/1 ; PWD=/opt/apache-tomcat-9.0.90 ; USER=root ; COMMAND=/usr/bin/apt install vim
+2025-11-10T22:58:28.428585+02:00 meaow sudo: pam_unix(sudo:session): session opened for user root(uid=0) by meaow(uid=0)
+2025-11-10T22:58:35.876856+02:00 meaow sudo: pam_unix(sudo:session): session closed for user root
+2025-11-10T23:05:01.660637+02:00 meaow CRON[4385]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-10T23:05:01.664013+02:00 meaow CRON[4385]: pam_unix(cron:session): session closed for user root
+2025-11-10T23:09:18.167737+02:00 meaow gdm-password]: gkr-pam: unlocked login keyring
+2025-11-17T19:43:41.151167+02:00 meaow systemd-logind[1059]: New seat seat0.
+2025-11-17T19:43:41.151170+02:00 meaow systemd-logind[1059]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-11-17T19:43:41.151172+02:00 meaow systemd-logind[1059]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-11-17T19:43:41.151313+02:00 meaow polkitd[1017]: Loading rules from directory /etc/polkit-1/rules.d
+2025-11-17T19:43:41.151316+02:00 meaow polkitd[1017]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-11-17T19:43:41.175443+02:00 meaow polkitd[1017]: Finished loading, compiling and executing 16 rules
+2025-11-17T19:43:41.179140+02:00 meaow polkitd[1017]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-11-17T19:43:41.962616+02:00 meaow gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-11-17T19:43:41.993168+02:00 meaow systemd-logind[1059]: New session c1 of user gdm.
+2025-11-17T19:43:42.024287+02:00 meaow (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-11-17T19:43:43.939321+02:00 meaow polkitd[1017]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-11-17T19:43:56.523334+02:00 meaow gdm-password]: gkr-pam: unable to locate daemon control file
+2025-11-17T19:43:56.523421+02:00 meaow gdm-password]: gkr-pam: stashed password to try later in open session
+2025-11-17T19:43:56.531462+02:00 meaow gdm-password]: pam_unix(gdm-password:session): session opened for user meaow(uid=1000) by meaow(uid=0)
+2025-11-17T19:43:56.537767+02:00 meaow systemd-logind[1059]: New session 2 of user meaow.
+2025-11-17T19:43:56.563824+02:00 meaow (systemd): pam_unix(systemd-user:session): session opened for user meaow(uid=1000) by meaow(uid=0)
+2025-11-17T19:43:56.761056+02:00 meaow gdm-password]: gkr-pam: unlocked login keyring
+2025-11-17T19:43:57.203135+02:00 meaow gnome-keyring-daemon[1959]: The PKCS#11 component was already initialized
+2025-11-17T19:43:57.203851+02:00 meaow gnome-keyring-daemon[2160]: discover_other_daemon: 1
+2025-11-17T19:43:57.206787+02:00 meaow gnome-keyring-daemon[1959]: The Secret Service was already initialized
+2025-11-17T19:43:57.206805+02:00 meaow gnome-keyring-daemon[2162]: discover_other_daemon: 1
+2025-11-17T19:43:57.229151+02:00 meaow gnome-keyring-daemon[2166]: discover_other_daemon: 1
+2025-11-17T19:43:58.267279+02:00 meaow polkitd[1017]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-11-17T19:43:59.390893+02:00 meaow gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-11-17T19:43:59.413735+02:00 meaow polkitd[1017]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-11-17T19:43:59.414596+02:00 meaow systemd-logind[1059]: Session c1 logged out. Waiting for processes to exit.
+2025-11-17T19:43:59.418491+02:00 meaow systemd-logind[1059]: Removed session c1.
+2025-11-17T19:45:00.407970+02:00 meaow CRON[3226]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-17T19:45:00.411565+02:00 meaow CRON[3226]: pam_unix(cron:session): session closed for user root
+2025-11-17T19:45:11.051382+02:00 meaow sudo: pam_unix(sudo:auth): authentication failure; logname=meaow uid=1000 euid=0 tty=/dev/pts/0 ruser=meaow rhost=  user=meaow
+2025-11-17T19:45:15.337589+02:00 meaow sudo:    meaow : TTY=pts/0 ; PWD=/opt/apache-tomcat-9.0.90 ; USER=root ; COMMAND=/usr/bin/chmod +x ./bin
+2025-11-17T19:45:15.338013+02:00 meaow sudo: pam_unix(sudo:session): session opened for user root(uid=0) by meaow(uid=1000)
+2025-11-17T19:45:15.340029+02:00 meaow sudo: pam_unix(sudo:session): session closed for user root
+2025-11-17T19:45:37.275816+02:00 meaow sudo:    meaow : TTY=pts/0 ; PWD=/opt/apache-tomcat-9.0.90/bin ; USER=root ; COMMAND=/usr/bin/chmod +x bootstrap.jar catalina.bat catalina.sh catalina-tasks.xml ciphers.bat ciphers.sh commons-daemon.jar commons-daemon-native.tar.gz configtest.bat configtest.sh daemon.sh digest.bat digest.sh makebase.bat makebase.sh setclasspath.bat setclasspath.sh shutdown.bat shutdown.sh startup.bat startup.sh tomcat-juli.jar tomcat-native.tar.gz tool-wrapper.bat tool-wrapper.sh version.bat version.sh
+2025-11-17T19:45:37.276052+02:00 meaow sudo: pam_unix(sudo:session): session opened for user root(uid=0) by meaow(uid=1000)
+2025-11-17T19:45:37.278161+02:00 meaow sudo: pam_unix(sudo:session): session closed for user root
+2025-11-17T19:45:52.114109+02:00 meaow sudo:    meaow : TTY=pts/0 ; PWD=/opt/apache-tomcat-9.0.90/bin ; USER=root ; COMMAND=./shutdown.sh
+2025-11-17T19:45:52.114755+02:00 meaow sudo: pam_unix(sudo:session): session opened for user root(uid=0) by meaow(uid=1000)
+2025-11-17T19:45:52.529104+02:00 meaow sudo: pam_unix(sudo:session): session closed for user root
+2025-11-17T19:45:59.070098+02:00 meaow sudo:    meaow : TTY=pts/0 ; PWD=/opt/apache-tomcat-9.0.90/bin ; USER=root ; COMMAND=./startup.sh
+2025-11-17T19:45:59.070792+02:00 meaow sudo: pam_unix(sudo:session): session opened for user root(uid=0) by meaow(uid=1000)
+2025-11-17T19:45:59.083638+02:00 meaow sudo: pam_unix(sudo:session): session closed for user root
+2025-11-17T19:47:57.104885+02:00 meaow pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by meaow(uid=1000)
+2025-11-17T19:47:57.105687+02:00 meaow pkexec[3882]: meaow: Executing command [USER=root] [TTY=unknown] [CWD=/home/meaow] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-11-17T19:49:28.394277+02:00 meaow sudo:    meaow : TTY=pts/0 ; PWD=/opt/apache-tomcat-9.0.90 ; USER=root ; COMMAND=/usr/bin/find . -name *.session
+2025-11-17T19:49:28.394981+02:00 meaow sudo: pam_unix(sudo:session): session opened for user root(uid=0) by meaow(uid=1000)
+2025-11-17T19:49:28.398750+02:00 meaow sudo: pam_unix(sudo:session): session closed for user root
+2025-11-17T19:50:10.065773+02:00 meaow sudo:    meaow : TTY=pts/0 ; PWD=/opt/apache-tomcat-9.0.90/logs ; USER=root ; COMMAND=/usr/bin/cat localhost_access_log.2025-11-17.txt
+2025-11-17T19:50:10.066340+02:00 meaow sudo: pam_unix(sudo:session): session opened for user root(uid=0) by meaow(uid=1000)
+2025-11-17T19:50:10.136910+02:00 meaow sudo: pam_unix(sudo:session): session closed for user root
+2025-11-17T19:55:01.425909+02:00 meaow CRON[6426]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-17T19:55:01.428986+02:00 meaow CRON[6426]: pam_unix(cron:session): session closed for user root
+2025-11-17T19:55:37.940607+02:00 meaow sudo:    meaow : TTY=pts/0 ; PWD=/home/meaow/Downloads/uac-main ; USER=root ; COMMAND=./uac -p ir_triage /tmp
+2025-11-17T19:55:37.942222+02:00 meaow sudo: pam_unix(sudo:session): session opened for user root(uid=0) by meaow(uid=1000)

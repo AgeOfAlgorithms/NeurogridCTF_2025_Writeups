@@ -1,0 +1,626 @@
+meta XML:com.adobe.xmp.. file: Unicode text, UTF-8 text, with very long lines (766), with no line terminators
+    00000000: 3c 3f 78 70 61 63 6b 65  74 20 62 65 67 69 6e 3d  |<?xpacket begin=|
+    00000010: 22 feff 22 20 69 64 3d 22  57 35 4d 30 4d 70 43 65  |"." id="W5M0MpCe|
+    00000020: 68 69 48 7a 72 65 53 7a  4e 54 63 7a 6b 63 39 64  |hiHzreSzNTczkc9d|
+    00000030: 22 3f 3e 20 3c 78 3a 78  6d 70 6d 65 74 61 20 78  |"?> <x:xmpmeta x|
+    00000040: 6d 6c 6e 73 3a 78 3d 22  61 64 6f 62 65 3a 6e 73  |mlns:x="adobe:ns|
+    00000050: 3a 6d 65 74 61 2f 22 20  78 3a 78 6d 70 74 6b 3d  |:meta/" x:xmptk=|
+    00000060: 22 58 4d 50 20 43 6f 72  65 20 35 2e 35 2e 30 22  |"XMP Core 5.5.0"|
+    00000070: 3e 20 3c 72 64 66 3a 52  44 46 20 78 6d 6c 6e 73  |> <rdf:RDF xmlns|
+    00000080: 3a 72 64 66 3d 22 68 74  74 70 3a 2f 2f 77 77 77  |:rdf="http://www|
+    00000090: 2e 77 33 2e 6f 72 67 2f  31 39 39 39 2f 30 32 2f  |.w3.org/1999/02/|
+    000000a0: 32 32 2d 72 64 66 2d 73  79 6e 74 61 78 2d 6e 73  |22-rdf-syntax-ns|
+    000000b0: 23 22 3e 20 3c 72 64 66  3a 44 65 73 63 72 69 70  |#"> <rdf:Descrip|
+    000000c0: 74 69 6f 6e 20 72 64 66  3a 61 62 6f 75 74 3d 22  |tion rdf:about="|
+    000000d0: 22 20 78 6d 6c 6e 73 3a  65 78 69 66 3d 22 68 74  |" xmlns:exif="ht|
+    000000e0: 74 70 3a 2f 2f 6e 73 2e  61 64 6f 62 65 2e 63 6f  |tp://ns.adobe.co|
+    000000f0: 6d 2f 65 78 69 66 2f 31  2e 30 2f 22 20 78 6d 6c  |m/exif/1.0/" xml|
+imagedata           .. text: "==5WTC$% "
+b1,r,lsb,xy         .. b1,r,msb,xy         .. b1,g,lsb,xy         .. file: X1 archive data
+b1,g,msb,xy         .. b1,b,lsb,xy         .. b1,b,msb,xy         .. b1,rgb,lsb,xy       .. b1,rgb,msb,xy       .. b1,bgr,lsb,xy       .. b1,bgr,msb,xy       .. b2,r,lsb,xy         .. b2,r,msb,xy         .. b2,g,lsb,xy         .. b2,g,msb,xy         .. b2,b,lsb,xy         .. b2,b,msb,xy         .. b2,rgb,lsb,xy       .. b2,rgb,msb,xy       .. b2,bgr,lsb,xy       .. text: "TVXQWgRIs9"
+b2,bgr,msb,xy       .. b3,r,lsb,xy         .. b3,r,msb,xy         .. b3,g,lsb,xy         .. b3,g,msb,xy         .. b3,b,lsb,xy         .. b3,b,msb,xy         .. b3,rgb,lsb,xy       .. b3,rgb,msb,xy       .. file: OpenPGP Secret Key
+b3,bgr,lsb,xy       .. b3,bgr,msb,xy       .. b3p,r,lsb,xy        .. text: "KkOJHoOno"
+b3p,r,msb,xy        .. file: OpenPGP Secret Key Version 4, Created Sat Jan  7 12:32:50 2012, Unknown Algorithm (0xdb)
+b3p,g,lsb,xy        .. text: "))E*noFJ%I%%"
+b3p,g,msb,xy        .. b3p,b,lsb,xy        .. text: "FiOrppoOw*sFH%%"
+b3p,b,msb,xy        .. b3p,rgb,lsb,xy      .. text: ")$GGhH-\r)NnNIeIiJI$$$\t)$'$''"
+b3p,rgb,msb,xy      .. b3p,bgr,lsb,xy      .. text: "\n-,)NON*'*+J*"
+b3p,bgr,msb,xy      .. b4,r,lsb,xy         .. file: OpenPGP Public Key
+b4,r,msb,xy         .. b4,g,lsb,xy         .. text: "vVcEUET4DEDDU4#VQ"
+b4,g,msb,xy         .. b4,b,lsb,xy         .. text: "FveUVDDgfVha"
+b4,b,msb,xy         .. b4,rgb,lsb,xy       .. b4,rgb,msb,xy       .. b4,bgr,lsb,xy       .. b4,bgr,msb,xy       .. b5,r,lsb,xy         .. b5,r,msb,xy         .. b5,g,lsb,xy         .. b5,g,msb,xy         .. b5,b,lsb,xy         .. file: OpenPGP Secret Key
+b5,b,msb,xy         .. b5,rgb,lsb,xy       .. b5,rgb,msb,xy       .. b5,bgr,lsb,xy       .. b5,bgr,msb,xy       .. b5p,r,lsb,xy        .. text: "8O@AJSQASRZZQIAIIHQ@F8="
+b5p,r,msb,xy        .. b5p,g,lsb,xy        .. text: "~hx~~uulvuo}mtml."
+b5p,g,msb,xy        .. b5p,b,lsb,xy        .. text: "|v~euvmdemlek k"
+b5p,b,msb,xy        .. b5p,rgb,lsb,xy      .. text: "JSJSKJJ@@>!"
+b5p,rgb,msb,xy      .. b5p,bgr,lsb,xy      .. text: "pqpxvwwoL"
+b5p,bgr,msb,xy      .. b6,r,lsb,xy         .. text: "]uUQEVUE"
+b6,r,msb,xy         .. b6,g,lsb,xy         .. text: "QUUQUTME"
+b6,g,msb,xy         .. b6,b,lsb,xy         .. b6,b,msb,xy         .. b6,rgb,lsb,xy       .. b6,rgb,msb,xy       .. b6,bgr,lsb,xy       .. b6,bgr,msb,xy       .. b6p,r,lsb,xy        .. text: "}zzvspomjie\\ddcc`a_bJ"
+b6p,r,msb,xy        .. b6p,g,lsb,xy        .. text: ":n~}zz}x"
+b6p,g,msb,xy        .. b6p,b,lsb,xy        .. text: "&E@EC<AEJIEFD@ECC<B:>:5"
+b6p,b,msb,xy        .. b6p,rgb,lsb,xy      .. text: "}w{xzywxsmrqmnmdhkkdgg^beafbb]a]bbae]]cXIj"
+b6p,rgb,msb,xy      .. b6p,bgr,lsb,xy      .. text: "JK>CGFJ@D6"
+b6p,bgr,msb,xy      .. b7,r,lsb,xy         .. text: "b$M+q\nm:"
+b7,r,msb,xy         .. b7,g,lsb,xy         .. file: OpenPGP Secret Key
+b7,g,msb,xy         .. b7,b,lsb,xy         .. b7,b,msb,xy         .. b7,rgb,lsb,xy       .. b7,rgb,msb,xy       .. b7,bgr,lsb,xy       .. b7,bgr,msb,xy       .. b7p,r,lsb,xy        .. text: "s][TH?<<:9877453.221101/0$Z"
+b7p,r,msb,xy        .. b7p,g,lsb,xy        .. file: OpenPGP Secret Key
+b7p,g,msb,xy        .. b7p,b,lsb,xy        .. text: "|xtvoqolj_D"
+b7p,b,msb,xy        .. b7p,rgb,lsb,xy      .. text: "x]NIEFD]"
+b7p,rgb,msb,xy      .. b7p,bgr,lsb,xy      .. b7p,bgr,msb,xy      .. b8,r,lsb,xy         .. b8,r,msb,xy         .. file: PGP Secret Sub-key -
+b8,g,lsb,xy         .. text: "}~}}~}||{{|{{zzyyzzzyyyzzyyyy{xu~"
+b8,g,msb,xy         .. b8,b,lsb,xy         .. text: "|hba__^k"
+b8,b,msb,xy         .. b8,rgb,lsb,xy       .. b8,rgb,msb,xy       .. file: PGP Secret Sub-key -
+b8,bgr,lsb,xy       .. b8,bgr,msb,xy       .. b1,r,lsb,xy,prime   .. b1,r,msb,xy,prime   .. b1,g,lsb,xy,prime   .. b1,g,msb,xy,prime   .. b1,b,lsb,xy,prime   .. b1,b,msb,xy,prime   .. b1,rgb,lsb,xy,prime .. b1,rgb,msb,xy,prime .. b1,bgr,lsb,xy,prime .. text: "]aJdo~~J{"
+b1,bgr,msb,xy,prime .. text: "e\r@le?6Z"
+b2,r,lsb,xy,prime   .. b2,r,msb,xy,prime   .. b2,g,lsb,xy,prime   .. b2,g,msb,xy,prime   .. b2,b,lsb,xy,prime   .. b2,b,msb,xy,prime   .. b2,rgb,lsb,xy,prime .. b2,rgb,msb,xy,prime .. text: "/{,Li_*("
+b2,bgr,lsb,xy,prime .. text: "}4>&_g2F"
+b2,bgr,msb,xy,prime .. b3,r,lsb,xy,prime   .. b3,r,msb,xy,prime   .. b3,g,lsb,xy,prime   .. b3,g,msb,xy,prime   .. b3,b,lsb,xy,prime   .. b3,b,msb,xy,prime   .. b3,rgb,lsb,xy,prime .. b3,rgb,msb,xy,prime .. b3,bgr,lsb,xy,prime .. text: "rtL`.g{u"
+b3,bgr,msb,xy,prime .. b3p,r,lsb,xy,prime  .. b3p,r,msb,xy,prime  .. file: OpenPGP Secret Key
+b3p,g,lsb,xy,prime  .. text: "\rOSHn*)$"
+b3p,g,msb,xy,prime  .. b3p,b,lsb,xy,prime  .. b3p,b,msb,xy,prime  .. b3p,rgb,lsb,xy,prime.. b3p,rgb,msb,xy,prime.. b3p,bgr,lsb,xy,prime.. text: "Ie_@Y:Zy"
+b3p,bgr,msb,xy,prime.. file: PGP Secret Sub-key -
+b4,r,lsb,xy,prime   .. file: OpenPGP Public Key
+b4,r,msb,xy,prime   .. b4,g,lsb,xy,prime   .. b4,g,msb,xy,prime   .. b4,b,lsb,xy,prime   .. text: "vvD3E%U4C32"
+b4,b,msb,xy,prime   .. b4,rgb,lsb,xy,prime .. text: "FCu53T52C"
+b4,rgb,msb,xy,prime .. b4,bgr,lsb,xy,prime .. b4,bgr,msb,xy,prime .. b5,r,lsb,xy,prime   .. b5,r,msb,xy,prime   .. b5,g,lsb,xy,prime   .. b5,g,msb,xy,prime   .. b5,b,lsb,xy,prime   .. b5,b,msb,xy,prime   .. b5,rgb,lsb,xy,prime .. b5,rgb,msb,xy,prime .. text: "e LM<H/ "
+b5,bgr,lsb,xy,prime .. b5,bgr,msb,xy,prime .. b5p,r,lsb,xy,prime  .. text: "~rLSSZAN=-$!"
+b5p,r,msb,xy,prime  .. b5p,g,lsb,xy,prime  .. text: "vt[R?.7/..D+#"
+b5p,g,msb,xy,prime  .. b5p,b,lsb,xy,prime  .. text: "unljZRJX>>$"
+b5p,b,msb,xy,prime  .. b5p,rgb,lsb,xy,prime.. text: "9BZJ[RIIA6,"
+b5p,rgb,msb,xy,prime.. b5p,bgr,lsb,xy,prime.. text: "umktkcjRYWPVNV^D;3:2''"
+b5p,bgr,msb,xy,prime.. b6,r,lsb,xy,prime   .. text: "+\teUQUU2U"
+b6,r,msb,xy,prime   .. b6,g,lsb,xy,prime   .. b6,g,msb,xy,prime   .. b6,b,lsb,xy,prime   .. b6,b,msb,xy,prime   .. text: "6mUWUUVu"
+b6,rgb,lsb,xy,prime .. text: "U<5L\rS;3"
+b6,rgb,msb,xy,prime .. b6,bgr,lsb,xy,prime .. b6,bgr,msb,xy,prime .. b6p,r,lsb,xy,prime  .. text: "zrdaHyte"
+b6p,r,msb,xy,prime  .. b6p,g,lsb,xy,prime  .. text: "xF^x~zvX"
+b6p,g,msb,xy,prime  .. b6p,b,lsb,xy,prime  .. text: "tyuruwtB"
+b6p,b,msb,xy,prime  .. text: "m-muUe5yy\t"
+b6p,rgb,lsb,xy,prime.. text: "xyqkgbbeKqzwtseE"
+b6p,rgb,msb,xy,prime.. b6p,bgr,lsb,xy,prime.. text: "EBBFKFA=A:$"
+b6p,bgr,msb,xy,prime.. b7,r,lsb,xy,prime   .. b7,r,msb,xy,prime   .. b7,g,lsb,xy,prime   .. file: OpenPGP Secret Key
+b7,g,msb,xy,prime   .. b7,b,lsb,xy,prime   .. b7,b,msb,xy,prime   .. b7,rgb,lsb,xy,prime .. b7,rgb,msb,xy,prime .. text: "_\n;rAK.hM"
+b7,bgr,lsb,xy,prime .. b7,bgr,msb,xy,prime .. b7p,r,lsb,xy,prime  .. text: "|{ywsqljd^\\RUUVQROKHIFCA>?;?9;88;"
+b7p,r,msb,xy,prime  .. b7p,g,lsb,xy,prime  .. file: OpenPGP Secret Key
+b7p,g,msb,xy,prime  .. text: "=Et=}=]4"
+b7p,b,lsb,xy,prime  .. text: "pkfcjcc]ZZZVTRVNNHGIEKFIGFCDE@AA@:=;8;;:"
+b7p,b,msb,xy,prime  .. text: "ZZZj*Jjrr"
+b7p,rgb,lsb,xy,prime.. text: "fZ<=953003"
+b7p,rgb,msb,xy,prime.. b7p,bgr,lsb,xy,prime.. text: "~qikjgebfjeb^c_][[\\[YZTWUTTRTVPOMNLIIGFHKEKKJGHHFGGFECFDEEC@A@CA>A<;A<::;8<;;;7:A"
+b7p,bgr,msb,xy,prime.. b8,r,lsb,xy,prime   .. text: "|ztrsrt}"
+b8,r,msb,xy,prime   .. file: PGP Secret Sub-key -
+b8,g,lsb,xy,prime   .. text: "lb`^ZX[_jwz"
+b8,g,msb,xy,prime   .. b8,b,lsb,xy,prime   .. text: "pi[\\ZYYWWV"
+b8,b,msb,xy,prime   .. b8,rgb,lsb,xy,prime .. text: "lQ|bKz`It^HrZFsXDr[Ht_L}jW"
+b8,rgb,msb,xy,prime .. file: PGP Secret Sub-key -
+b8,bgr,lsb,xy,prime .. text: "Kb|I`zH^tFZrDXsH[rL_tWj}iw"
+b8,bgr,msb,xy,prime .. b1,r,lsb,yx         .. b1,r,msb,yx         .. b1,g,lsb,yx         .. b1,g,msb,yx         .. text: "c_r|$<mJ~\nAq"
+b1,b,lsb,yx         .. b1,b,msb,yx         .. b1,rgb,lsb,yx       .. b1,rgb,msb,yx       .. b1,bgr,lsb,yx       .. b1,bgr,msb,yx       .. b2,r,lsb,yx         .. b2,r,msb,yx         .. file: OpenPGP Public Key
+b2,g,lsb,yx         .. file: OpenPGP Secret Key
+b2,g,msb,yx         .. b2,b,lsb,yx         .. file: OpenPGP Secret Key
+b2,b,msb,yx         .. b2,rgb,lsb,yx       .. b2,rgb,msb,yx       .. file: OpenPGP Secret Key
+b2,bgr,lsb,yx       .. b2,bgr,msb,yx       .. b3,r,lsb,yx         .. b3,r,msb,yx         .. b3,g,lsb,yx         .. b3,g,msb,yx         .. b3,b,lsb,yx         .. b3,b,msb,yx         .. b3,rgb,lsb,yx       .. b3,rgb,msb,yx       .. file: OpenPGP Secret Key
+b3,bgr,lsb,yx       .. b3,bgr,msb,yx       .. b3p,r,lsb,yx        .. text: "GNnJF!$!%"
+b3p,r,msb,yx        .. text: "\r-\t\t1)1\t"
+b3p,g,lsb,yx        .. text: "onoKkjookl"
+b3p,g,msb,yx        .. b3p,b,lsb,yx        .. text: ")jJI%*Oo!JJJ&*DOE%I"
+b3p,b,msb,yx        .. b3p,rgb,lsb,yx      .. text: "*%E&$+',I$I$$  $"
+b3p,rgb,msb,yx      .. b3p,bgr,lsb,yx      .. text: "BztONRl(%#"
+b3p,bgr,msb,yx      .. b4,r,lsb,yx         .. file: OpenPGP Public Key
+b4,r,msb,yx         .. file: OpenPGP Public Key
+b4,g,lsb,yx         .. text: "fwwfVwgVeefVguUvgg"
+b4,g,msb,yx         .. b4,b,lsb,yx         .. text: "vVfvUDC\"!"
+b4,b,msb,yx         .. text: "DHDDDDDD"
+b4,rgb,lsb,yx       .. b4,rgb,msb,yx       .. b4,bgr,lsb,yx       .. b4,bgr,msb,yx       .. b5,r,lsb,yx         .. b5,r,msb,yx         .. b5,g,lsb,yx         .. b5,g,msb,yx         .. b5,b,lsb,yx         .. file: OpenPGP Secret Key
+b5,b,msb,yx         .. b5,rgb,lsb,yx       .. b5,rgb,msb,yx       .. b5,bgr,lsb,yx       .. b5,bgr,msb,yx       .. b5p,r,lsb,yx        .. text: "IQIIQQII@@AG??=/?????G>87AJQAIJI@G5,"
+b5p,r,msb,yx        .. b5p,g,lsb,yx        .. file: Award BIOS Logo, 136 x 126
+b5p,g,msb,yx        .. b5p,b,lsb,yx        .. text: "~vvunvtvvvumvx"
+b5p,b,msb,yx        .. text: "HPHHHHHH"
+b5p,rgb,lsb,yx      .. text: "JIQIIJIKRIRIIHHIAAAGGHA8?>8??//8889?8>?888@880?@08@IIRSIBJIKJQHO@FF<4+-$"
+b5p,rgb,msb,yx      .. b5p,bgr,lsb,yx      .. text: "xypwvpwwoopppqgpvwpppphhhwpx"
+b5p,bgr,msb,yx      .. b6,r,lsb,yx         .. text: "QEUQUVQUTQUTQE"
+b6,r,msb,yx         .. b6,g,lsb,yx         .. b6,g,msb,yx         .. text: "s.}fp,M34E"
+b6,b,lsb,yx         .. b6,b,msb,yx         .. text: "UUWUUWUU"
+b6,rgb,lsb,yx       .. b6,rgb,msb,yx       .. b6,bgr,lsb,yx       .. b6,bgr,msb,yx       .. b6p,r,lsb,yx        .. text: "Hopomknojjie`__YYZPUQVQTQTPPPSPTSPPNgU."
+b6p,r,msb,yx        .. b6p,g,lsb,yx        .. text: "<=?46925,0//.*$! "
+b6p,g,msb,yx        .. b6p,b,lsb,yx        .. text: "IFC<DD@@BC?>::96:8:::95:<??D@@D:8.)&$#"
+b6p,b,msb,yx        .. text: "QaQQQQQQ"
+b6p,rgb,lsb,yx      .. text: "\n.Haolsqoomdinnilniikhhdggcc_^^^YTXUXXRRWWSWVZQVWSRWURRQRQRRQNRSWQQMSRRSN[f\\VD/"
+b6p,rgb,msb,yx      .. b6p,bgr,lsb,yx      .. text: "JEEIA>=CFAFAA@@AA9A??<=8;:8;;77888938:;8888444;8<@<==>GABBACFA8;82.(('%('  "
+b6p,bgr,msb,yx      .. b7,r,lsb,yx         .. b7,r,msb,yx         .. b7,g,lsb,yx         .. file: OpenPGP Secret Key
+b7,g,msb,yx         .. b7,b,lsb,yx         .. b7,b,msb,yx         .. b7,rgb,lsb,yx       .. b7,rgb,msb,yx       .. b7,bgr,lsb,yx       .. b7,bgr,msb,yx       .. b7p,r,lsb,yx        .. text: "z{x}x{x}{xyyvsvxuwwtvvrsruuvqqqnmnnpllmmkiijjihhihceefddbbcbbcc_bba_]]"
+b7p,r,msb,yx        .. b7p,g,lsb,yx        .. file: OpenPGP Secret Key
+b7p,g,msb,yx        .. b7p,b,lsb,yx        .. text: "Smnqnjlnkhidebbc^`\\\\Z][Z[[[XYXYZX[[YaS2"
+b7p,b,msb,yx        .. text: "*Jrr\n\n\n\n"
+b7p,rgb,lsb,yx      .. b7p,rgb,msb,yx      .. b7p,bgr,lsb,yx      .. text: ":Rgmnoqqoolkllmnlkkihhfeeecc`bdc^^a``\\\\]][]\\^[Z[YZ[[ZZ[XYXZYXX[[YYY[ZZ[X[`ZRF3"
+b7p,bgr,msb,yx      .. b8,r,lsb,yx         .. text: "nb`_^^\\\\][ZYXXXXWWVUTSRRRRQPOOOOPNNNNMMMLLLLMORUWX\\^abdhhklnpsuvwyz{}"
+b8,r,msb,yx         .. file: PGP Secret Sub-key -
+b8,g,lsb,yx         .. text: "|ytofXNMKKLKJIHGGGGGFFDCDDCBBCBAA@@?>????@?===<==?@CFILNPUWZ[\\_aceghilnpqs|"
+b8,g,msb,yx         .. b8,b,lsb,yx         .. text: "pc`^ZUNB;;:::;9998877786655655454322222221011110/00246:;?CGKNQRSUWY]^abehiikqz"
+b8,b,msb,yx         .. text: "ssss3sssssss"
+b8,rgb,lsb,yx       .. b8,rgb,msb,yx       .. file: PGP Secret Sub-key -
+b8,bgr,lsb,yx       .. b8,bgr,msb,yx       .. b1,r,lsb,yx,prime   .. b1,r,msb,yx,prime   .. b1,g,lsb,yx,prime   .. b1,g,msb,yx,prime   .. text: "2f<cWEh7"
+b1,b,lsb,yx,prime   .. b1,b,msb,yx,prime   .. b1,rgb,lsb,yx,prime .. b1,rgb,msb,yx,prime .. b1,bgr,lsb,yx,prime .. b1,bgr,msb,yx,prime .. text: "t-/Wzg2V"
+b2,r,lsb,yx,prime   .. file: OpenPGP Secret Key
+b2,r,msb,yx,prime   .. b2,g,lsb,yx,prime   .. b2,g,msb,yx,prime   .. b2,b,lsb,yx,prime   .. b2,b,msb,yx,prime   .. text: "KIRw%!WU"
+b2,rgb,lsb,yx,prime .. file: OpenPGP Secret Key
+b2,rgb,msb,yx,prime .. b2,bgr,lsb,yx,prime .. b2,bgr,msb,yx,prime .. b3,r,lsb,yx,prime   .. b3,r,msb,yx,prime   .. b3,g,lsb,yx,prime   .. b3,g,msb,yx,prime   .. b3,b,lsb,yx,prime   .. b3,b,msb,yx,prime   .. b3,rgb,lsb,yx,prime .. b3,rgb,msb,yx,prime .. b3,bgr,lsb,yx,prime .. text: "_=H;}E~L"
+b3,bgr,msb,yx,prime .. b3p,r,lsb,yx,prime  .. b3p,r,msb,yx,prime  .. b3p,g,lsb,yx,prime  .. b3p,g,msb,yx,prime  .. b3p,b,lsb,yx,prime  .. b3p,b,msb,yx,prime  .. b3p,rgb,lsb,yx,prime.. text: "|d|G?@C#"
+b3p,rgb,msb,yx,prime.. b3p,bgr,lsb,yx,prime.. text: "uLH/)NsM*-q+"
+b3p,bgr,msb,yx,prime.. b4,r,lsb,yx,prime   .. b4,r,msb,yx,prime   .. file: OpenPGP Secret Key
+b4,g,lsb,yx,prime   .. text: "c33333\"5f"
+b4,g,msb,yx,prime   .. b4,b,lsb,yx,prime   .. b4,b,msb,yx,prime   .. b4,rgb,lsb,yx,prime .. b4,rgb,msb,yx,prime .. b4,bgr,lsb,yx,prime .. b4,bgr,msb,yx,prime .. text: "\tX5^#1bp"
+b5,r,lsb,yx,prime   .. b5,r,msb,yx,prime   .. b5,g,lsb,yx,prime   .. b5,g,msb,yx,prime   .. b5,b,lsb,yx,prime   .. b5,b,msb,yx,prime   .. b5,rgb,lsb,yx,prime .. b5,rgb,msb,yx,prime .. b5,bgr,lsb,yx,prime .. b5,bgr,msb,yx,prime .. b5p,r,lsb,yx,prime  .. text: "QII@=??BJ<&"
+b5p,r,msb,yx,prime  .. b5p,g,lsb,yx,prime  .. text: "}b?56kKt"
+b5p,g,msb,yx,prime  .. b5p,b,lsb,yx,prime  .. text: "RISQKH@IG-+$!"
+b5p,b,msb,yx,prime  .. b5p,rgb,lsb,yx,prime.. text: "QIJKIHAG8/8>88@RKQ<$$"
+b5p,rgb,msb,yx,prime.. b5p,bgr,lsb,yx,prime.. text: "popvphpz"
+b5p,bgr,msb,yx,prime.. b6,r,lsb,yx,prime   .. b6,r,msb,yx,prime   .. b6,g,lsb,yx,prime   .. b6,g,msb,yx,prime   .. b6,b,lsb,yx,prime   .. b6,b,msb,yx,prime   .. b6,rgb,lsb,yx,prime .. b6,rgb,msb,yx,prime .. b6,bgr,lsb,yx,prime .. b6,bgr,msb,yx,prime .. text: "UB\\\naE99"
+b6p,r,lsb,yx,prime  .. text: "qoiYTSNG"
+b6p,r,msb,yx,prime  .. file: OpenPGP Secret Key Version 5
+b6p,g,lsb,yx,prime  .. b6p,g,msb,yx,prime  .. b6p,b,lsb,yx,prime  .. text: "F<@;9:9;@*\""
+b6p,b,msb,yx,prime  .. text: "dd4<|l\\l$"
+b6p,rgb,lsb,yx,prime.. text: "qdnnidXWVSRNM[D\\"
+b6p,rgb,msb,yx,prime.. file: OpenPGP Secret Key
+b6p,bgr,lsb,yx,prime.. text: "EI>CA@9?878:848>CA(( "
+b6p,bgr,msb,yx,prime.. b7,r,lsb,yx,prime   .. b7,r,msb,yx,prime   .. b7,g,lsb,yx,prime   .. b7,g,msb,yx,prime   .. b7,b,lsb,yx,prime   .. b7,b,msb,yx,prime   .. file: OpenPGP Secret Key
+b7,rgb,lsb,yx,prime .. b7,rgb,msb,yx,prime .. b7,bgr,lsb,yx,prime .. b7,bgr,msb,yx,prime .. file: OpenPGP Secret Key
+b7p,r,lsb,yx,prime  .. text: "}z{vyrspkih`^^SRQSQLLPSV]^jsxu"
+b7p,r,msb,yx,prime  .. b7p,g,lsb,yx,prime  .. text: "fffffdb`a]ZWVSPMGGGGGDGLRZ]dot|v"
+b7p,g,msb,yx,prime  .. b7p,b,lsb,yx,prime  .. text: "plk`ZZYFvnkd"
+b7p,b,msb,yx,prime  .. text: "IIiyyY9YI"
+b7p,rgb,lsb,yx,prime.. text: "z}~{|{zvtyrrtropqkfigidaa^`^QSSSQQSSSQKLLMMPLSZW\\\\c^hkmrvx|u"
+b7p,rgb,msb,yx,prime.. b7p,bgr,lsb,yx,prime.. text: "qlllkf`]ZYZXY[F"
+b7p,bgr,msb,yx,prime.. file: OpenPGP Secret Key
+b8,r,lsb,yx,prime   .. text: "b_XXUSNOX^hsv"
+b8,r,msb,yx,prime   .. b8,g,lsb,yx,prime   .. text: "|NKGFDC?@LP[gi"
+b8,g,msb,yx,prime   .. b8,b,lsb,yx,prime   .. text: "`;:785524?GR^b"
+b8,b,msb,yx,prime   .. b8,rgb,lsb,yx,prime .. text: "|`bN;_K:XG7XF8UD5SC5N?2O@4XL?^PGh[Rsg^vib"
+b8,rgb,msb,yx,prime .. b8,bgr,lsb,yx,prime .. text: ";Nb:K_7GX8FX5DU5CS2?N4@O?LXGP^R[h^gsbiv"
+b8,bgr,msb,yx,prime .. b1,r,lsb,XY         .. b1,r,msb,XY         .. b1,g,lsb,XY         .. b1,g,msb,XY         .. b1,b,lsb,XY         .. b1,b,msb,XY         .. text: "UGwL@r4N"
+b1,rgb,lsb,XY       .. b1,rgb,msb,XY       .. b1,bgr,lsb,XY       .. text: "{a8wNE}X"
+b1,bgr,msb,XY       .. b2,r,lsb,XY         .. b2,r,msb,XY         .. text: "p\n,8o&aF"
+b2,g,lsb,XY         .. b2,g,msb,XY         .. b2,b,lsb,XY         .. b2,b,msb,XY         .. b2,rgb,lsb,XY       .. b2,rgb,msb,XY       .. b2,bgr,lsb,XY       .. b2,bgr,msb,XY       .. b3,r,lsb,XY         .. b3,r,msb,XY         .. b3,g,lsb,XY         .. file: OpenPGP Secret Key
+b3,g,msb,XY         .. b3,b,lsb,XY         .. b3,b,msb,XY         .. b3,rgb,lsb,XY       .. b3,rgb,msb,XY       .. b3,bgr,lsb,XY       .. b3,bgr,msb,XY       .. b3p,r,lsb,XY        .. text: "i)J!&E!*)/h"
+b3p,r,msb,XY        .. b3p,g,lsb,XY        .. file: OpenPGP Secret Key
+b3p,g,msb,XY        .. b3p,b,lsb,XY        .. text: "'in*JOnOl"
+b3p,b,msb,XY        .. b3p,rgb,lsb,XY      .. text: "l)kEFFE%"
+b3p,rgb,msb,XY      .. b3p,bgr,lsb,XY      .. text: "h=9bd]?cc^9_AD_Z_`dcc@_"
+b3p,bgr,msb,XY      .. b4,r,lsb,XY         .. text: "ECWUwveCg"
+b4,r,msb,XY         .. b4,g,lsb,XY         .. text: "VuWfwvwdWwfx"
+b4,g,msb,XY         .. b4,b,lsb,XY         .. file: Commodore C16/VIC-20/Plus4 program, offset 0xdedf, line 56557, token (0xed), no EOL=0xff, 3 last bytes 0x04ff05
+b4,b,msb,XY         .. text: "=3]]YU=]"
+b4,rgb,lsb,XY       .. b4,rgb,msb,XY       .. b4,bgr,lsb,XY       .. b4,bgr,msb,XY       .. b5,r,lsb,XY         .. b5,r,msb,XY         .. b5,g,lsb,XY         .. b5,g,msb,XY         .. b5,b,lsb,XY         .. b5,b,msb,XY         .. b5,rgb,lsb,XY       .. b5,rgb,msb,XY       .. b5,bgr,lsb,XY       .. b5,bgr,msb,XY       .. b5p,r,lsb,XY        .. b5p,r,msb,XY        .. b5p,g,lsb,XY        .. b5p,g,msb,XY        .. b5p,b,lsb,XY        .. file: Commodore C64 BASIC program, offset 0xeeef, line 60661, token (0xf5), no EOL=0x1, offset 0xffff, line 512, token (0x2), 3 last bytes 0x04ff05
+b5p,b,msb,XY        .. text: ";'[[SK;["
+b5p,rgb,lsb,XY      .. b5p,rgb,msb,XY      .. b5p,bgr,lsb,XY      .. b5p,bgr,msb,XY      .. b6,r,lsb,XY         .. text: "UEUYUTQE"
+b6,r,msb,XY         .. b6,g,lsb,XY         .. text: "ieV]UWYe"
+b6,g,msb,XY         .. b6,b,lsb,XY         .. b6,b,msb,XY         .. b6,rgb,lsb,XY       .. b6,rgb,msb,XY       .. b6,bgr,lsb,XY       .. b6,bgr,msb,XY       .. b6p,r,lsb,XY        .. text: "osgjjdaoiffjdefieafiigohUXW_Y]c[`_c_Xed`i`iead```jf__\\cXUZWZVg[gmbbd`cg__^debXjdg\\g_ce_\\dZeb_YbQSWU_^YS[cZagbQY]bU_^_ZZ^[^hc\\\\`g^__dZ__[_[_``eh`b[_ZTUYTPPQUTVXTUVTPQUTZ^YWYPPWYR^TUQSORTQYUQPVZ[_Zc_[YYPTY[aTUWLVUVUQ^PQQLLXSHQTQUTTVTQPOMQUVYQTQUVTKUTWPQPJNJR"
+b6p,r,msb,XY        .. b6p,g,lsb,XY        .. text: "qwjeedeki`fjgejjddfnnfon^a_`^\\g[a`c]ei_aeeheei``\\jd```ccT[\\c[d\\bi_fnfbc_^b`ac]ked]d[\\e]XiUacc_jV]WZ_^_XW_Z\\dgZ_X^P\\_gZa`cbh_eeeed__d__c_\\_[`dfddb[_^UUUZ]QUULUTUQVUTTUU\\_ZV^YT[^W^YVZUPW]WTVZYW_[\\ZdbYZYPVYVZUUTQZY[QVbYUQPPSSHQYVZYTQYPSQVYTVYZVQVZWLSPTUPLHOOP"
+b6p,g,msb,XY        .. text: "VV&&fvvf"
+b6p,b,lsb,XY        .. text: "wvytyvuqmzsuvusqqxyvzweoioijjjoojoopstpuxqswoslupwfgnjcfgklskrsoslpnnfjlnknoppnnmefodknetmfel`bXaf``^ejekmi``fg[feojjiahtmjfoiknemaee\\fm`efoijdd`\\c_Z\\Z[_^Z[ZZZ[ZY^[\\d_ZZZXV```cZZ[]TNYTbZ_[cc`a`e_^_cZc[`dZV][^^]^Z_YZZYUYXQVZV_^UZ^VYUVZZZZ^UW_^YPQQQUUUPPOT"
+b6p,b,msb,XY        .. b6p,rgb,lsb,XY      .. text: "lmqofniiiie`aenojedhejjjeceefjjfedadejkfkfenookbWVXaW_\\\\[V_da_Z_`a\\\\`__]Yafegc`aieaajdeeaefa````c`jjeX\\\\\\\\\\``_XcUTZ[W\\X[V[e\\[\\dnnec[ajgbab`^d____^\\jd`de`[[ajkeae\\_ae\\^_c\\ee_]^`faYYde`[\\_[WbZQVSMU_VV___Z[WRLY_c_ZZcde\\a[RV[W^dcZTT_\\_[]_ZZXY\\XX_\\jj`c_]a]aaae]"
+b6p,rgb,msb,XY      .. b6p,bgr,lsb,XY      .. text: "v~uyyuupyuv{vuptmvzzqouuvzvvqlqtqv{r{vuz{{wngflmkgllkfkhikjklmllhkommmrqsotqqquuzpquqmvmllplopvvqptldhdllkhka\\fkglhonsqlklpzrmooqnorqrljlkgkkjlrlhhmlkomrsqqmhoimdfgghmmgajlnieetqlgdkggnbabcYYcbfgkcbcc^Xegkkffklmdigbbccfhg^X\\ghggmojjhihd`ghrvpogiieimmie"
+b6p,bgr,msb,XY      .. b7,r,lsb,XY         .. b7,r,msb,XY         .. b7,g,lsb,XY         .. b7,g,msb,XY         .. b7,b,lsb,XY         .. b7,b,msb,XY         .. b7,rgb,lsb,XY       .. b7,rgb,msb,XY       .. b7,bgr,lsb,XY       .. b7,bgr,msb,XY       .. b7p,r,lsb,XY        .. text: "793442175224232531255374+,+/-/1-0/1/,32050531200042//.1,+,+,*3-37002013//.230,423.3/13/.2,30/-0))++/.-)-1,130)-/0+/./,,.-.41..03.//2,//-/-/003400-/,*+-*(()+**,*+**()+*,.-+-((+-(.*+))'(*)-+)(*,-/,1/---(*--1*++&*+*+).())&&,)$)*)+****)('')+*-)*)+**%+*+()($&$("
+b7p,r,msb,XY        .. b7p,g,lsb,XY        .. text: "9;4332355024334422266276.1/0..3-101/35/133433500.4200011*-.1-2.05/26201/.0011/532/2-.3/,5+111/4*/+,/./,+/,.23,/,.(./3,10104/33332//2//1/./-022220-/.+++,/)++&+*+)*+**++./,*.-*-.+.-*,+(+/+**,-+/-.,20-,-(*-*,++*),--)*0-+)(())$)-*,-*)-())*-**-,*)*,+&)(*+(&$''("
+b7p,g,msb,XY        .. text: ",,LLLllL"
+b7p,b,lsb,XY        .. text: "AB;:=:=:;97<9;:;999<=:<;375754447747789:8;<99;796;8;23641235695897968662466567886673272563:723600,1200.3435750023-23744514:742755637133.27032754220.1/,.,-/.,-,,,-,-.-.2/,,,,*0001,,-/*&-*0,/-110103/./1,1-02,*/-../.,/-,,-+-,)*,*/.+,.*-+*,,,,.++/.-()))+++(('*"
+b7p,b,msb,XY        .. b7p,rgb,lsb,XY      .. text: "679726555530136743243444313324423212345252367750+*,1+/..-*/21/,/01..0///-1233101531142331321000010443,.....00/,1+*,-+.,-*-3.-.26631-1430100.2////..420230--145313./13../1.33//.021--230-./-+0,)*)'+/**///,-+(&-/1/,,123.1-(*-+.21,**/./-//,,,-.,,/.4401//1/1113/"
+b7p,rgb,msb,XY      .. b7p,bgr,lsb,XY      .. text: "@CCA:>;==;;8=;:=:;8:7:<<97;;:<::969:9:=8=:;<==;6326753665254554567664577778997:999;;<89;97:7668678::98:6242665451.2536476996568<8777967898646535546864476577899974757223347731466533:963253360101--102351011.,3355225672530011243.,.3433774445420348:87355357753"
+b7p,bgr,msb,XY      .. b8,r,lsb,XY         .. b8,r,msb,XY         .. b8,g,lsb,XY         .. b8,g,msb,XY         .. b8,b,lsb,XY         .. b8,b,msb,XY         .. b8,rgb,lsb,XY       .. b8,rgb,msb,XY       .. b8,bgr,lsb,XY       .. b8,bgr,msb,XY       .. text: "XXxXXxXX8"
+b1,r,lsb,XY,prime   .. text: "-Ha9%Vxx>"
+b1,r,msb,XY,prime   .. b1,g,lsb,XY,prime   .. b1,g,msb,XY,prime   .. b1,b,lsb,XY,prime   .. b1,b,msb,XY,prime   .. b1,rgb,lsb,XY,prime .. b1,rgb,msb,XY,prime .. b1,bgr,lsb,XY,prime .. b1,bgr,msb,XY,prime .. b2,r,lsb,XY,prime   .. b2,r,msb,XY,prime   .. b2,g,lsb,XY,prime   .. b2,g,msb,XY,prime   .. b2,b,lsb,XY,prime   .. b2,b,msb,XY,prime   .. b2,rgb,lsb,XY,prime .. b2,rgb,msb,XY,prime .. b2,bgr,lsb,XY,prime .. b2,bgr,msb,XY,prime .. b3,r,lsb,XY,prime   .. b3,r,msb,XY,prime   .. b3,g,lsb,XY,prime   .. b3,g,msb,XY,prime   .. b3,b,lsb,XY,prime   .. b3,b,msb,XY,prime   .. b3,rgb,lsb,XY,prime .. file: OpenPGP Secret Key
+b3,rgb,msb,XY,prime .. b3,bgr,lsb,XY,prime .. b3,bgr,msb,XY,prime .. b3p,r,lsb,XY,prime  .. text: "i^NqAIgIhH"
+b3p,r,msb,XY,prime  .. b3p,g,lsb,XY,prime  .. text: "lqF.If`I&"
+b3p,g,msb,XY,prime  .. b3p,b,lsb,XY,prime  .. text: ".wv%$ist"
+b3p,b,msb,XY,prime  .. b3p,rgb,lsb,XY,prime.. file: OpenPGP Secret Key
+b3p,rgb,msb,XY,prime.. b3p,bgr,lsb,XY,prime.. text: "L`Z_^c96:"
+b3p,bgr,msb,XY,prime.. b4,r,lsb,XY,prime   .. text: "wiSWiWvxhwx"
+b4,r,msb,XY,prime   .. b4,g,lsb,XY,prime   .. text: "uYeghHxy"
+b4,g,msb,XY,prime   .. b4,b,lsb,XY,prime   .. text: "hfVTefVdU5Q2%UfU2"
+b4,b,msb,XY,prime   .. b4,rgb,lsb,XY,prime .. text: "xEuVDdFUvwDgxg"
+b4,rgb,msb,XY,prime .. b4,bgr,lsb,XY,prime .. text: "wuFUdFDuWvdHw"
+b4,bgr,msb,XY,prime .. b5,r,lsb,XY,prime   .. b5,r,msb,XY,prime   .. b5,g,lsb,XY,prime   .. b5,g,msb,XY,prime   .. b5,b,lsb,XY,prime   .. b5,b,msb,XY,prime   .. b5,rgb,lsb,XY,prime .. b5,rgb,msb,XY,prime .. b5,bgr,lsb,XY,prime .. b5,bgr,msb,XY,prime .. file: MIDI audio System Exclusive (SysEx) message - Key Concepts
+b5p,r,lsb,XY,prime  .. b5p,r,msb,XY,prime  .. b5p,g,lsb,XY,prime  .. b5p,g,msb,XY,prime  .. b5p,b,lsb,XY,prime  .. b5p,b,msb,XY,prime  .. b5p,rgb,lsb,XY,prime.. b5p,rgb,msb,XY,prime.. b5p,bgr,lsb,XY,prime.. text: "!C ,VD_a"
+b5p,bgr,msb,XY,prime.. b6,r,lsb,XY,prime   .. text: "I5UUtQM%TYd"
+b6,r,msb,XY,prime   .. b6,g,lsb,XY,prime   .. text: "iuUQEWQu"
+b6,g,msb,XY,prime   .. b6,b,lsb,XY,prime   .. text: "YeVYEUMUQM$"
+b6,b,msb,XY,prime   .. b6,rgb,lsb,XY,prime .. text: "Va5VUfW]"
+b6,rgb,msb,XY,prime .. b6,bgr,lsb,XY,prime .. text: "UeSeeZ]vVY"
+b6,bgr,msb,XY,prime .. b6p,r,lsb,XY,prime  .. text: "snafjfgcg_`ab\\]ncah_YWWYW^\\X_\\gQPVSYYRYQYQSPQM[PHLHKLUPKCS___T_`h"
+b6p,r,msb,XY,prime  .. b6p,g,lsb,XY,prime  .. text: "wiadjjjkcaee``\\kjam]UY[XP\\]`_\\kUPWS^\\WZRYUSTTVXTLPQLPQVNDW^\\ZU[]k"
+b6p,g,msb,XY,prime  .. b6p,b,lsb,XY,prime  .. text: "~quzuvmjolwpok{rkrddbff^mfmdbl^Z_XbZ_cXZVTYZVXUMUNIUZUNGTZ_VW^_f"
+b6p,b,msb,XY,prime  .. b6p,rgb,lsb,XY,prime.. text: "qoni`eehjjfjfnb_d_\\]aaae`X\\`_Tn[b^`eka_]YeVMV_ZdT\\_X_aX`___`f_QUPPU[P_[V[TQ[ZVPVZUQUPOQPQTMVZLQPKPL@HAKLLPTUQRKNA<QO_^_\\^^Ua^_cajs"
+b6p,rgb,msb,XY,prime.. b6p,bgr,lsb,XY,prime.. text: "~ypuutzzvvvznghklmmqumppllk\\zorjhmsigaeqbYfkfh\\hodgildgcchnc]YXX]_XccZ[X]_b^XbZYUYTSYTYXUZZPUTOTTDLIKTTTXYUVOJE<US[Z_\\VZU]^[_]fk"
+b6p,bgr,msb,XY,prime.. text: ".^^nnn^v"
+b7,r,lsb,XY,prime   .. b7,r,msb,XY,prime   .. b7,g,lsb,XY,prime   .. b7,g,msb,XY,prime   .. b7,b,lsb,XY,prime   .. b7,b,msb,XY,prime   .. file: basic-16 executable not stripped
+b7,rgb,lsb,XY,prime .. b7,rgb,msb,XY,prime .. b7,bgr,lsb,XY,prime .. b7,bgr,msb,XY,prime .. b7p,r,lsb,XY,prime  .. text: "961242313/010./6114/-++-+..,/.3)(*)--(-)-))()'-($&$%&+(%!)///*/04MTm"
+b7p,r,msb,XY,prime  .. b7p,g,lsb,XY,prime  .. text: ";5124445113300.5417/+--,(./0/.5+(+)..+,(-+)***,*&()&()*&\"+..,+-/5HNY"
+b7p,g,msb,XY,prime  .. b7p,b,lsb,XY,prime  .. text: "B>9;<;:7476;875=85822022.727206.,/,0,/1,,**-,*,+'+&%+,+&#*,/*+./2CBMghjhlnqz}|"
+b7p,b,msb,XY,prime  .. b7p,rgb,lsb,XY,prime.. text: "976503344424260/2/./11130,.0/*6-0.0351//-3*'*/,2*./,/1,0///02/)+((+-(/-*-*)-,*(*,+)+(')()*'*,&)(%(& $!%&&(*+)(%&!"
+b7p,rgb,msb,XY,prime.. b7p,bgr,lsb,XY,prime.. text: "CA>=8;;:<<:::<63456779;788665.<784479531390-2524.4723562311461/-,,//,11,-,//0.,0,-+-*)-*-,+,,(+*'**\"&%%***,-+*'$#"
+b7p,bgr,msb,XY,prime.. text: "\\<<\\\\\\<l"
+b8,r,lsb,XY,prime   .. text: "&'*26/MOD:::75797778:@;9<>@9>@?AGCEG"
+b8,r,msb,XY,prime   .. b8,g,lsb,XY,prime   .. text: "$$',,%AB<767556:7779<@<:;@B<AC@DFDGI"
+b8,g,msb,XY,prime   .. b8,b,lsb,XY,prime   .. text: "39445644667889=B>;>@B?DHDEJHKL"
+b8,b,msb,XY,prime   .. b8,rgb,lsb,XY,prime .. b8,rgb,msb,XY,prime .. b8,bgr,lsb,XY,prime .. b8,bgr,msb,XY,prime .. b1,r,lsb,YX         .. b1,r,msb,YX         .. b1,g,lsb,YX         .. b1,g,msb,YX         .. text: "mfftG4L>xSha"
+b1,b,lsb,YX         .. b1,b,msb,YX         .. b1,rgb,lsb,YX       .. file: OpenPGP Secret Key
+b1,rgb,msb,YX       .. b1,bgr,lsb,YX       .. text: "y;#i8IB_"
+b1,bgr,msb,YX       .. b2,r,lsb,YX         .. b2,r,msb,YX         .. b2,g,lsb,YX         .. b2,g,msb,YX         .. text: ",<|=|eo~uu"
+b2,b,lsb,YX         .. b2,b,msb,YX         .. b2,rgb,lsb,YX       .. b2,rgb,msb,YX       .. text: "(0sr;5?=js"
+b2,bgr,lsb,YX       .. b2,bgr,msb,YX       .. b3,r,lsb,YX         .. b3,r,msb,YX         .. b3,g,lsb,YX         .. file: OpenPGP Public Key
+b3,g,msb,YX         .. b3,b,lsb,YX         .. text: "$\n DADHG"
+b3,b,msb,YX         .. b3,rgb,lsb,YX       .. b3,rgb,msb,YX       .. b3,bgr,lsb,YX       .. b3,bgr,msb,YX       .. b3p,r,lsb,YX        .. text: "JNFIDJKo"
+b3p,r,msb,YX        .. b3p,g,lsb,YX        .. file: OpenPGP Public Key
+b3p,g,msb,YX        .. file: OpenPGP Public Key
+b3p,b,lsb,YX        .. text: "\r))%OJ%'Ojlohk)*JNJJ/*2"
+b3p,b,msb,YX        .. b3p,rgb,lsb,YX      .. text: "HIHGmHD)IEI&J!"
+b3p,rgb,msb,YX      .. b3p,bgr,lsb,YX      .. text: "{47X40V109\"^c"
+b3p,bgr,msb,YX      .. b4,r,lsb,YX         .. text: "CDFTVgwdVvwVwVvgww"
+b4,r,msb,YX         .. b4,g,lsb,YX         .. file: OpenPGP Public Key
+b4,g,msb,YX         .. b4,b,lsb,YX         .. text: "$25D$D4DEUTUgvg"
+b4,b,msb,YX         .. b4,rgb,lsb,YX       .. b4,rgb,msb,YX       .. b4,bgr,lsb,YX       .. b4,bgr,msb,YX       .. b5,r,lsb,YX         .. b5,r,msb,YX         .. b5,g,lsb,YX         .. b5,g,msb,YX         .. b5,b,lsb,YX         .. b5,b,msb,YX         .. b5,rgb,lsb,YX       .. b5,rgb,msb,YX       .. b5,bgr,lsb,YX       .. b5,bgr,msb,YX       .. b5p,r,lsb,YX        .. text: "utcdlc[mnucckRSZQPJRIIH8I@IH??"
+b5p,r,msb,YX        .. b5p,g,lsb,YX        .. text: "6?K[jSHE"
+b5p,g,msb,YX        .. b5p,b,lsb,YX        .. text: "$%-,-7>7H3"
+b5p,b,msb,YX        .. b5p,rgb,lsb,YX      .. b5p,rgb,msb,YX      .. b5p,bgr,lsb,YX      .. text: "\"#\"\"+*+*!*+4==44=HG7"
+b5p,bgr,msb,YX      .. b6,r,lsb,YX         .. text: "YuVUeTUePI5UYu"
+b6,r,msb,YX         .. b6,g,lsb,YX         .. b6,g,msb,YX         .. b6,b,lsb,YX         .. b6,b,msb,YX         .. b6,rgb,lsb,YX       .. b6,rgb,msb,YX       .. b6,bgr,lsb,YX       .. text: "VeEYQFVU"
+b6,bgr,msb,YX       .. b6p,r,lsb,YX        .. text: "oSPRTV[_XV^_V_V^[__b_Z_ZZYYZ[VVTVTKU[Z[[c__\\__^^_`_XacZVW[\\[\\``]`i_``jjnijiibjjoopllpsuztvfppp{zv{"
+b6p,r,msb,YX        .. b6p,g,lsb,YX        .. text: "rUYQPX\\^Z^WYY[^_X^\\c_[c[[______c_YM`f[bZ`___ZZ_U[\\_``kaYS[[[]c``fl\\gbjinfiihbiksloqqtltuutkv|v"
+b6p,g,msb,YX        .. b6p,b,lsb,YX        .. text: "eifeeknjeegkojosonskfejjjnjjjgmjdXfnnijksonfjjkooolhslg^fjoonsloogooqstquvyquvyz"
+b6p,b,msb,YX        .. b6p,rgb,lsb,YX      .. text: "l^QMRQPYTPVX[\\_^ZRWZ][^]VY^_WZ_[Z\\_^_\\`[__Z[\\_Z[Z[[W[W[[[_W[W[TSW[VAKMTTY^Z[X^Z^`\\_____c^^^^_[]Y^_c`__X``db_XYVIT_Z_^cZ__a`c``\\dabkd_\\ac`bjjjiojifjijejd`jjijkloolsslqlqqpslutyyuquhfkqrspqrx}xxvxz~"
+b6p,rgb,msb,YX      .. b6p,bgr,lsb,YX      .. text: "neejediddfdklojjjgfegfmjmnokjoorlonohpokofkdgjkjkkkokkkkkkkgolgkkfQ[adhmjnkhfjjhlsooookfjjjkkimnooloolphprolqf]\\kfkjknoomlkpllpmnolglmolnrvrmwrqvvuvyztpvvuv{xw{x"
+b6p,bgr,msb,YX      .. b7,r,lsb,YX         .. b7,r,msb,YX         .. b7,g,lsb,YX         .. b7,g,msb,YX         .. b7,b,lsb,YX         .. b7,b,msb,YX         .. b7,rgb,lsb,YX       .. b7,rgb,msb,YX       .. b7,bgr,lsb,YX       .. b7,bgr,msb,YX       .. b7p,r,lsb,YX        .. text: "7)((**-/,*./*/*.-//0/,/,,--,-*****%+-,--1//.//../0/,11,*+-.-.00/05/0044654550447786689;<::2888=<:=@>?>@>@BCFCDDGEGGDFJFOM7:FSWj"
+b7p,r,msb,YX        .. b7p,g,lsb,YX        .. text: "8+-)(,..,.+---./,..1/-1--//////1/-'02-0,0///,,/+-./0051-)---/10026.30456255405596799:6:;;:5:>:A@<<A@@AA<CECDFEBFEEEEIJIQN9=IOWcx"
+b7p,g,msb,YX        .. b7p,b,lsb,YX        .. text: "A352335643335747976952344464443742,266545976244577764963.24776967737799:9;:=9;:=<?==?@A@A?;>A@CCACFDBEDBDFGHDHFHIKJKMNMRM:>ISTYduvwsojrsy"
+b7p,b,msb,YX        .. b7p,rgb,lsb,YX      .. text: "6.)'()(-*(*,-./.,(+,/-./*-./+,/-,././.0-//,-./,-,--+-+---/+-+-*)+-*!%'**-.,-,.,.0./////1..../-/-./10//,0020/,-*%*/,/.1,//10100.21052/.11004445745245434204454567769969699896;:==;9;425989898<?<<:<<>@=><>>>A@A>@AABACCF@CBDEEDGFDGFGFGDEFIKHFMNOMB67:AFMSSW_ky"
+b7p,rgb,msb,YX      .. b7p,bgr,lsb,YX      .. text: "@633432522225674443233274767547786767487572523454555755555553763552)-124746542444697777524445557677677684887692/.52545677765866876763677668:87;89::;:=<:8::;:=<;=<??<?<??>A@ABAAA??::;?@A>A@BCBB@BBBFED@BDDGDEBDEIFEGKHHEHHIGHIHHKJKJIJKLOOLLORQMF:9>AHOSSUYY_dp"
+b7p,bgr,msb,YX      .. b8,r,lsb,YX         .. text: "   ! !!# !!\"\"\"\"##\"#####\"\"\#$%$#&''&!"
+b8,r,msb,YX         .. text: "X888888x"
+b8,g,lsb,YX         .. text: " !!\"!!!\"\"#\"\"#!\"#\"\"#\"#\"!\"\#$%%$$%(''$"
+b8,g,msb,YX         .. b8,b,lsb,YX         .. text: "  !!!! !!!#\"\" !\"\"#\"\"!\"\"$#\"#%$$\"$$$\#$$$$%%%%$%%&''&&')(&#"
+b8,b,msb,YX         .. b8,rgb,lsb,YX       .. b8,rgb,msb,YX       .. text: "hXhhX(hX"
+b8,bgr,lsb,YX       .. b8,bgr,msb,YX       .. b1,r,lsb,YX,prime   .. b1,r,msb,YX,prime   .. b1,g,lsb,YX,prime   .. b1,g,msb,YX,prime   .. b1,b,lsb,YX,prime   .. b1,b,msb,YX,prime   .. b1,rgb,lsb,YX,prime .. text: "@CTCrlNK"
+b1,rgb,msb,YX,prime .. b1,bgr,lsb,YX,prime .. b1,bgr,msb,YX,prime .. b2,r,lsb,YX,prime   .. b2,r,msb,YX,prime   .. b2,g,lsb,YX,prime   .. b2,g,msb,YX,prime   .. b2,b,lsb,YX,prime   .. b2,b,msb,YX,prime   .. b2,rgb,lsb,YX,prime .. b2,rgb,msb,YX,prime .. b2,bgr,lsb,YX,prime .. b2,bgr,msb,YX,prime .. b3,r,lsb,YX,prime   .. b3,r,msb,YX,prime   .. b3,g,lsb,YX,prime   .. b3,g,msb,YX,prime   .. b3,b,lsb,YX,prime   .. b3,b,msb,YX,prime   .. b3,rgb,lsb,YX,prime .. file: OpenPGP Secret Key
+b3,rgb,msb,YX,prime .. b3,bgr,lsb,YX,prime .. b3,bgr,msb,YX,prime .. b3p,r,lsb,YX,prime  .. text: "sj**\"iEE"
+b3p,r,msb,YX,prime  .. b3p,g,lsb,YX,prime  .. text: "ojJF)Ki!%"
+b3p,g,msb,YX,prime  .. b3p,b,lsb,YX,prime  .. text: "jQJF&)GfJ"
+b3p,b,msb,YX,prime  .. b3p,rgb,lsb,YX,prime.. file: OpenPGP Secret Key
+b3p,rgb,msb,YX,prime.. b3p,bgr,lsb,YX,prime.. text: "474V\"cX:wZ~C"
+b3p,bgr,msb,YX,prime.. b4,r,lsb,YX,prime   .. text: "CFgFvgvef"
+b4,r,msb,YX,prime   .. b4,g,lsb,YX,prime   .. file: VISX image file
+b4,g,msb,YX,prime   .. file: SoftQuad DESC or font file binary - version 26129
+b4,b,lsb,YX,prime   .. file: OpenPGP Public Key
+b4,b,msb,YX,prime   .. file: OpenPGP Public Key
+b4,rgb,lsb,YX,prime .. b4,rgb,msb,YX,prime .. b4,bgr,lsb,YX,prime .. file: OpenPGP Secret Key
+b4,bgr,msb,YX,prime .. b5,r,lsb,YX,prime   .. b5,r,msb,YX,prime   .. text: "QVpltZ}'}"
+b5,g,lsb,YX,prime   .. text: "Jr=%\tpT07"
+b5,g,msb,YX,prime   .. b5,b,lsb,YX,prime   .. b5,b,msb,YX,prime   .. b5,rgb,lsb,YX,prime .. b5,rgb,msb,YX,prime .. b5,bgr,lsb,YX,prime .. b5,bgr,msb,YX,prime .. b5p,r,lsb,YX,prime  .. text: "|kcjB@8D)"
+b5p,r,msb,YX,prime  .. file: OpenPGP Secret Key
+b5p,g,lsb,YX,prime  .. text: "tdkRIGE#\t"
+b5p,g,msb,YX,prime  .. b5p,b,lsb,YX,prime  .. b5p,b,msb,YX,prime  .. b5p,rgb,lsb,YX,prime.. text: "kxen\\d\\mSBRAA8G@%,"
+b5p,rgb,msb,YX,prime.. b5p,bgr,lsb,YX,prime.. text: "sjbYYPOH=,#"
+b5p,bgr,msb,YX,prime.. b6,r,lsb,YX,prime   .. b6,r,msb,YX,prime   .. b6,g,lsb,YX,prime   .. file: VISX image file
+b6,g,msb,YX,prime   .. b6,b,lsb,YX,prime   .. b6,b,msb,YX,prime   .. b6,rgb,lsb,YX,prime .. b6,rgb,msb,YX,prime .. b6,bgr,lsb,YX,prime .. b6,bgr,msb,YX,prime .. text: "mWWmU4UU"
+b6p,r,lsb,YX,prime  .. text: "SR[R^[^YZA___c[ebehqjzz"
+b6p,r,msb,YX,prime  .. text: "`s!wOkN?"
+b6p,g,lsb,YX,prime  .. file: VISX image file
+b6p,g,msb,YX,prime  .. file: SoftQuad DESC or font file binary - version 23046
+b6p,b,lsb,YX,prime  .. text: "efginnnjkRjnosrsmy{}u"
+b6p,b,msb,YX,prime  .. b6p,rgb,lsb,YX,prime.. text: "QMQYX\\RZ]Z[\\_[[W[[AT^^_^__`_Y_ddbjedksqthkxx{x"
+b6p,rgb,msb,YX,prime.. text: "^~A^^^^."
+b6p,bgr,lsb,YX,prime.. text: "eeeidljfmjohokkkkoQhjjojoopoqkplnvyt{"
+b6p,bgr,msb,YX,prime.. text: "n^n~Nnn6"
+b7,r,lsb,YX,prime   .. b7,r,msb,YX,prime   .. b7,g,lsb,YX,prime   .. b7,g,msb,YX,prime   .. b7,b,lsb,YX,prime   .. b7,b,msb,YX,prime   .. b7,rgb,lsb,YX,prime .. b7,rgb,msb,YX,prime .. b7,bgr,lsb,YX,prime .. b7,bgr,msb,YX,prime .. b7p,r,lsb,YX,prime  .. text: ")(-(.-.-,!///1-303494<<AGIC"
+b7p,r,msb,YX,prime  .. file: OpenPGP Secret Key
+b7p,g,lsb,YX,prime  .. text: "++0,*.///\",./130427:9@>BGKI"
+b7p,g,msb,YX,prime  .. b7p,b,lsb,YX,prime  .. text: "323566645(4679897==?;CDDJNFwm"
+b7p,b,msb,YX,prime  .. b7p,rgb,lsb,YX,prime.. text: ")')-,.(,/,-./--+--!*.././/0/-/220432599:45<<=<AFGGIOB_"
+b7p,rgb,msb,YX,prime.. file: OpenPGP Secret Key
+b7p,bgr,lsb,YX,prime.. text: "333526427474755557)44474778795866:=:=??B:;BBE@EHKIOQFYwsms"
+b7p,bgr,msb,YX,prime.. b8,r,lsb,YX,prime   .. text: " ##\#$'!/VSNRk}"
+b8,r,msb,YX,prime   .. b8,g,lsb,YX,prime   .. text: " !\"#!%'$/IEAEXehlaWPGeke`_ML[hid[OI^_NC0-.,,,-+**))('(%$#!!!  "
+b8,g,msb,YX,prime   .. text: "xxxxxxx8"
+b8,b,lsb,YX,prime   .. text: "!!\" \"$%$'(#,;969DNPSKF?<LOLII?=FOPKG?;HK?9./.../0.-,++*))'%$\"!\" "
+b8,b,msb,YX,prime   .. file: OpenPGP Public Key
+b8,rgb,lsb,YX,prime .. text: "   !\"#\"$##%#!$$%'''(!$#//,VI;SE9NA6RE9kXD}eN"
+b8,rgb,msb,YX,prime .. b8,bgr,lsb,YX,prime .. text: "\"! $\"#%#\#$!#'%$(''\#$!,//;IV9ES6AN9ERDXkNe}Ph"
+b8,bgr,msb,YX,prime .. file: OpenPGP Public Key
+b1,r,lsb,Xy         .. b1,r,msb,Xy         .. b1,g,lsb,Xy         .. b1,g,msb,Xy         .. text: "vf1X@L]9"
+b1,b,lsb,Xy         .. b1,b,msb,Xy         .. b1,rgb,lsb,Xy       .. b1,rgb,msb,Xy       .. b1,bgr,lsb,Xy       .. b1,bgr,msb,Xy       .. b2,r,lsb,Xy         .. b2,r,msb,Xy         .. b2,g,lsb,Xy         .. b2,g,msb,Xy         .. b2,b,lsb,Xy         .. b2,b,msb,Xy         .. b2,rgb,lsb,Xy       .. b2,rgb,msb,Xy       .. b2,bgr,lsb,Xy       .. file: OpenPGP Secret Key
+b2,bgr,msb,Xy       .. b3,r,lsb,Xy         .. b3,r,msb,Xy         .. b3,g,lsb,Xy         .. b3,g,msb,Xy         .. b3,b,lsb,Xy         .. b3,b,msb,Xy         .. b3,rgb,lsb,Xy       .. b3,rgb,msb,Xy       .. b3,bgr,lsb,Xy       .. b3,bgr,msb,Xy       .. text: "H!MZNl'r"
+b3p,r,lsb,Xy        .. text: ".okoOrJONnJ"
+b3p,r,msb,Xy        .. text: "T2i[[-\tq"
+b3p,g,lsb,Xy        .. text: "KF*'sLNSjSol"
+b3p,g,msb,Xy        .. b3p,b,lsb,Xy        .. text: "@\n%#%%JKj&"
+b3p,b,msb,Xy        .. b3p,rgb,lsb,Xy      .. text: " $E&  dF&Iia"
+b3p,rgb,msb,Xy      .. b3p,bgr,lsb,Xy      .. text: "&)&!&(KJOJEjgHH''L"
+b3p,bgr,msb,Xy      .. b4,r,lsb,Xy         .. text: "!#4!!!$22"
+b4,r,msb,Xy         .. b4,g,lsb,Xy         .. text: "424#\"C2\"C334DD34dD4TDUffgx"
+b4,g,msb,Xy         .. text: "HDDDDL\",,"
+b4,b,lsb,Xy         .. text: "#332#\"##24UUUD4DVTSDDeDDC3C4VVUSEUDUC3$ETTSCDDD3T44#D4D4EETDDDEeGeTVvehegvwvw"
+b4,b,msb,Xy         .. b4,rgb,lsb,Xy       .. b4,rgb,msb,Xy       .. text: "37s37;=;7"
+b4,bgr,lsb,Xy       .. text: "!$\"2\"#2\"!"
+b4,bgr,msb,Xy       .. b5,r,lsb,Xy         .. b5,r,msb,Xy         .. b5,g,lsb,Xy         .. b5,g,msb,Xy         .. b5,b,lsb,Xy         .. b5,b,msb,Xy         .. b5,rgb,lsb,Xy       .. b5,rgb,msb,Xy       .. b5,bgr,lsb,Xy       .. b5,bgr,msb,Xy       .. b5p,r,lsb,Xy        .. text: "$$-&,%-.-,-4-&>0??@@@O8G>0HGAIG?@AKS[Z[[S[bRR[SSZRTcec[ZK[bJU]vlfumeuuw~"
+b5p,r,msb,Xy        .. b5p,g,lsb,Xy        .. text: ",$-6678G7=6.5?.=5--./655>-&<-%--.6??7>.575.64.?>H8A8@?8PAIQBRRSZ[\\e\\ld]vnvwww"
+b5p,g,msb,Xy        .. text: "QIIIIY%99"
+b5p,b,lsb,Xy        .. file: Award BIOS Logo, 136 x 84
+b5p,b,msb,Xy        .. b5p,rgb,lsb,Xy      .. text: "\"$##\"**$3+##++,,4,,+#+,6$,,#4=44D==>>FFFGG@H?>GG=>65FNEG?ENOMF===EEENM_V^"
+b5p,rgb,msb,Xy      .. b5p,bgr,lsb,Xy      .. text: "$--....&'"
+b5p,bgr,msb,Xy      .. b6,r,lsb,Xy         .. b6,r,msb,Xy         .. b6,g,lsb,Xy         .. b6,g,msb,Xy         .. text: "UYTUUUU]Wu"
+b6,b,lsb,Xy         .. b6,b,msb,Xy         .. b6,rgb,lsb,Xy       .. b6,rgb,msb,Xy       .. b6,bgr,lsb,Xy       .. b6,bgr,msb,Xy       .. b6p,r,lsb,Xy        .. text: "}tlsplsppshtpktquzxtuzvqpuuryqzzvy~x"
+b6p,r,msb,Xy        .. b6p,g,lsb,Xy        .. text: "}rlslowoppmsnksolpsqtupluuppuvz~uv{{}zz"
+b6p,g,msb,Xy        .. b6p,b,lsb,Xy        .. text: "tqxllwopshttltulptyuuquttuutwqzyuv|"
+b6p,b,msb,Xy        .. b6p,rgb,lsb,Xy      .. text: "utropposposqossppplkqtssrjotsswwtxxxstqutyytxstqquuttpxyuqvzz{zuyyv~{z"
+b6p,rgb,msb,Xy      .. b6p,bgr,lsb,Xy      .. text: "ytrstxsoposuoooppplkqtswrnstswwoppptsxuutuuptwtuquqttttuqu~rv{zyuuvv{~"
+b6p,bgr,msb,Xy      .. b7,r,lsb,Xy         .. b7,r,msb,Xy         .. file: basic-16 executable not stripped
+b7,g,lsb,Xy         .. b7,g,msb,Xy         .. b7,b,lsb,Xy         .. b7,b,msb,Xy         .. b7,rgb,lsb,Xy       .. b7,rgb,msb,Xy       .. b7,bgr,lsb,Xy       .. b7,bgr,msb,Xy       .. b7p,r,lsb,Xy        .. text: "B?:698698894:85:9;<<:;<:98;;8=9<<:=><A?><?=;A<?;<>@<>B?A=B?AD@A>A?ABCCABCCEEFEEEDFFBFIFFHIFDHHKHJIKJKJKLKHNLOOPPPSNQNLRQQSQOPQSUWVWWUWXTTWUUVTTYYYWVSWXRUW\\ZX][Y]]]^_^_`ccabbedeejikmkmqnlnojmpoqptsrtsorusvtwvvx{}{z|||~z}"
+b7p,r,msb,Xy        .. b7p,g,lsb,Xy        .. text: "C?86967;7887965976899:;86;;88;:<>;:==?<<?>;:<8:<=:?@?A=<<A:<C@A@A>@DBE@CBACD@@BBBDFBBECFFFEDIFDIGGFHHGFLHFJHKLLMNQMOLJMOJOMKKJKLMMNKHNKIKKJLOOMNJMMMJLLJONRNQNPONTQSUPTTUVWVYVZXW\\Z\\]]]aa]a_]^a_\\ccbbee^bddddfhffgkhgkijkhjpnmqoppsqopuwtwvzwsywvyzy|uvvuxtwyxux"
+b7p,g,msb,Xy        .. b7p,b,lsb,Xy        .. text: "E@:9<66;7894::6:;68:=;;9;::;;:;9<=;:>?<<<A>;>;==????@AA?>C@???>>?A@CBB@AD@DCCACCCDDEFEBIEEDBFFDFECEGGFEDEEFFKKKHFHJJKHHMHHIGIFJJKKIKHKIGDIJJKIHHHGJFFEHFHFIIJHHHIMIMJJNMLMMNONOPPSQSWWUUXRTUTSUTUTYXVYWXVWUZXX\\[[Z\\]Z\\[Z_Z]]]]c__ac^accbdeeidckgeghfidgfbfbehegi"
+b7p,b,msb,Xy        .. b7p,rgb,lsb,Xy      .. text: "CA?;:8788798799799888659:99847:99;;:<<<9:9;:==:<9:99;;::8<=;9:<<=<;==:>=<AA?>>><=A?>=;;:@><<?>:><=?<A=<<?ABA>?@><>BA?>@BEA@@@C>@@??>@BBDCBBC@BCECBBGECDFFHDBEBEBEHFDGDCDGHHGGIGHIHIFFIDHHIIHJJHMKIIKKJJLJJKIKJLHJJILOLLPOONNPPPQQPRONQQONLMPRQQOQRSSPOOOQQQRSWTV"
+b7p,rgb,msb,Xy      .. b7p,bgr,lsb,Xy      .. text: "ECA=:89:<97879;777888659:9;869:9;;7888:9<;;:;;8:;:;9;9::::;9;>8:=<=;;::=>A??<<<<==A>?=;:><::=><>>??>??>>AA@C@?>>>@B?A@>>??>>>A><>?A>@@BBCDBE@@ACE@@AEEBBBB@>CBCBCBDDEDEFGDDCCEIFEFEFDEBDFEGDDHFIECCCEFFFFFGEEFDDDFEFGDFHKKJJJJHIGHHIJMKIJFIHHIMKIHIIHGGGIGGHKMJL"
+b7p,bgr,msb,Xy      .. b8,r,lsb,Xy         .. text: " !\"    !"
+b8,r,msb,Xy         .. b8,g,lsb,Xy         .. text: "   \"\"!\"\"!  !!!  !!!\"\" \"  !\"! !\"\"\"#\"!\"!\"\"!!#\#$#\"\#$\"#\"\"$##\"\"\"$#####\#$$$$$##\#$&$$$\#$%$$$%%&&&&&''(('&''%&&%&&%''%&'%&%%%%%%&%'&&"
+b8,g,msb,Xy         .. b8,b,lsb,Xy         .. text: "  !!!\"!\"   !\"   \"\"!!!! "
+b8,b,msb,Xy         .. b8,rgb,lsb,Xy       .. b8,rgb,msb,Xy       .. text: ["8" repeated 9 times]
+b8,bgr,lsb,Xy       .. b8,bgr,msb,Xy       .. text: ["8" repeated 10 times]
+b1,r,lsb,Xy,prime   .. b1,r,msb,Xy,prime   .. b1,g,lsb,Xy,prime   .. file: OpenPGP Public Key
+b1,g,msb,Xy,prime   .. b1,b,lsb,Xy,prime   .. b1,b,msb,Xy,prime   .. b1,rgb,lsb,Xy,prime .. b1,rgb,msb,Xy,prime .. b1,bgr,lsb,Xy,prime .. b1,bgr,msb,Xy,prime .. b2,r,lsb,Xy,prime   .. b2,r,msb,Xy,prime   .. b2,g,lsb,Xy,prime   .. b2,g,msb,Xy,prime   .. b2,b,lsb,Xy,prime   .. b2,b,msb,Xy,prime   .. b2,rgb,lsb,Xy,prime .. b2,rgb,msb,Xy,prime .. b2,bgr,lsb,Xy,prime .. b2,bgr,msb,Xy,prime .. b3,r,lsb,Xy,prime   .. b3,r,msb,Xy,prime   .. b3,g,lsb,Xy,prime   .. text: "!9.<rRvQ"
+b3,g,msb,Xy,prime   .. b3,b,lsb,Xy,prime   .. b3,b,msb,Xy,prime   .. b3,rgb,lsb,Xy,prime .. b3,rgb,msb,Xy,prime .. b3,bgr,lsb,Xy,prime .. b3,bgr,msb,Xy,prime .. b3p,r,lsb,Xy,prime  .. b3p,r,msb,Xy,prime  .. b3p,g,lsb,Xy,prime  .. b3p,g,msb,Xy,prime  .. b3p,b,lsb,Xy,prime  .. b3p,b,msb,Xy,prime  .. b3p,rgb,lsb,Xy,prime.. text: "88uuWWx__|"
+b3p,rgb,msb,Xy,prime.. b3p,bgr,lsb,Xy,prime.. text: "IEE+)JjLsL"
+b3p,bgr,msb,Xy,prime.. b4,r,lsb,Xy,prime   .. b4,r,msb,Xy,prime   .. b4,g,lsb,Xy,prime   .. text: "\"#C3DGwgfUUgwh"
+b4,g,msb,Xy,prime   .. b4,b,lsb,Xy,prime   .. text: "22A34F5DU3C4EDhg"
+b4,b,msb,Xy,prime   .. b4,rgb,lsb,Xy,prime .. text: "\"\"42442cD1T6Cd8twHvf7u"
+b4,rgb,msb,Xy,prime .. text: "HHDD,L,,L"
+b4,bgr,lsb,Xy,prime .. text: "\"2\"4424Ca44SF4dxGvx6ewF"
+b4,bgr,msb,Xy,prime .. text: "HHDLD,,L,"
+b5,r,lsb,Xy,prime   .. b5,r,msb,Xy,prime   .. b5,g,lsb,Xy,prime   .. b5,g,msb,Xy,prime   .. b5,b,lsb,Xy,prime   .. b5,b,msb,Xy,prime   .. b5,rgb,lsb,Xy,prime .. b5,rgb,msb,Xy,prime .. b5,bgr,lsb,Xy,prime .. b5,bgr,msb,Xy,prime .. b5p,r,lsb,Xy,prime  .. text: "4.087I[RZSlu"
+b5p,r,msb,Xy,prime  .. text: "RJ\nH|m}}m"
+b5p,g,lsb,Xy,prime  .. text: "$'?76--7?0HSdn"
+b5p,g,msb,Xy,prime  .. b5p,b,lsb,Xy,prime  .. text: "%$07AJJ[dfg"
+b5p,b,msb,Xy,prime  .. b5p,rgb,lsb,Xy,prime.. text: "#3#,44G?G6?NN]]UU^WW_n`qh"
+b5p,rgb,msb,Xy,prime.. b5p,bgr,lsb,Xy,prime.. text: "'&(! 2C4<ENIWHWYYbbcud}x"
+b5p,bgr,msb,Xy,prime.. b6,r,lsb,Xy,prime   .. b6,r,msb,Xy,prime   .. b6,g,lsb,Xy,prime   .. b6,g,msb,Xy,prime   .. b6,b,lsb,Xy,prime   .. b6,b,msb,Xy,prime   .. b6,rgb,lsb,Xy,prime .. b6,rgb,msb,Xy,prime .. b6,bgr,lsb,Xy,prime .. b6,bgr,msb,Xy,prime .. b6p,r,lsb,Xy,prime  .. text: "}pppsrqyuz"
+b6p,r,msb,Xy,prime  .. b6p,g,lsb,Xy,prime  .. text: "}hslwltqvw~z"
+b6p,g,msb,Xy,prime  .. b6p,b,lsb,Xy,prime  .. text: "qplpputsv"
+b6p,b,msb,Xy,prime  .. b6p,rgb,lsb,Xy,prime.. text: "urppsspqosxqtxuuvy{"
+b6p,rgb,msb,Xy,prime.. b6p,bgr,lsb,Xy,prime.. text: "yrtpsopqssputtqq~u{"
+b6p,bgr,msb,Xy,prime.. b7,r,lsb,Xy,prime   .. b7,r,msb,Xy,prime   .. b7,g,lsb,Xy,prime   .. b7,g,msb,Xy,prime   .. b7,b,lsb,Xy,prime   .. b7,b,msb,Xy,prime   .. b7,rgb,lsb,Xy,prime .. b7,rgb,msb,Xy,prime .. b7,bgr,lsb,Xy,prime .. b7,bgr,msb,Xy,prime .. b7p,r,lsb,Xy,prime  .. text: "?888989=;<@?<<?ACCBDFLJLNMSWTVUZ]abgnout{|"
+b7p,r,msb,Xy,prime  .. text: "K++\"s4tt4"
+b7p,g,lsb,Xy,prime  .. text: "?496;6:9:;><?=:@EBDEIGHIOMLKKMOLRUXZcacdgiqqsw{uw~"
+b7p,g,msb,Xy,prime  .. b7p,b,lsb,Xy,prime  .. text: "@98688;:9:@>??>=DEBFFIGFHGHKGIFIHLMQRRWXXY_cbchegg"
+b7p,b,msb,Xy,prime  .. b7p,rgb,lsb,Xy,prime.. text: "?;888998979<9:<;;:==A<>>==<A?>@>BCCFBDDIFIMIJLLQOQLORRWWUUVUUWZX]Z`cbdgjomnkustx{{|}"
+b7p,rgb,msb,Xy,prime.. b7p,bgr,lsb,Xy,prime.. text: "A=8:89789998;::99>;=A<><??>C?@<>DEEBBDFEFEICFFFIIMFKHHKKGGHGGIHJIHLQLNQRSURUWWXXY]X_^_bccacgiidgggg~~"
+b7p,bgr,msb,Xy,prime.. b8,r,lsb,Xy,prime   .. text: "!!!#!\"\"$\#$&$%&&('(&'))++**+**+-,.-0112357675:9:<==>>A@CDEEEFHHHFJKMZ\\]af{"
+b8,r,msb,Xy,prime   .. b8,g,lsb,Xy,prime   .. text: "   \"!!\"\"\"\"\#$##\#$$$'''&'&&%%%%&'''&()(*+,,-.1/0/11223545878999;;=;:;;=?JLNOTg"
+b8,g,msb,Xy,prime   .. b8,b,lsb,Xy,prime   .. text: "\"\"\"!!\"#\"#\"$!##\#$$&#%$$%%#\#$#\#$$%$$&(&'())*)*++,,,.,///1110134423333??ABFR"
+b8,b,msb,Xy,prime   .. b8,rgb,lsb,Xy,prime .. file: old packed data
+b8,rgb,msb,Xy,prime .. b8,bgr,lsb,Xy,prime .. text: "\"\"!\"!!\"!!!\"#!\"!\"\"\"#\"\"\"\#$\#$#\"\#$$#&!\#$\#$%\#$&\#$&$'($''&'(#&&%''$&)$&)%%+%%+#%*#%*$&+#'*#'*$'+$&-%(,$).$(-&*0(+1&,1',2(-3).5)17*/6)07*/5+1:+19,2:,2<,3=.5=,4>/5>/8A/"
+b8,bgr,msb,Xy,prime .. b1,r,lsb,yX         .. b1,r,msb,yX         .. b1,g,lsb,yX         .. text: "ahSx>L4Gtffm"
+b1,g,msb,yX         .. file: PDP-11 UNIX/RT ldp
+b1,b,lsb,yX         .. b1,b,msb,yX         .. b1,rgb,lsb,yX       .. b1,rgb,msb,yX       .. text: "_BI8i#;y"
+b1,bgr,lsb,yX       .. b1,bgr,msb,yX       .. b2,r,lsb,yX         .. text: "5CUELEEyj"
+b2,r,msb,yX         .. b2,g,lsb,yX         .. b2,g,msb,yX         .. b2,b,lsb,yX         .. text: "EUEUUeUZ"
+b2,b,msb,yX         .. b2,rgb,lsb,yX       .. text: "UeUUUU%UU"
+b2,rgb,msb,yX       .. b2,bgr,lsb,yX       .. file: OpenPGP Secret Key
+b2,bgr,msb,yX       .. b3,r,lsb,yX         .. b3,r,msb,yX         .. b3,g,lsb,yX         .. b3,g,msb,yX         .. text: "pI8HI \tR"
+b3,b,lsb,yX         .. b3,b,msb,yX         .. b3,rgb,lsb,yX       .. b3,rgb,msb,yX       .. b3,bgr,lsb,yX       .. b3,bgr,msb,yX       .. b3p,r,lsb,yX        .. text: "I &F%)&$&oMf& "
+b3p,r,msb,yX        .. text: "+[[+[[[[]{"
+b3p,g,lsb,yX        .. text: " %J&&% ) )"
+b3p,g,msb,yX        .. text: "ddTTRdd\"d"
+b3p,b,lsb,yX        .. text: "%$%%%&%%&N$$$&"
+b3p,b,msb,yX        .. text: "RRbRRRRRv"
+b3p,rgb,lsb,yX      .. text: "%%E%%%%%\"%%%!"
+b3p,rgb,msb,yX      .. b3p,bgr,lsb,yX      .. text: ") #%%&%%%%%A%%%!<! %JIeE%&"
+b3p,bgr,msb,yX      .. b4,r,lsb,yX         .. text: "4DDCTCECDETTUVfv"
+b4,r,msb,yX         .. text: "swww;wwwwww{w"
+b4,g,lsb,yX         .. text: "\"$3DCCDC3ESTVgeeUv"
+b4,g,msb,yX         .. b4,b,lsb,yX         .. text: "\"\"#DTC4UTUgw"
+b4,b,msb,yX         .. text: "YUUYUUUYUUUUUUU"
+b4,rgb,lsb,yX       .. b4,rgb,msb,yX       .. b4,bgr,lsb,yX       .. b4,bgr,msb,yX       .. b5,r,lsb,yX         .. b5,r,msb,yX         .. b5,g,lsb,yX         .. b5,g,msb,yX         .. b5,b,lsb,yX         .. b5,b,msb,yX         .. b5,rgb,lsb,yX       .. b5,rgb,msb,yX       .. b5,bgr,lsb,yX       .. b5,bgr,msb,yX       .. b5p,r,lsb,yX        .. text: "$$#,#%\#$%,,-.6>@G??@G"
+b5p,r,msb,yX        .. text: "gooo7oooooowo"
+b5p,g,lsb,yX        .. text: "%+,.755->@@8@@?8"
+b5p,g,msb,yX        .. b5p,b,lsb,yX        .. text: "-,-7?G?8GG8@IJJSZQZ"
+b5p,b,msb,yX        .. text: "SKKSKKKSKKKKKKK"
+b5p,rgb,lsb,yX      .. b5p,rgb,msb,yX      .. b5p,bgr,lsb,yX      .. b5p,bgr,msb,yX      .. b6,r,lsb,yX         .. b6,r,msb,yX         .. b6,g,lsb,yX         .. b6,g,msb,yX         .. b6,b,lsb,yX         .. b6,b,msb,yX         .. b6,rgb,lsb,yX       .. b6,rgb,msb,yX       .. b6,bgr,lsb,yX       .. b6,bgr,msb,yX       .. b6p,r,lsb,yX        .. text: "U[f\\d``a^\\d`d_\\a``edd]feeeeeaaiefieed\\aea`he``eea``d`aee``eeaejcec_`dccac\\eeeajeeejedaje`ejfeeieidekokgfei``ajjjfd`agjfjnjidioejkjjjifefoijjokjooojnokpsjnosmojlpppqtsutsuututltutuwyvzqqyrzzztzzzzzzvz~"
+b6p,r,msb,yX        .. text: "N^^^.^^^^^^n^~"
+b6p,g,lsb,yX        .. text: "X``\\```acca_`e``eaffhaeeeded\\ajeedaad`\\c`add`dca`_ac`a`e``eee_\\`c__`_ede`dc_]edeadfjebjd`daejifeiedaidai`ded`^jcafjaeafjeefjji``ajeeiffijjifejdekkijrkjoeegofllponnoppoompnlsllsljkqtlpqspuqutppouvypupr"
+b6p,g,msb,yX        .. b6p,b,lsb,yX        .. text: "_\\cc`ac\\`c\\c\\``deeedeeeeefeeeejneadeaf`eea`ee`_\\baajaaee`aieeeei`_\\`dd_e_`deeedjeiiejeajeeeeeeefnmedijaiafjfdaeeefe`ejiefieeeeffefjjfjjjfjjjjjjjknjfojkrfknnkfjkkonooknsoojoooojklptpppplqqqvtllpovtputqvuqz"
+b6p,b,msb,yX        .. text: "fVVfVVVfVVVVVVV"
+b6p,rgb,lsb,yX      .. text: "XVTX\\dX_`d``````e\\[\\cdaccd`]]\\``daa`aefebf`\\eeieeeeedeeedcd`ejfeeeiiddedee`\\`cddg`d`ai`ed``a`dgde`dcc`adc```eddee````eeeeaeggkh`\\dgc___``gca]a\\ae`\\]`dggggeaeiheedeedijffea`fjjed``edhieifffeifeejeeaedhmnmildmfiddidaaa``dkjjjhkdiebbb`eemhiejjjmiiiiffbjfnmdd"
+b6p,rgb,msb,yX      .. b6p,bgr,lsb,yX      .. text: "`^\\\\``\\c\\```d`\\\\a`c`_\\ac_\\`aa``d`eedeefebfddeeeeeeeeheeedgddejjmieeaddadeaddhc`dgdd`ea`eddda`\\_\\a`hcg`ehk`d`eddee```dieeeeegggdhd`c___c``gcea]\\ee\\\\a`dcgggeeee`iideidifffiidfbfihddeddeeefffeefeinimeeddajeih`eje`dehiiehd`cfffdgdeejff`aeehiifffeiieeffffffedh"
+b6p,bgr,msb,yX      .. b7,r,lsb,yX         .. b7,r,msb,yX         .. b7,g,lsb,yX         .. b7,g,msb,yX         .. b7,b,lsb,yX         .. b7,b,msb,yX         .. b7,rgb,lsb,yX       .. b7,rgb,msb,yX       .. b7,bgr,lsb,yX       .. b7,bgr,msb,yX       .. b7p,r,lsb,yX        .. text: "B+-2.2001..202/.100322/233333115325332.1310430033100201330033134131/021111.333143334321430342335352357532350014442201342464525734544452327544754777467589467977468889:9;:9;;:;:6:;:;;=:<99=8<<<:<<<<<<:<>?====?AA<=?=?@?>AAA@ADDECCBDDEEDCFHHIJIIIHIJJKJLNPQOOPQ"
+b7p,r,msb,yX        .. text: "<<<\\<<<<<<\\<|"
+b7p,g,lsb,yX        .. text: "B,00.0001111/0300312241333232.143321120.1012202110/11010300333/.01//0/323021//32312243042021345235321521502320.4112413124332445001433522544523423555485473337266876678877786696696459:68998;9;:887;:=8;88?=<=<=?=?=<=>A>=>A>A>CABABC@CCDDGHIIHIGIKJJMMMKNPPNPPON"
+b7p,g,msb,yX        .. b7p,b,lsb,yX        .. text: "D/.11011.01.1.002333233333233334631231203310330/.01141133015333350/.022/3/0233324355343143333333267325415124221333230345325333322324424442444444456427458256652455767756977477774568:88886999::6687::8;:9:;9<??<:=9<:8?<;=?>>@?@D@DCABDDEHJIFKJKMOQONQQNPSRRUVUV"
+b7p,b,msb,yX        .. text: "L,,L,,,L,,,,,,,"
+b7p,rgb,lsb,yX      .. text: "C,**,.2,/020000003.-.1211120//.0021101323020.3353333323332120342333552232330.0122302015032001023230211012100032233000033331333540.231///00311/1.130./02333331354332332542231024432003245352223523343313247675627252252111002544445253000033745344475555220426722"
+b7p,rgb,msb,yX      .. b7p,bgr,lsb,yX      .. text: "E0...00.1.00020..1010/.11/.0110020332332302223333333343332322344753312212312241023220310322210./.10413034502032233000253333333324201///1003131/.33..102133333330552352522255220254223223332223323565733221435403430234553420122223233422013345522235533222222324"
+b7p,bgr,msb,yX      .. b8,r,lsb,yX         .. b8,r,msb,yX         .. b8,g,lsb,yX         .. b8,g,msb,yX         .. b8,b,lsb,yX         .. b8,b,msb,yX         .. b8,rgb,lsb,yX       .. b8,rgb,msb,yX       .. b8,bgr,lsb,yX       .. b8,bgr,msb,yX       .. b1,r,lsb,yX,prime   .. b1,r,msb,yX,prime   .. b1,g,lsb,yX,prime   .. b1,g,msb,yX,prime   .. b1,b,lsb,yX,prime   .. b1,b,msb,yX,prime   .. b1,rgb,lsb,yX,prime .. b1,rgb,msb,yX,prime .. b1,bgr,lsb,yX,prime .. b1,bgr,msb,yX,prime .. b2,r,lsb,yX,prime   .. b2,r,msb,yX,prime   .. b2,g,lsb,yX,prime   .. text: "@tS3Z\tBf"
+b2,g,msb,yX,prime   .. b2,b,lsb,yX,prime   .. b2,b,msb,yX,prime   .. b2,rgb,lsb,yX,prime .. text: "g=\r|24`PB"
+b2,rgb,msb,yX,prime .. b2,bgr,lsb,yX,prime .. b2,bgr,msb,yX,prime .. b3,r,lsb,yX,prime   .. b3,r,msb,yX,prime   .. b3,g,lsb,yX,prime   .. b3,g,msb,yX,prime   .. b3,b,lsb,yX,prime   .. b3,b,msb,yX,prime   .. b3,rgb,lsb,yX,prime .. b3,rgb,msb,yX,prime .. b3,bgr,lsb,yX,prime .. b3,bgr,msb,yX,prime .. b3p,r,lsb,yX,prime  .. text: "&!$&AIJ&no"
+b3p,r,msb,yX,prime  .. file: , OEM-ID "\007@\24", Bytes/sector 25728, sectors/cluster 132, reserved sectors 25636, FATs 130, root entries 21138, sectors 30308 (volumes <=32 MB), Media descriptor 0xf6, sectors/FAT 35209, sectors/track 22891, heads 123, FAT (12 bit by descriptor)
+b3p,g,lsb,yX,prime  .. text: "%i!%%IjIDJjjO"
+b3p,g,msb,yX,prime  .. b3p,b,lsb,yX,prime  .. text: "%%)%(%JJJJoh"
+b3p,b,msb,yX,prime  .. b3p,rgb,lsb,yX,prime.. text: "E\"!%E$% !!$"
+b3p,rgb,msb,yX,prime.. text: "BbRTTRfvbvvN"
+b3p,bgr,lsb,yX,prime.. text: "%%*) !)E$!!*&H"
+b3p,bgr,msb,yX,prime.. text: "B`bRv\t\ro"
+b4,r,lsb,yX,prime   .. b4,r,msb,yX,prime   .. b4,g,lsb,yX,prime   .. b4,g,msb,yX,prime   .. b4,b,lsb,yX,prime   .. b4,b,msb,yX,prime   .. b4,rgb,lsb,yX,prime .. b4,rgb,msb,yX,prime .. b4,bgr,lsb,yX,prime .. b4,bgr,msb,yX,prime .. b5,r,lsb,yX,prime   .. b5,r,msb,yX,prime   .. b5,g,lsb,yX,prime   .. b5,g,msb,yX,prime   .. b5,b,lsb,yX,prime   .. b5,b,msb,yX,prime   .. b5,rgb,lsb,yX,prime .. b5,rgb,msb,yX,prime .. b5,bgr,lsb,yX,prime .. b5,bgr,msb,yX,prime .. b5p,r,lsb,yX,prime  .. text: "&9OQ\\l}kE"
+b5p,r,msb,yX,prime  .. b5p,g,lsb,yX,prime  .. text: "OE4k811D\\"
+b5p,g,msb,yX,prime  .. b5p,b,lsb,yX,prime  .. text: "/@R\\pwxf"
+b5p,b,msb,yX,prime  .. b5p,rgb,lsb,yX,prime.. text: ".%08G@I[lnlvve"
+b5p,rgb,msb,yX,prime.. b5p,bgr,lsb,yX,prime.. text: "#+>=HPO`as|"
+b5p,bgr,msb,yX,prime.. b6,r,lsb,yX,prime   .. file: VISX image file
+b6,r,msb,yX,prime   .. b6,g,lsb,yX,prime   .. b6,g,msb,yX,prime   .. file: OpenPGP Public Key
+b6,b,lsb,yX,prime   .. b6,b,msb,yX,prime   .. b6,rgb,lsb,yX,prime .. b6,rgb,msb,yX,prime .. b6,bgr,lsb,yX,prime .. b6,bgr,msb,yX,prime .. b6p,r,lsb,yX,prime  .. text: "U^`fc``ieieed`ei`aeiaeafhfijifokoptqyxz{{|}"
+b6p,r,msb,yX,prime  .. b6p,g,lsb,yX,prime  .. text: "X``geahdaed`gdecccej`idbffjajjgglsloptu{}{"
+b6p,g,msb,yX,prime  .. b6p,b,lsb,yX,prime  .. text: "_ca``aafeddeaeed``eeefeefaejjjjjjoohqxmvuyz"
+b6p,b,msb,yX,prime  .. b6p,rgb,lsb,yX,prime.. text: "VT\\X``e[a]`ab`iddeieedddeca`eehg`c`geejf`dfeaddjibejjfhijffjmoioolpswpswxtypyyz"
+b6p,rgb,msb,yX,prime.. b6p,bgr,lsb,yX,prime.. text: "^\\`\\`dacaa`ebdehdeeae`ddagedeedc`c`ceeffddfieddfejafffhijjjjikikkhloolksptypmuv{wuzwxx"
+b6p,bgr,msb,yX,prime.. b7,r,lsb,yX,prime   .. b7,r,msb,yX,prime   .. b7,g,lsb,yX,prime   .. b7,g,msb,yX,prime   .. b7,b,lsb,yX,prime   .. b7,b,msb,yX,prime   .. b7,rgb,lsb,yX,prime .. b7,rgb,msb,yX,prime .. b7,bgr,lsb,yX,prime .. b7,bgr,msb,yX,prime .. b7p,r,lsb,yX,prime  .. text: "+.02100535332035013513124254527578:9=<<==>?BCCJMPS[Z\\r"
+b7p,r,msb,yX,prime  .. b7p,g,lsb,yX,prime  .. text: ",003314213203231113405202241443369678:;=?=@DBGMPNSXX]k"
+b7p,g,msb,yX,prime  .. b7p,b,lsb,yX,prime  .. text: "/110011232231332003332332134444447749<7:;=<ADIORRX_]ba"
+b7p,b,msb,yX,prime  .. b7p,rgb,lsb,yX,prime.. text: "**.,003-1/0100522353322231103343010333420223122450344245422477577689;89;<:=8==<?=?>A>BBDCBCGJILNQPSWZZZ\\\\Ys"
+b7p,rgb,msb,yX,prime.. b7p,bgr,lsb,yX,prime.. text: "..0.021111030234233130221332332101013322222532223412224544445555546776598:=87;:=;;<;<<@BEDIKNORTSXY]^b\\^b]a"
+b7p,bgr,msb,yX,prime.. b8,r,lsb,yX,prime   .. text: "!!\"!!!#%$&'(()+---..,9bwygXUVx"
+b8,r,msb,yX,prime   .. text: "DDDDD$$d"
+b8,g,lsb,yX,prime   .. text: "  \" !\"##&%(('()+,.,..-5S``TIGHaihdSII_hmfTMcghfaFAH<+$\"\"!   "
+b8,g,msb,yX,prime   .. b8,b,lsb,yX,prime   .. text: " !\"\"$%'')*),,./1./1.0ALLB;::JQOLA:;HPRMC<MOOPL<592*&%$#\"!#!  "
+b8,b,msb,yX,prime   .. text: ["X" repeated 12 times]
+b8,rgb,lsb,yX,prime .. b8,rgb,msb,yX,prime .. b8,bgr,lsb,yX,prime .. b8,bgr,msb,yX,prime .. b1,r,lsb,xY         .. b1,r,msb,xY         .. b1,g,lsb,xY         .. b1,g,msb,xY         .. b1,b,lsb,xY         .. text: "N4r@LwGU"
+b1,b,msb,xY         .. b1,rgb,lsb,xY       .. b1,rgb,msb,xY       .. b1,bgr,lsb,xY       .. b1,bgr,msb,xY       .. b2,r,lsb,xY         .. b2,r,msb,xY         .. b2,g,lsb,xY         .. b2,g,msb,xY         .. b2,b,lsb,xY         .. b2,b,msb,xY         .. file: OpenPGP Secret Key
+b2,rgb,lsb,xY       .. b2,rgb,msb,xY       .. b2,bgr,lsb,xY       .. b2,bgr,msb,xY       .. text: "58b[3Yk^"
+b3,r,lsb,xY         .. b3,r,msb,xY         .. b3,g,lsb,xY         .. text: "\n+e!,*pA/"
+b3,g,msb,xY         .. b3,b,lsb,xY         .. b3,b,msb,xY         .. file: OpenPGP Secret Key
+b3,rgb,lsb,xY       .. b3,rgb,msb,xY       .. b3,bgr,lsb,xY       .. b3,bgr,msb,xY       .. b3p,r,lsb,xY        .. b3p,r,msb,xY        .. b3p,g,lsb,xY        .. b3p,g,msb,xY        .. b3p,b,lsb,xY        .. b3p,b,msb,xY        .. b3p,rgb,lsb,xY      .. b3p,rgb,msb,xY      .. file: PGP Secret Sub-key -
+b3p,bgr,lsb,xY      .. b3p,bgr,msb,xY      .. b4,r,lsb,xY         .. text: "xvUgu3Wt6t3E1\"ED\"3 "
+b4,r,msb,xY         .. b4,g,lsb,xY         .. text: "$7d3UXUg"
+b4,g,msb,xY         .. text: "jnfj\"**\""
+b4,b,lsb,xY         .. file: OpenPGP Public Key
+b4,b,msb,xY         .. b4,rgb,lsb,xY       .. text: "W#b63sY7"
+b4,rgb,msb,xY       .. b4,bgr,lsb,xY       .. text: "wSc&2s9S"
+b4,bgr,msb,xY       .. b5,r,lsb,xY         .. b5,r,msb,xY         .. b5,g,lsb,xY         .. file: Award BIOS Logo, 136 x 84
+b5,g,msb,xY         .. b5,b,lsb,xY         .. b5,b,msb,xY         .. b5,rgb,lsb,xY       .. b5,rgb,msb,xY       .. b5,bgr,lsb,xY       .. b5,bgr,msb,xY       .. b5p,r,lsb,xY        .. text: "%,,8_}Ws"
+b5p,r,msb,xY        .. b5p,g,lsb,xY        .. text: "etg`987=$!H'G\r"
+b5p,g,msb,xY        .. text: "u}mu%55%"
+b5p,b,lsb,xY        .. text: "JU`GHDZ]lLn"
+b5p,b,msb,xY        .. b5p,rgb,lsb,xY      .. text: "BB//06-&)"
+b5p,rgb,msb,xY      .. b5p,bgr,lsb,xY      .. text: "JTSofDC;MEE`]U^oi`Lfh1"
+b5p,bgr,msb,xY      .. b6,r,lsb,xY         .. b6,r,msb,xY         .. b6,g,lsb,xY         .. b6,g,msb,xY         .. b6,b,lsb,xY         .. text: "(r\n A\n(q"
+b6,b,msb,xY         .. b6,rgb,lsb,xY       .. b6,rgb,msb,xY       .. b6,bgr,lsb,xY       .. b6,bgr,msb,xY       .. text: "C 4\nQ(Dc0"
+b6p,r,lsb,xY        .. text: "/=+;O3OU5M"
+b6p,r,msb,xY        .. b6p,g,lsb,xY        .. text: "omjjcadd[`eh^\\cc_^[_^YV^LdbUVU[eUZ]hYc[`\\JTYR\\LURJQUJNH76@FRJJKOJRYUR_UVZQV^ZVPTTPQUSOSSEJJKNPSNAJL_UUS]YSQTPTS"
+b6p,g,msb,xY        .. text: "jzZj\n**\n"
+b6p,b,lsb,xY        .. text: "&)0\#$ .-4$6\r!:"
+b6p,b,msb,xY        .. b6p,rgb,lsb,xY      .. file: structured file
+b6p,rgb,msb,xY      .. b6p,bgr,lsb,xY      .. text: "%!!0-).750$24"
+b6p,bgr,msb,xY      .. b7,r,lsb,xY         .. b7,r,msb,xY         .. b7,g,lsb,xY         .. b7,g,msb,xY         .. b7,b,lsb,xY         .. b7,b,msb,xY         .. b7,rgb,lsb,xY       .. b7,rgb,msb,xY       .. b7,bgr,lsb,xY       .. b7,bgr,msb,xY       .. b7p,r,lsb,xY        .. text: "qzw}zywq{rwyworrzv"
+b7p,r,msb,xY        .. file: MySQL table definition file Version -31, MySQL version 1586364910
+b7p,g,lsb,xY        .. text: "}vup}ttyyosu}x"
+b7p,g,msb,xY        .. b7p,b,lsb,xY        .. text: "|zy}wz}xrww|}"
+b7p,b,msb,xY        .. b7p,rgb,lsb,xY      .. text: "}fR@9:;97<Jc"
+b7p,rgb,msb,xY      .. b7p,bgr,lsb,xY      .. text: "r^JA<=;;@Rm"
+b7p,bgr,msb,xY      .. b8,r,lsb,xY         .. text: "?A@DCA@ACBBDBBCFFEAEE?<;@CC>3) "
+b8,r,msb,xY         .. b8,g,lsb,xY         .. text: "BDCGFDCCEEEHEEFGIHDFHA=>AFGA4*\""
+b8,g,msb,xY         .. b8,b,lsb,xY         .. text: "IJJMLHHGIHHLKJKMMLILMFCEHMNF9/% "
+b8,b,msb,xY         .. b8,rgb,lsb,xY       .. text: "?BIADJ@CJDGMCFLADH@CHACGCEIBEHBEHDHLBEKBEJCFKFGMFIMEHLADIEFLEHM?AF<=C;>E@AHCFMCGN>AF349)*/ \"%"
+b8,rgb,msb,xY       .. b8,bgr,lsb,xY       .. text: "IB?JDAJC@MGDLFCHDAHC@GCAIECHEBHEBLHDKEBJEBKFCMGFMIFLHEIDALFEMHEFA?C=<E>;HA@MFCNGCFA>943/*)%\"  "
+b8,bgr,msb,xY       .. b1,r,lsb,xY,prime   .. b1,r,msb,xY,prime   .. b1,g,lsb,xY,prime   .. b1,g,msb,xY,prime   .. b1,b,lsb,xY,prime   .. b1,b,msb,xY,prime   .. b1,rgb,lsb,xY,prime .. b1,rgb,msb,xY,prime .. b1,bgr,lsb,xY,prime .. b1,bgr,msb,xY,prime .. b2,r,lsb,xY,prime   .. b2,r,msb,xY,prime   .. b2,g,lsb,xY,prime   .. b2,g,msb,xY,prime   .. b2,b,lsb,xY,prime   .. b2,b,msb,xY,prime   .. b2,rgb,lsb,xY,prime .. b2,rgb,msb,xY,prime .. b2,bgr,lsb,xY,prime .. b2,bgr,msb,xY,prime .. b3,r,lsb,xY,prime   .. b3,r,msb,xY,prime   .. text: "sb.~j;HS"
+b3,g,lsb,xY,prime   .. text: "v,\nd,S}*"
+b3,g,msb,xY,prime   .. b3,b,lsb,xY,prime   .. b3,b,msb,xY,prime   .. b3,rgb,lsb,xY,prime .. b3,rgb,msb,xY,prime .. b3,bgr,lsb,xY,prime .. b3,bgr,msb,xY,prime .. b3p,r,lsb,xY,prime  .. text: "FOI&Nf]KHJL"
+b3p,r,msb,xY,prime  .. b3p,g,lsb,xY,prime  .. text: ",nj}ohNl"
+b3p,g,msb,xY,prime  .. b3p,b,lsb,xY,prime  .. text: "dIF'lJ+\tGS"
+b3p,b,msb,xY,prime  .. b3p,rgb,lsb,xY,prime.. text: "H)IShpPI&&.SOnKl*KN"
+b3p,rgb,msb,xY,prime.. b3p,bgr,lsb,xY,prime.. text: ":F$??eE'B"
+b3p,bgr,msb,xY,prime.. b4,r,lsb,xY,prime   .. text: "45DDcUT4U5fvTCFEUTV"
+b4,r,msb,xY,prime   .. b4,g,lsb,xY,prime   .. text: "EUCDdfdFFEV"
+b4,g,msb,xY,prime   .. b4,b,lsb,xY,prime   .. text: "6VfC\"4EEeUewufwf"
+b4,b,msb,xY,prime   .. b4,rgb,lsb,xY,prime .. text: "Ws$fSC\"C\""
+b4,rgb,msb,xY,prime .. b4,bgr,lsb,xY,prime .. text: "wT#VcCB\"#"
+b4,bgr,msb,xY,prime .. file: OpenPGP Secret Key
+b5,r,lsb,xY,prime   .. b5,r,msb,xY,prime   .. b5,g,lsb,xY,prime   .. b5,g,msb,xY,prime   .. file: OpenPGP Public Key
+b5,b,lsb,xY,prime   .. b5,b,msb,xY,prime   .. b5,rgb,lsb,xY,prime .. b5,rgb,msb,xY,prime .. b5,bgr,lsb,xY,prime .. b5,bgr,msb,xY,prime .. b5p,r,lsb,xY,prime  .. b5p,r,msb,xY,prime  .. b5p,g,lsb,xY,prime  .. b5p,g,msb,xY,prime  .. b5p,b,lsb,xY,prime  .. b5p,b,msb,xY,prime  .. b5p,rgb,lsb,xY,prime.. b5p,rgb,msb,xY,prime.. text: "%%m9uuu%9e5u9"
+b5p,bgr,lsb,xY,prime.. text: "SoD;`U`f.z"
+b5p,bgr,msb,xY,prime.. text: "55m5}}}5-m=}-"
+b6,r,lsb,xY,prime   .. text: "]vY]eYae"
+b6,r,msb,xY,prime   .. b6,g,lsb,xY,prime   .. text: "M4SQUUQ5"
+b6,g,msb,xY,prime   .. b6,b,lsb,xY,prime   .. b6,b,msb,xY,prime   .. b6,rgb,lsb,xY,prime .. b6,rgb,msb,xY,prime .. b6,bgr,lsb,xY,prime .. text: "Y]uTI5VY5"
+b6,bgr,msb,xY,prime .. b6p,r,lsb,xY,prime  .. file: TTComp archive data, binary, 2K dictionary
+b6p,r,msb,xY,prime  .. b6p,g,lsb,xY,prime  .. text: "]`ZYU^XJ.JVZQOGQUSPXZXRRQVcVTWUUWVe_edQ_^Tfeca]`e__oeii"
+b6p,g,msb,xY,prime  .. b6p,b,lsb,xY,prime  .. text: "cecY^\\WR2NVZSJLQQYUY_]Z_Zb\\cU\\V^Zaienf[h`Ymomlddqsjvquu)/0s"
+b6p,b,msb,xY,prime  .. file: OpenPGP Secret Key
+b6p,rgb,lsb,xY,prime.. text: "ece\\d^ZZUYeWNZLJN3NNRQZZRLMOKAOLQMUPSPPZLVVVPLRTVLUYZ\\[URQLQ[QUUUUSUZia__ee]XTec[_VU\\e^ee\\_daWU\\`eag_[Wkkeenefq"
+b6p,rgb,msb,xY,prime.. text: "\n\nZ2jjj\n2J*j2"
+b6p,bgr,lsb,xY,prime.. text: "acmddb^ZU]i_RVLRJ3JNZUZZZPMKKMSPUQUXWTTZT^^^TXZ\\^XYaZ\\ca^UT]cUY]YY[afieggmiehXmkccbYdmfmmlglqgadpqusokkw{quvuv"
+b6p,bgr,msb,xY,prime.. text: "**Z*zzz*"
+b7,r,lsb,xY,prime   .. b7,r,msb,xY,prime   .. b7,g,lsb,xY,prime   .. b7,g,msb,xY,prime   .. b7,b,lsb,xY,prime   .. file: OpenPGP Secret Key
+b7,b,msb,xY,prime   .. b7,rgb,lsb,xY,prime .. b7,rgb,msb,xY,prime .. b7,bgr,lsb,xY,prime .. file: OpenPGP Secret Key
+b7,bgr,msb,xY,prime .. b7p,r,lsb,xY,prime  .. text: "{ystsjpbjjr"
+b7p,r,msb,xY,prime  .. b7p,g,lsb,xY,prime  .. text: "}uwtjs`olny}"
+b7p,g,msb,xY,prime  .. b7p,b,lsb,xY,prime  .. file: OpenPGP Secret Key
+b7p,b,msb,xY,prime  .. b7p,rgb,lsb,xY,prime.. text: "rrkpq]bhkyjhs"
+b7p,rgb,msb,xY,prime.. text: "$D$$dd$$"
+b7p,bgr,lsb,xY,prime.. file: OpenPGP Secret Key
+b7p,bgr,msb,xY,prime.. text: "TT4TtttT44tt4"
+b8,r,lsb,xY,prime   .. text: "@DAADBEE;)"
+b8,r,msb,xY,prime   .. b8,g,lsb,xY,prime   .. text: "CGDCHEHF>*"
+b8,g,msb,xY,prime   .. text: "((h(hhh((h(h("
+b8,b,lsb,xY,prime   .. text: "JMHGLJLLE/ )IMLDFIGEACEDFBB>@B<<=@;:679/136;31566352:7,'!#\"'$"
+b8,b,msb,xY,prime   .. b8,rgb,lsb,xY,prime .. text: "@CJDGMADHACGDHLBEJEHLEFL;>E)*/"
+b8,rgb,msb,xY,prime .. b8,bgr,lsb,xY,prime .. text: "JC@MGDHDAGCALHDJEBLHELFEE>;/*) "
+b8,bgr,msb,xY,prime .. text: "(hhhhhhh"
+b1,r,lsb,Yx         .. b1,r,msb,Yx         .. b1,g,lsb,Yx         .. text: "qA\n~Jm<$|r_c"
+b1,g,msb,Yx         .. b1,b,lsb,Yx         .. b1,b,msb,Yx         .. b1,rgb,lsb,Yx       .. b1,rgb,msb,Yx       .. b1,bgr,lsb,Yx       .. b1,bgr,msb,Yx       .. text: "AM.z:;4 "
+b2,r,lsb,Yx         .. b2,r,msb,Yx         .. b2,g,lsb,Yx         .. file: OpenPGP Public Key
+b2,g,msb,Yx         .. b2,b,lsb,Yx         .. b2,b,msb,Yx         .. b2,rgb,lsb,Yx       .. b2,rgb,msb,Yx       .. b2,bgr,lsb,Yx       .. b2,bgr,msb,Yx       .. b3,r,lsb,Yx         .. b3,r,msb,Yx         .. b3,g,lsb,Yx         .. b3,g,msb,Yx         .. b3,b,lsb,Yx         .. b3,b,msb,Yx         .. b3,rgb,lsb,Yx       .. text: "7($\nSa%8K"
+b3,rgb,msb,Yx       .. b3,bgr,lsb,Yx       .. b3,bgr,msb,Yx       .. b3p,r,lsb,Yx        .. text: "(=fLFlmJ"
+b3p,r,msb,Yx        .. b3p,g,lsb,Yx        .. text: "Looooooo"
+b3p,g,msb,Yx        .. b3p,b,lsb,Yx        .. text: "%%)EjJJJJ*rFNl"
+b3p,b,msb,Yx        .. text: "VRRRRTNbr6)\t)"
+b3p,rgb,lsb,Yx      .. text: "Qs\tZ0Rvn"
+b3p,rgb,msb,Yx      .. file: PGP Secret Sub-key -
+b3p,bgr,lsb,Yx      .. text: ":101w6\t\r\t"
+b3p,bgr,msb,Yx      .. b4,r,lsb,Yx         .. text: "wgTDUVT@"
+b4,r,msb,Yx         .. b4,g,lsb,Yx         .. text: "%fgR&@D&DS."
+b4,g,msb,Yx         .. b4,b,lsb,Yx         .. file: OpenPGP Public Key
+b4,b,msb,Yx         .. b4,rgb,lsb,Yx       .. b4,rgb,msb,Yx       .. b4,bgr,lsb,Yx       .. b4,bgr,msb,Yx       .. b5,r,lsb,Yx         .. b5,r,msb,Yx         .. b5,g,lsb,Yx         .. b5,g,msb,Yx         .. b5,b,lsb,Yx         .. b5,b,msb,Yx         .. text: "TB)%0fJ1"
+b5,rgb,lsb,Yx       .. b5,rgb,msb,Yx       .. b5,bgr,lsb,Yx       .. b5,bgr,msb,Yx       .. b5p,r,lsb,Yx        .. text: ".8G57G9H?KH"
+b5p,r,msb,Yx        .. b5p,g,lsb,Yx        .. text: ".A7?5F-:>%A5$"
+b5p,g,msb,Yx        .. b5p,b,lsb,Yx        .. text: "Kb[ITVKJBRC"
+b5p,b,msb,Yx        .. b5p,rgb,lsb,Yx      .. text: "pe]^ophwhrwnfo"
+b5p,rgb,msb,Yx      .. b5p,bgr,lsb,Yx      .. text: "J]fV^_MJRfT0L\\JVDTUSB"
+b5p,bgr,msb,Yx      .. b6,r,lsb,Yx         .. b6,r,msb,Yx         .. b6,g,lsb,Yx         .. b6,g,msb,Yx         .. text: ".K<G34K3"
+b6,b,lsb,Yx         .. b6,b,msb,Yx         .. b6,rgb,lsb,Yx       .. b6,rgb,msb,Yx       .. b6,bgr,lsb,Yx       .. b6,bgr,msb,Yx       .. b6p,r,lsb,Yx        .. text: "25J3-99:44?7GHOPem"
+b6p,r,msb,Yx        .. text: "=c#c]=]]-"
+b6p,g,lsb,Yx        .. text: "4?L5;@<K:?<=JGIJcbnw"
+b6p,g,msb,Yx        .. b6p,b,lsb,Yx        .. text: "'2/%(*'&\"*#"
+b6p,b,msb,Yx        .. b6p,rgb,lsb,Yx      .. text: "187GK81-.784;4:;627C?<7=FNISNMRbdglv"
+b6p,rgb,msb,Yx      .. b6p,bgr,lsb,Yx      .. text: "&-2*./%&*2("
+b6p,bgr,msb,Yx      .. b7,r,lsb,Yx         .. b7,r,msb,Yx         .. b7,g,lsb,Yx         .. b7,g,msb,Yx         .. b7,b,lsb,Yx         .. b7,b,msb,Yx         .. b7,rgb,lsb,Yx       .. b7,rgb,msb,Yx       .. b7,bgr,lsb,Yx       .. b7,bgr,msb,Yx       .. b7p,r,lsb,Yx        .. text: "!$,6<</4<17<JNQMMQOROSRG"
+b7p,r,msb,Yx        .. text: "f&&zFFF:z::Z"
+b7p,g,lsb,Yx        .. text: "\"+--(+-0/.1\""
+b7p,g,msb,Yx        .. b7p,b,lsb,Yx        .. text: "|z{{xttwspqoojidecc_``]^WXVVTUSQSTPPMKKLHHIIFFCFCB@??>A>A@@@>>??AA@?C?<<<<=<<=<=<=:9=;;>>C"
+b7p,b,msb,Yx        .. b7p,rgb,lsb,Yx      .. text: "|wt_@AT|"
+b7p,rgb,msb,Yx      .. text: "a!A!A^nn"
+b7p,bgr,lsb,Yx      .. b7p,bgr,msb,Yx      .. text: ")1IiI)\t)"
+b8,r,lsb,Yx         .. text: "?CCABDA?ACA>BC@BABCC@;;=BB>=@DC@A?@DEEA@B@?DECCDFC??ABEFBDCBAACB@BDFEBACDEBA?AA?BDAACC???BA@ACBAAA>=>CEEECBABA=;;?>;:/  *>LNMQRNLKKMNMNMNNMLMPOOMOQSRTSSTXYY[]bddehknquz}}~~"
+b8,r,msb,Yx         .. b8,g,lsb,Yx         .. text: "BEFFFGEBBFD@DDBFDDECB>=?CB@@CFGDFECFGHEDDDDHIGFGIGBCEFHIFGGGFEHFEEGJGFDEHIFEDDBBDFCCFDBCCFDDDEEBCBBBBDHHGFDDDD@>>A@=<1\"!,@MPOSSPMMNOPPOPRONNOOOPOQRRQSRQRVXWXZ[^]_bdgiknporrswyyz|"
+b8,g,msb,Yx         .. b8,b,lsb,Yx         .. text: "IKLJKKIIJLJFIKIJHJJJHCCFJJFDGKKHIIJMNNIHIJJNNMKLOLHIJKNOLMLKKIJIIKLOMJIKLLKHHHHFHKHGKKGGHIIIIKIHHHEEFKMLJIHGHHDAAFFA>2\"\".DQTRUUSPNPQQQQSTSQPPPPOLORSRRRPQTSTTTWYXY[[]^`efhhffhkkkknpoqpsvvxzz{{ytstywtsuwxx|"
+b8,b,msb,Yx         .. b8,rgb,lsb,Yx       .. text: "?BICEKCFLAFJBFKDGKAEI?BIABJCFLADJ>@FBDICDK@BIBFJADHBDJCEJCCJ@BH;>C;=C=?FBCJBBJ>@F=@D@CGDFKCGK@DHAFI?EI@CJDFMEGNEHNAEI@DHBDI@DJ?DJDHNEINCGMCFKDGLFIOCGL?BH?CIAEJBFKEHNFIOBFLDGMCGLBGKAFKAEICHJBFI@EIBEKDGLFJOEGMBFJADICEKDHLEILBFKAEH?DHADHABH?BFBDHDFKACHACGCFKC"
+b8,rgb,msb,Yx       .. b8,bgr,lsb,Yx       .. text: "IB?KECLFCJFAKFBKGDIEAIB?JBALFCJDAF@>IDBKDCIB@JFBHDAJDBJECJCCHB@C>;C=;F?=JCBJBBF@>D@=GC@KFDKGCHD@IFAIE?JC@MFDNGENHEIEAHD@IDBJD@JD?NHDNIEMGCKFCLGDOIFLGCHB?IC?JEAKFBNHEOIFLFBMGDLGCKGBKFAIEAJHCIFBIE@KEBLGDOJFMGEJFBIDAKECLHDLIEKFBHEAHD?HDAHBAFB?HDBKFDHCAGCAKFCK"
+b8,bgr,msb,Yx       .. b1,r,lsb,Yx,prime   .. b1,r,msb,Yx,prime   .. b1,g,lsb,Yx,prime   .. b1,g,msb,Yx,prime   .. b1,b,lsb,Yx,prime   .. b1,b,msb,Yx,prime   .. b1,rgb,lsb,Yx,prime .. b1,rgb,msb,Yx,prime .. b1,bgr,lsb,Yx,prime .. b1,bgr,msb,Yx,prime .. b2,r,lsb,Yx,prime   .. b2,r,msb,Yx,prime   .. b2,g,lsb,Yx,prime   .. b2,g,msb,Yx,prime   .. b2,b,lsb,Yx,prime   .. b2,b,msb,Yx,prime   .. b2,rgb,lsb,Yx,prime .. b2,rgb,msb,Yx,prime .. b2,bgr,lsb,Yx,prime .. b2,bgr,msb,Yx,prime .. b3,r,lsb,Yx,prime   .. b3,r,msb,Yx,prime   .. b3,g,lsb,Yx,prime   .. b3,g,msb,Yx,prime   .. b3,b,lsb,Yx,prime   .. b3,b,msb,Yx,prime   .. b3,rgb,lsb,Yx,prime .. b3,rgb,msb,Yx,prime .. text: "qez)81$i\""
+b3,bgr,lsb,Yx,prime .. file: OpenPGP Public Key
+b3,bgr,msb,Yx,prime .. file: OpenPGP Public Key
+b3p,r,lsb,Yx,prime  .. b3p,r,msb,Yx,prime  .. b3p,g,lsb,Yx,prime  .. b3p,g,msb,Yx,prime  .. b3p,b,lsb,Yx,prime  .. b3p,b,msb,Yx,prime  .. b3p,rgb,lsb,Yx,prime.. text: "/+/\n+))\r"
+b3p,rgb,msb,Yx,prime.. b3p,bgr,lsb,Yx,prime.. file: OpenPGP Public Key
+b3p,bgr,msb,Yx,prime.. b4,r,lsb,Yx,prime   .. b4,r,msb,Yx,prime   .. b4,g,lsb,Yx,prime   .. text: "uS33322\"#h"
+b4,g,msb,Yx,prime   .. b4,b,lsb,Yx,prime   .. b4,b,msb,Yx,prime   .. b4,rgb,lsb,Yx,prime .. b4,rgb,msb,Yx,prime .. b4,bgr,lsb,Yx,prime .. file: OpenPGP Public Key
+b4,bgr,msb,Yx,prime .. b5,r,lsb,Yx,prime   .. b5,r,msb,Yx,prime   .. b5,g,lsb,Yx,prime   .. b5,g,msb,Yx,prime   .. b5,b,lsb,Yx,prime   .. b5,b,msb,Yx,prime   .. b5,rgb,lsb,Yx,prime .. b5,rgb,msb,Yx,prime .. file: OpenPGP Public Key
+b5,bgr,lsb,Yx,prime .. b5,bgr,msb,Yx,prime .. b5p,r,lsb,Yx,prime  .. text: "eQN7/@HIHIHq"
+b5p,r,msb,Yx,prime  .. file: OpenPGP Public Key
+b5p,g,lsb,Yx,prime  .. b5p,g,msb,Yx,prime  .. b5p,b,lsb,Yx,prime  .. text: "bY3R3FVcY{f9CgF"
+b5p,b,msb,Yx,prime  .. b5p,rgb,lsb,Yx,prime.. text: "dlQHO55;+;CCKCKJKBJJJCv"
+b5p,rgb,msb,Yx,prime.. b5p,bgr,lsb,Yx,prime.. text: "fV_J0\\TS7^DpTpg^_Mz]a2;NB\\`<D1"
+b5p,bgr,msb,Yx,prime.. b6,r,lsb,Yx,prime   .. b6,r,msb,Yx,prime   .. b6,g,lsb,Yx,prime   .. b6,g,msb,Yx,prime   .. b6,b,lsb,Yx,prime   .. b6,b,msb,Yx,prime   .. b6,rgb,lsb,Yx,prime .. b6,rgb,msb,Yx,prime .. b6,bgr,lsb,Yx,prime .. b6,bgr,msb,Yx,prime .. b6p,r,lsb,Yx,prime  .. text: "r8aSPQaol"
+b6p,r,msb,Yx,prime  .. b6p,g,lsb,Yx,prime  .. text: "9G_XOs\"\r"
+b6p,g,msb,Yx,prime  .. text: "\r]=#CS3sswo?_"
+b6p,b,lsb,Yx,prime  .. text: "'B9?E*,:"
+b6p,b,msb,Yx,prime  .. b6p,rgb,lsb,Yx,prime.. text: "%*++.;M;?@'"
+b6p,rgb,msb,Yx,prime.. b6p,bgr,lsb,Yx,prime.. text: ". 8(83./%>-1"
+b6p,bgr,msb,Yx,prime.. b7,r,lsb,Yx,prime   .. b7,r,msb,Yx,prime   .. b7,g,lsb,Yx,prime   .. b7,g,msb,Yx,prime   .. b7,b,lsb,Yx,prime   .. file: OpenPGP Public Key
+b7,b,msb,Yx,prime   .. file: OpenPGP Public Key
+b7,rgb,lsb,Yx,prime .. b7,rgb,msb,Yx,prime .. b7,bgr,lsb,Yx,prime .. file: OpenPGP Public Key
+b7,bgr,msb,Yx,prime .. file: OpenPGP Public Key
+b7p,r,lsb,Yx,prime  .. text: "xplh`YURMKPRSRSR]bdjjltrvyx"
+b7p,r,msb,Yx,prime  .. text: "F&VV6.Nn"
+b7p,g,lsb,Yx,prime  .. text: "}umj^XROKGGGFFDELRUYY\\c^bdbhgig}~"
+b7p,g,msb,Yx,prime  .. text: "&fffn^~>"
+b7p,b,lsb,Yx,prime  .. file: OpenPGP Public Key
+b7p,b,msb,Yx,prime  .. b7p,rgb,lsb,Yx,prime.. text: "#8/43KV."
+b7p,rgb,msb,Yx,prime.. b7p,bgr,lsb,Yx,prime.. file: OpenPGP Public Key
+b7p,bgr,msb,Yx,prime.. b8,r,lsb,Yx,prime   .. text: "CAD?>CBC=D@E@DDBBAFCE?ABACEAA?NMNLTS]kz"
+b8,r,msb,Yx,prime   .. b8,g,lsb,Yx,prime   .. text: "FFGB@DDC?FDHDHGFGEJEIBCFBDHDDAPOONSQZdnw"
+b8,g,msb,Yx,prime   .. b8,b,lsb,Yx,prime   .. text: "LJKIFKJJFKHNJNLKKIOKLFGIHKLGHFSQSPRPT[ehpqystu"
+b8,b,msb,Yx,prime   .. b8,rgb,lsb,Yx,prime .. text: "CFLAFJDGK?BI>@FCDKBDJCCJ=?FDFK@DHEHN@DJDHNDGLBFKBGKAEIFJOCEKEIL?BFACGBFIABHCDKEHLADGADH?AFNPSMOQNOSLNPTSRSQP]ZTkd[zne"
+b8,rgb,msb,Yx,prime .. b8,bgr,lsb,Yx,prime .. text: "LFCJFAKGDIB?F@>KDCJDBJCCF?=KFDHD@NHEJD@NHDLGDKFBKGBIEAOJFKECLIEFB?GCAIFBHBAKDCLHEGDAHDAFA?SPNQOMSONPNLRSTPQSTZ][dkenzhw"
+b8,bgr,msb,Yx,prime ..                     

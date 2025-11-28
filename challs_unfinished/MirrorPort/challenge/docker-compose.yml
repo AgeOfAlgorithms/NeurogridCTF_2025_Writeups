@@ -1,0 +1,14 @@
+services:
+  challenge:
+    build: .
+    ports:
+      - "44434:80"
+    container_name: htb-challenge
+    environment:
+      - REDIS_URL=redis://localhost:6379
+    volumes:
+      - redis_data:/var/lib/redis
+    restart: unless-stopped
+
+volumes:
+  redis_data:

@@ -1,0 +1,25 @@
+# Private/local files
+.claude/
+.vscode/
+.playwright-mcp/
+challs_list.txt
+CLAUDE.md
+package.json
+package-lock.json
+prompts/
+ghidra/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+
+# Large forensics files (>100MB)
+*.dmp
+*.raw
+*.001
+*.zip
+stones.txt

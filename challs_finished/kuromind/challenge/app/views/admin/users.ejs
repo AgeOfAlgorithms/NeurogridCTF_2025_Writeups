@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Users - Library of Thoughts</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-neutral-900 text-neutral-100">
+  <%- include('../partials/header') %>
+  
+  <main class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-8">All Users</h1>
+
+    <div class="grid gap-6">
+      <% users.forEach(u => { %>
+        <div class="card <%= protectedRoles.includes(u.role) ? 'border-2 border-warning' : '' %>">
+          <div class="flex items-center justify-between">
+            <div class="flex-1">
+              <div class="flex items-center gap-3 mb-2">
+                <h3 class="text-xl font-semibold"><%= u.username %></h3>
+                <span class="px-3 py-1 rounded-full text-xs font-semibold <%= u.role === 'admin' ? 'bg-error/20 text-error' : u.role === 'operator' ? 'bg-warning/20 text-warning' : 'bg-primary/20 text-primary' %>">
+                  <%= u.role.toUpperCase() %>
+                </span>
+                <% if (protectedRoles.includes(u.role)) { %>
+                  <span class="text-warning text-sm">🔒 Protected</span>
+                <% } %>
+              </div>
+              <p class="text-textSecondary"><%= u.email %></p>
+            </div>
+            
+            <% if (!protectedRoles.includes(u.role)) { %>
+              <form action="/admin/users/<%= u.id %>/role" method="POST" class="flex items-center gap-2">
+                <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                <label class="text-sm text-textSecondary">Role:</label>
+                <input 
+                  type="text" 
+                  name="role" 
+                  value="<%= u.role %>"
+                  list="role-suggestions"
+                  class="input-field w-48"
+                  required
+                >
+                <datalist id="role-suggestions">
+                  <% roleSuggestions.forEach(role => { %>
+                    <option value="<%= role %>"><%= role %></option>
+                  <% }); %>
+                </datalist>
+                <button type="submit" class="btn-primary">Update</button>
+              </form>
+            <% } %>
+          </div>
+        </div>
+      <% }); %>
+    </div>
+  </main>
+
+
+</body>
+</html>

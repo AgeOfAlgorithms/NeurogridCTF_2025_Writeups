@@ -1,0 +1,28 @@
+:1337 {
+  encode gzip zstd
+
+  @root {
+    path /
+  }
+  
+  redir @root /challenge/ 302
+
+  handle_path /challenge/* {
+    reverse_proxy 127.0.0.1:8000 {
+      header_up X-Forwarded-Prefix /challenge
+    }
+  }
+  
+  # Static (served by Caddy directly)
+  handle_path /public/* {
+    root * /app/main_app/public
+    file_server
+  }
+
+  handle_path /images/* {
+    root * /app/main_app/public/images
+    file_server
+  }
+
+
+}

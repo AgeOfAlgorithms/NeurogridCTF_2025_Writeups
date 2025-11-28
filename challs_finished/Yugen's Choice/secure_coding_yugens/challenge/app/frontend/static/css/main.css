@@ -1,0 +1,378 @@
+/* ==========================================================================
+   Samurai Glass UI — main.css
+   Layers: Photo (-4) < Caustics (-3) < Katanas (-2) < Content (0+)
+   Tailwind is loaded separately; this file adds custom visuals.
+   ========================================================================== */
+
+/* ---------------------------- Base / Utilities ---------------------------- */
+
+:root{
+  --ink:#0b0f14;          /* deep base */
+  --vermilion:#e23d28;    /* samurai red */
+}
+
+/* --- Stacking context so layers render correctly --- */
+body {
+  background-color: #0b0f14;       /* ink */
+  position: relative;
+  isolation: isolate;              /* new stacking context */
+  color: #e5e7eb;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+/* Optional extra glow for cards used in templates */
+.shadow-glow{
+  box-shadow: 0 0 0 1px rgba(226,61,40,.35),
+              0 10px 40px rgba(0,0,0,.45),
+              0 0 28px rgba(226,61,40,.18);
+}
+
+/* Animations */
+@keyframes fadeIn{ 0%{opacity:0;transform:translateY(10px)} 100%{opacity:1;transform:translateY(0)} }
+@keyframes float{ 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+@keyframes shimmer{ 0%{background-position:-200% 0} 100%{background-position:200% 0} }
+@keyframes katanaSheen{
+  0%{ background-position: -120% 0; }
+  50%{ background-position:  120% 0; }
+  100%{ background-position: -120% 0; }
+}
+
+/* Helpers to trigger animations via class names */
+.animate-fadeIn{ animation: fadeIn .5s ease-out both; }
+.animate-float{ animation: float 6s ease-in-out infinite; }
+.animate-shimmer{ animation: shimmer 3s linear infinite; }
+
+/* Reduced motion: disable non-essential movement */
+@media (prefers-reduced-motion: reduce){
+  .animate-float,.animate-shimmer{ animation: none !important; }
+}
+
+/* --------------------------- Glass & Buttons ----------------------------- */
+
+.glass-card{
+  background: linear-gradient(135deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+  border: 1px solid rgba(255,255,255,.14);
+  backdrop-filter: blur(16px) saturate(160%);
+  box-shadow: 0 8px 32px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.10);
+}
+
+.glass-strong{
+  background: linear-gradient(135deg, rgba(255,255,255,.11), rgba(255,255,255,.05));
+  border: 1px solid rgba(255,255,255,.20);
+  backdrop-filter: blur(18px) saturate(200%);
+  box-shadow: 0 12px 48px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.12);
+}
+
+.btn-katana{
+  background: linear-gradient(90deg, var(--vermilion), #b52d22);
+  color:#fff;
+  border:1px solid rgba(255,255,255,.15);
+  transition: transform .08s ease, box-shadow .2s ease, filter .2s ease;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.12);
+}
+.btn-katana:hover{
+  transform: translateY(-1px); filter: brightness(1.03);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.22), 0 10px 30px rgba(226,61,40,.28);
+}
+
+.btn-ghost{
+  border:1px solid rgba(255,255,255,.16);
+  transition: border-color .2s ease, transform .08s ease;
+}
+.btn-ghost:hover{ border-color: rgba(255,255,255,.26); transform: translateY(-1px); }
+
+/* Divider line used in headings (renamed to avoid conflict with blade class) */
+.katana-divider{
+  position:relative; height:2px; background:linear-gradient(90deg,#ffffff26,#ffffffa6,#ffffff26);
+}
+
+/* Logo badge used in navbar */
+.logo-badge{
+  background: radial-gradient(circle at 30% 30%, #e23d28, #8f2117);
+  box-shadow: 0 2px 14px rgba(226,61,40,.45);
+}
+
+/* ---------------------------- Background Layers -------------------------- */
+/* --- Layer 0: Pattern (no images) --- */
+.bg-pattern{
+  position: fixed; inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  /* Japanese-inspired: subtle seigaiha-like waves + washi fiber crosshatch */
+  background:
+    /* vignette & depth */
+    radial-gradient(120% 120% at 50% 18%, rgba(0,0,0,.00), rgba(0,0,0,.28)),
+    linear-gradient(180deg, rgba(0,0,0,.10), rgba(0,0,0,.28)),
+    /* waves (seigaiha-esque) */
+    repeating-radial-gradient(circle at 0 100%, rgba(255,255,255,.035) 0 2px, transparent 2px 20px) 0 0/60px 30px,
+    repeating-radial-gradient(circle at 30px 115%, rgba(255,255,255,.03) 0 2px, transparent 2px 20px) 0 0/60px 30px,
+    /* washi fibers */
+    repeating-linear-gradient(45deg, rgba(255,255,255,.02) 0 2px, transparent 2px 8px),
+    repeating-linear-gradient(-45deg, rgba(255,255,255,.018) 0 2px, transparent 2px 10px),
+    /* base */
+    radial-gradient(120vw 120vh at 50% 50%, #0b0f14, #0a0e13);
+  filter: saturate(110%);
+}
+
+/* Engraved words overlay */
+.bg-words{
+  position: fixed; inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+.bg-words .col{
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  display: flex;
+  gap: .6vmin;
+}
+.bg-words .col::before{
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0; left: 50%; transform: translateX(-50%);
+  width: 1px;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,.0) 0%,
+      rgba(255,255,255,.05) 15%,
+      rgba(255,255,255,.07) 50%,
+      rgba(255,255,255,.05) 85%,
+      rgba(255,255,255,.0) 100%
+    );
+  opacity: .14;
+}
+.bg-words .w{
+  position: relative;
+  font-weight: 800;
+  font-size: clamp(16px, 3.8vw, 40px);
+  letter-spacing: .05em;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255,255,255,.05); /* engraved baseline */
+  text-shadow:
+    0 1px 0 rgba(255,255,255,.05),
+    0 -1px 0 rgba(0,0,0,.45);
+}
+.bg-words .w::after{
+  content: attr(data-text);
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg,
+      rgba(226,61,40,1) 0%,
+      rgba(255,215,0,1) 35%,
+      rgba(56,189,248,1) 65%,
+      rgba(226,61,40,1) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  text-shadow:
+    0 0 6px rgba(226,61,40,.45),
+    0 0 12px rgba(255,215,0,.35),
+    0 0 18px rgba(56,189,248,.25);
+  opacity: 0;
+  -webkit-mask: linear-gradient(to bottom, transparent 0%, white 44%, white 56%, transparent 100%);
+          mask: linear-gradient(to bottom, transparent 0%, white 44%, white 56%, transparent 100%);
+  -webkit-mask-size: 100% 300%;
+          mask-size: 100% 300%;
+  -webkit-mask-position: 0 -150%;
+          mask-position: 0 -150%;
+  animation: neonSweep 6s ease-in-out infinite;
+}
+@keyframes neonSweep{
+  0%{ opacity:.0; -webkit-mask-position: 0 -150%; mask-position: 0 -150%; }
+  35%{ opacity:.85; }
+  50%{ opacity:.25; -webkit-mask-position: 0 0%; mask-position: 0 0%; }
+  100%{ opacity:.0; -webkit-mask-position: 0 150%; mask-position: 0 150%; }
+}
+
+/* column placement */
+.bg-words .col.c1{  top:6%;  left:6%;  }
+.bg-words .col.c2{  top:7%;  left:13%; }
+.bg-words .col.c3{  top:8%;  left:20%; }
+.bg-words .col.c4{  top:6%;  left:27%; }
+.bg-words .col.c5{  top:7%;  left:34%; }
+.bg-words .col.c6{  top:8%;  left:41%; }
+.bg-words .col.c7{  top:6%;  left:48%; }
+.bg-words .col.c8{  top:7%;  left:55%; }
+.bg-words .col.c9{  top:8%;  left:62%; }
+.bg-words .col.c10{ top:6%;  left:69%; }
+.bg-words .col.c11{ top:7%;  left:76%; }
+.bg-words .col.c12{ top:8%;  left:83%; }
+
+/* generic stagger for many columns/words (up to 6 per col) */
+.bg-words .col.c1  .w:nth-child(1)::after{ animation-delay:.2s;  }
+.bg-words .col.c1  .w:nth-child(2)::after{ animation-delay:.6s;  }
+.bg-words .col.c1  .w:nth-child(3)::after{ animation-delay:1.0s; }
+.bg-words .col.c1  .w:nth-child(4)::after{ animation-delay:1.4s; }
+.bg-words .col.c1  .w:nth-child(5)::after{ animation-delay:1.8s; }
+.bg-words .col.c1  .w:nth-child(6)::after{ animation-delay:2.2s; }
+
+.bg-words .col.c2  .w:nth-child(1)::after{ animation-delay:2.6s; }
+.bg-words .col.c2  .w:nth-child(2)::after{ animation-delay:3.0s; }
+.bg-words .col.c2  .w:nth-child(3)::after{ animation-delay:3.4s; }
+.bg-words .col.c2  .w:nth-child(4)::after{ animation-delay:3.8s; }
+.bg-words .col.c2  .w:nth-child(5)::after{ animation-delay:4.2s; }
+.bg-words .col.c2  .w:nth-child(6)::after{ animation-delay:4.6s; }
+
+.bg-words .col.c3  .w:nth-child(1)::after{ animation-delay:5.0s; }
+.bg-words .col.c3  .w:nth-child(2)::after{ animation-delay:5.4s; }
+.bg-words .col.c3  .w:nth-child(3)::after{ animation-delay:5.8s; }
+.bg-words .col.c3  .w:nth-child(4)::after{ animation-delay:6.2s; }
+.bg-words .col.c3  .w:nth-child(5)::after{ animation-delay:6.6s; }
+.bg-words .col.c3  .w:nth-child(6)::after{ animation-delay:7.0s; }
+
+.bg-words .col.c4  .w:nth-child(1)::after{ animation-delay:7.4s; }
+.bg-words .col.c4  .w:nth-child(2)::after{ animation-delay:7.8s; }
+.bg-words .col.c4  .w:nth-child(3)::after{ animation-delay:8.2s; }
+.bg-words .col.c4  .w:nth-child(4)::after{ animation-delay:8.6s; }
+.bg-words .col.c4  .w:nth-child(5)::after{ animation-delay:9.0s; }
+.bg-words .col.c4  .w:nth-child(6)::after{ animation-delay:9.4s; }
+
+.bg-words .col.c5  .w:nth-child(1)::after{ animation-delay:9.8s; }
+.bg-words .col.c5  .w:nth-child(2)::after{ animation-delay:10.2s; }
+.bg-words .col.c5  .w:nth-child(3)::after{ animation-delay:10.6s; }
+.bg-words .col.c5  .w:nth-child(4)::after{ animation-delay:11.0s; }
+.bg-words .col.c5  .w:nth-child(5)::after{ animation-delay:11.4s; }
+.bg-words .col.c5  .w:nth-child(6)::after{ animation-delay:11.8s; }
+
+.bg-words .col.c6  .w:nth-child(1)::after{ animation-delay:12.2s; }
+.bg-words .col.c6  .w:nth-child(2)::after{ animation-delay:12.6s; }
+.bg-words .col.c6  .w:nth-child(3)::after{ animation-delay:13.0s; }
+.bg-words .col.c6  .w:nth-child(4)::after{ animation-delay:13.4s; }
+.bg-words .col.c6  .w:nth-child(5)::after{ animation-delay:13.8s; }
+.bg-words .col.c6  .w:nth-child(6)::after{ animation-delay:14.2s; }
+
+.bg-words .col.c7  .w:nth-child(1)::after{ animation-delay:14.6s; }
+.bg-words .col.c7  .w:nth-child(2)::after{ animation-delay:15.0s; }
+.bg-words .col.c7  .w:nth-child(3)::after{ animation-delay:15.4s; }
+.bg-words .col.c7  .w:nth-child(4)::after{ animation-delay:15.8s; }
+.bg-words .col.c7  .w:nth-child(5)::after{ animation-delay:16.2s; }
+.bg-words .col.c7  .w:nth-child(6)::after{ animation-delay:16.6s; }
+
+.bg-words .col.c8  .w:nth-child(1)::after{ animation-delay:17.0s; }
+.bg-words .col.c8  .w:nth-child(2)::after{ animation-delay:17.4s; }
+.bg-words .col.c8  .w:nth-child(3)::after{ animation-delay:17.8s; }
+.bg-words .col.c8  .w:nth-child(4)::after{ animation-delay:18.2s; }
+.bg-words .col.c8  .w:nth-child(5)::after{ animation-delay:18.6s; }
+.bg-words .col.c8  .w:nth-child(6)::after{ animation-delay:19.0s; }
+
+.bg-words .col.c9  .w:nth-child(1)::after{ animation-delay:19.4s; }
+.bg-words .col.c9  .w:nth-child(2)::after{ animation-delay:19.8s; }
+.bg-words .col.c9  .w:nth-child(3)::after{ animation-delay:20.2s; }
+.bg-words .col.c9  .w:nth-child(4)::after{ animation-delay:20.6s; }
+.bg-words .col.c9  .w:nth-child(5)::after{ animation-delay:21.0s; }
+.bg-words .col.c9  .w:nth-child(6)::after{ animation-delay:21.4s; }
+
+.bg-words .col.c10 .w:nth-child(1)::after{ animation-delay:21.8s; }
+.bg-words .col.c10 .w:nth-child(2)::after{ animation-delay:22.2s; }
+.bg-words .col.c10 .w:nth-child(3)::after{ animation-delay:22.6s; }
+.bg-words .col.c10 .w:nth-child(4)::after{ animation-delay:23.0s; }
+.bg-words .col.c10 .w:nth-child(5)::after{ animation-delay:23.4s; }
+.bg-words .col.c10 .w:nth-child(6)::after{ animation-delay:23.8s; }
+
+.bg-words .col.c11 .w:nth-child(1)::after{ animation-delay:24.2s; }
+.bg-words .col.c11 .w:nth-child(2)::after{ animation-delay:24.6s; }
+.bg-words .col.c11 .w:nth-child(3)::after{ animation-delay:25.0s; }
+.bg-words .col.c11 .w:nth-child(4)::after{ animation-delay:25.4s; }
+.bg-words .col.c11 .w:nth-child(5)::after{ animation-delay:25.8s; }
+.bg-words .col.c11 .w:nth-child(6)::after{ animation-delay:26.2s; }
+
+.bg-words .col.c12 .w:nth-child(1)::after{ animation-delay:26.6s; }
+.bg-words .col.c12 .w:nth-child(2)::after{ animation-delay:27.0s; }
+.bg-words .col.c12 .w:nth-child(3)::after{ animation-delay:27.4s; }
+.bg-words .col.c12 .w:nth-child(4)::after{ animation-delay:27.8s; }
+.bg-words .col.c12 .w:nth-child(5)::after{ animation-delay:28.2s; }
+.bg-words .col.c12 .w:nth-child(6)::after{ animation-delay:28.6s; }
+
+/* responsive: reduce density on very small screens */
+@media (max-width: 640px){
+  .bg-words .col.c1{ left:16%; }
+  .bg-words .col.c2{ left:50%; }
+  .bg-words .col.c3{ left:84%; }
+  .bg-words .col.c4,.bg-words .col.c5,.bg-words .col.c6,
+  .bg-words .col.c7,.bg-words .col.c8,.bg-words .col.c9,
+  .bg-words .col.c10,.bg-words .col.c11,.bg-words .col.c12{ display:none; }
+  .bg-words .w{ font-size: clamp(16px, 8vw, 40px); }
+}
+/* --- Layer 1: Caustics --- */
+.bg-caustics{
+  position: fixed; inset: 0;
+  z-index: 1;                      /* was negative */
+  pointer-events: none;
+  background:
+    radial-gradient(120vw 120vh at 50% 50%, #0b0f14, #0a0e13),
+    conic-gradient(from 0deg at 50% 50%, rgba(178,46,34,.14), transparent 32%),
+    conic-gradient(from 180deg at 50% 50%, rgba(34,116,178,.12), transparent 32%);
+}
+.bg-caustics::before{
+  content:""; position:absolute; inset:-25%;
+  background:
+    conic-gradient(from 0deg, rgba(226,61,40,.12), transparent 30%),
+    conic-gradient(from 90deg, rgba(255,255,255,.06), transparent 30%);
+  filter: blur(26px) saturate(140%);
+  animation: spinSlow 42s linear infinite;
+}
+@keyframes spinSlow{ to{ transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce){ .bg-caustics::before{ animation:none; } }
+
+/* --- Layer 2: Crossed Katanas --- */
+.bg-katanas{
+  position: fixed; inset: 0;
+  z-index: 2;                      /* was negative */
+  pointer-events: none;
+  opacity: .9;
+}
+.katana{
+  position: absolute;
+  --w: 76vmin; --h: 2.4vmin;
+  width: var(--w); height: var(--h);
+  left: 50%; top: 50%;
+  transform-origin: 8% 50%;
+  border-radius: .9vmin;
+  clip-path: polygon(0% 0%, 94% 0%, 100% 50%, 94% 100%, 0% 100%);
+  background:
+    repeating-linear-gradient(0deg, rgba(255,255,255,.07) 0 1px, rgba(0,0,0,.10) 1px 2px),
+    linear-gradient(90deg, #f0f5fb 0%, #a8b7c7 25%, #eef4f7 52%, #9fb0bf 75%, #dbe4ec 100%);
+  filter: drop-shadow(0 10px 28px rgba(0,0,0,.35)) brightness(1.05);
+  opacity: .9;
+}
+.katana::before{
+  content:""; position:absolute; inset:0; border-radius: inherit; clip-path: inherit;
+  background: linear-gradient(90deg, transparent 35%, rgba(255,255,255,.45) 50%, transparent 65%);
+  background-size: 220% 100%;
+  animation: katanaSheen 14s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+@keyframes katanaSheen{
+  0%{ background-position: -120% 0; }
+  50%{ background-position:  120% 0; }
+  100%{ background-position: -120% 0; }
+}
+.katana::after{
+  content:""; position:absolute; left:-1.2vmin; top:50%; transform: translateY(-50%);
+  width: 3.4vmin; height: 3.4vmin; border-radius: 9999px;
+  background: radial-gradient(circle at 35% 35%, #ffd7a1, #c48a48 60%, #5a3c1e 100%);
+  box-shadow: 0 0 0 .12vmin rgba(0,0,0,.35) inset, 0 4px 18px rgba(0,0,0,.35), 0 0 10px rgba(226,61,40,.18);
+}
+/* placement */
+.katana.k1{ transform: translate(-50%,-50%) rotate(-34deg); top: 42%; left: 34%; }
+.katana.k2{ transform: translate(-50%,-50%) rotate( 36deg); top: 60%; left: 66%; }
+
+/* Make your app UI sit above backgrounds */
+nav, main, footer { position: relative; z-index: 5; }
+
+/* ------------------------------ Skeletons -------------------------------- */
+
+.skeleton-bar{
+  height: 1rem;
+  background: linear-gradient(90deg, rgba(255,255,255,.06), rgba(255,255,255,.12), rgba(255,255,255,.06));
+  background-size: 200% 100%;
+  border-radius: .5rem;
+  animation: shimmer 3s linear infinite;
+}

@@ -1,0 +1,1 @@
+Based on my analysis of the MirrorPort challenge, I believe I've identified the intended vulnerability but couldn't find the exact exploitation method within the time available. Here's what I discovered and what remains to be solved:

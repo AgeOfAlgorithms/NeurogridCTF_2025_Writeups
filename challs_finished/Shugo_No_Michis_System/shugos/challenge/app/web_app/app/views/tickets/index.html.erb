@@ -1,0 +1,27 @@
+<section class="grid-gap">
+  <article class="card-glass">
+    <h1 class="h1">Your Tickets</h1>
+    <% if @tickets.any? %>
+      <table class="table-glass">
+        <thead><tr><th>Bus</th><th>Route</th><th>Date</th><th>Seats</th><th></th></tr></thead>
+        <tbody>
+          <% @tickets.each do |t| %>
+            <tr>
+              <td><%= t.bus_code %></td>
+              <td><%= t.start_node %> → <%= t.end_node %></td>
+              <td><%= t.travel_date %></td>
+              <td><%= t.seats %></td>
+              <td><%= number_with_precision(t.total_cents / 100.0, precision: 2) %></td>
+              <td><%= link_to "View", ticket_path(t), class: "link-soft" %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    <% else %>
+      <p class="muted">No tickets yet.</p>
+      <div class="actions">
+        <%= link_to "Book a ticket", new_ticket_path, class: "btn-primary" %>
+      </div>
+    <% end %>
+  </article>
+</section>

@@ -1,0 +1,50 @@
+<section class="grid-gap">
+  <article class="card-glass">
+    <h1 class="h1">Welcome ・ようこそ</h1>
+    <p class="muted">Book tickets, reschedule once, and track buses on our stylized city map.</p>
+    <div class="actions">
+      <%= link_to "Open Map", map_path, class: "btn-primary" %>
+      <%= link_to "View Tickets", tickets_path, class: "btn-secondary" %>
+    </div>
+  </article>
+
+  <% unless logged_in? %>
+    <article class="card-glass">
+      <h2 class="h2">Sign in / サインイン</h2>
+      <%= form_with url: session_path, method: :post, data: { turbo: true }, class: "form-grid" do |f| %>
+        <label>Email
+          <%= email_field_tag :email, nil, placeholder: "you@example.com", required: true %>
+        </label>
+        <label>Password
+          <%= password_field_tag :password, nil, placeholder: "••••••••", required: true %>
+        </label>
+        <%= button_tag "Sign in", class: "btn-glass" %>
+      <% end %>
+    </article>
+
+    <article class="card-glass">
+      <h2 class="h2">Register / 登録</h2>
+      <%= form_with model: @user, url: users_path, data: { turbo: true }, class: "form-grid" do |f| %>
+        <label>Email
+          <%= f.email_field :email, placeholder: "you@example.com", required: true %>
+        </label>
+        <label>Password
+          <%= f.password_field :password, placeholder: "••••••••", required: true %>
+        </label>
+        <label>Confirm
+          <%= f.password_field :password_confirmation, placeholder: "••••••••", required: true %>
+        </label>
+        <%= f.submit "Create account", class: "btn-glass" %>
+      <% end %>
+    </article>
+  <% else %>
+    <article class="card-glass">
+      <h2 class="h2">You're signed in</h2>
+      <p class="muted">Welcome <strong><%= current_user.email %></strong></p>
+      <div class="actions">
+        <%= link_to "Open Map", map_path, class: "btn-primary" %>
+        <%= link_to "Sign out", session_path, data: { turbo_method: :delete }, class: "btn-secondary" %>
+      </div>
+    </article>
+  <% end %>
+</section>

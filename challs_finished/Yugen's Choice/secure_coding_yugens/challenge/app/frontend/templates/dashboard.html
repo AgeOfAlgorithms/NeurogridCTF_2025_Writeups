@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1 class="text-3xl font-semibold tracking-wide mb-8">Print Station</h1>
+
+<div class="grid md:grid-cols-2 gap-6">
+  <!-- Submit -->
+  <section class="glass-strong rounded-2xl p-6 shadow-glow">
+    <div class="flex items-center justify-between">
+      <h2 class="text-xl font-semibold">Submit a job</h2>
+      <span class="text-xs px-2 py-1 rounded-full border border-white/15 text-slate-200/90">≤ 1 MB</span>
+    </div>
+
+    <form class="mt-5 space-y-4" method="post" action="{{ url_for('create_job') }}" enctype="multipart/form-data">
+      <label class="block">
+        <span class="text-sm opacity-85">Document</span>
+        <input type="file" name="file"
+          class="mt-1 block w-full rounded-xl border border-white/15 bg-black/30 backdrop-blur-xl
+                 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-white/10 file:text-slate-100
+                 hover:border-white/25 transition focus:outline-none focus:ring-2 focus:ring-vermillion/30">
+      </label>
+
+      <!-- ⛔️ Removed the Base64 payload section entirely -->
+
+      <div class="flex items-center gap-3 pt-1">
+        <button type="submit" class="btn-katana px-4 py-2.5 rounded-xl">Submit Job</button>
+        <a href="{{ url_for('dashboard') }}" class="btn-ghost px-4 py-2.5 rounded-xl">Clear</a>
+      </div>
+    </form>
+  </section>
+
+  <!-- Check -->
+  <section class="glass-strong rounded-2xl p-6 shadow-glow">
+    <h2 class="text-xl font-semibold">Check summary</h2>
+    <form class="mt-5 flex gap-3" method="get"
+      onsubmit="if(this.job_id.value){ location.href='/challenge/jobs/'+encodeURIComponent(this.job_id.value)+'/summary'; return false; }">
+      <input type="text" name="job_id" placeholder="paste job id"
+        class="flex-1 rounded-xl border border-white/15 bg-black/30 backdrop-blur-xl px-3 py-2 hover:border-white/25 transition focus:outline-none focus:ring-2 focus:ring-vermillion/30">
+      <button class="btn-katana px-4 py-2.5 rounded-xl">View</button>
+    </form>
+
+    <div class="mt-5 text-sm text-slate-300/90">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="w-2 h-2 rounded-full bg-cyan-400/80"></span> Sent
+        <span class="w-2 h-2 rounded-full bg-amber-400/80 ml-4"></span> Printing
+        <span class="w-2 h-2 rounded-full bg-emerald-400/80 ml-4"></span> Finished
+      </div>
+      <p class="opacity-80">Jobs move through the states with a brief grace period before processing.</p>
+    </div>
+  </section>
+</div>
+
+<!-- Accent cards -->
+  <div class="mt-8 grid sm:grid-cols-3 gap-4">
+    <div class="glass-card rounded-xl p-4">
+      <div class="text-rose-300 font-semibold">Discipline</div>
+      <p class="text-sm text-slate-200/80 mt-1">Queue first. No shortcuts.</p>
+    </div>
+    <div class="glass-card rounded-xl p-4">
+      <div class="text-amber-300 font-semibold">Focus</div>
+      <p class="text-sm text-slate-200/80 mt-1">Synchronous "printing".</p>
+    </div>
+    <div class="glass-card rounded-xl p-4">
+      <div class="text-emerald-300 font-semibold">Result</div>
+      <p class="text-sm text-slate-200/80 mt-1">Summary with output.</p>
+    </div>
+  </div>
+
+{% endblock %}

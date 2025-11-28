@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shugō no Michi · 守護の道</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "components/glass", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "components/atoms", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "components/map", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "components/forms", "data-turbo-track": "reload" %>
+
+
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body class="min-h-screen antialiased text-zinc-100 bg-[#07161e]" data-controller="background transition">
+    <!-- Animated background canvas -->
+    <canvas class="bg-lines-canvas" data-background-target="canvas" aria-hidden="true"></canvas>
+
+    <!-- Top Navigation -->
+    <%= render "layouts/partials/nav" %>
+
+    <!-- Page container -->
+    <main id="content" class="container-glass page-enter" tabindex="-1">
+      <%= render("shared/flash") rescue nil %>
+      <%= yield %>
+    </main>
+
+    <%= render "layouts/partials/footer" %>
+  </body>
+</html>

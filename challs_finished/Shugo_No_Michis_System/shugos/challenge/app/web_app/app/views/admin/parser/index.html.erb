@@ -1,0 +1,31 @@
+<section class="grid-gap"
+  data-controller="admin-parser"
+  data-admin-parser-url-value="<%= admin_parser_tickets_path(format: :json) %>">
+
+  <article class="card-glass">
+    <h1 class="h1">Data Parser</h1>
+    <p class="muted">Connects to a socket-based parser service, returns normalized JSON.</p>
+
+    <div class="actions">
+      <button class="btn-primary" data-action="click->admin-parser#fetchNow">Fetch from parser</button>
+    </div>
+
+    <div class="muted" data-admin-parser-target="status"></div>
+
+    <h3 class="h3">Preview JSON</h3>
+    <pre class="pre-glass" data-admin-parser-target="jsonView" style="max-height: 320px; overflow:auto;"></pre>
+  </article>
+
+  <article class="card-glass">
+    <h2 class="h2">Tickets (parsed)</h2>
+    <table class="table-glass">
+      <thead>
+        <tr>
+          <th>Name</th><th>Bus</th><th>User</th><th>Date</th>
+          <th>Seats</th><th>Route</th><th>Total</th>
+        </tr>
+      </thead>
+      <tbody data-admin-parser-target="tbody"></tbody>
+    </table>
+  </article>
+</section>

@@ -1,0 +1,6 @@
+
+/* Atoms: tiny helpers and micro-interactions */
+.hidden { display:none; }
+.actions { display:flex; gap:10px; flex-wrap: wrap; }
+.inset { border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.03); }
+.stat { color: #bfefff; font-weight: 600; }

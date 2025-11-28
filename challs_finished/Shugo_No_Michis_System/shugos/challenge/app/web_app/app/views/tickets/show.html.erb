@@ -1,0 +1,38 @@
+<section class="grid-gap">
+  <article class="card-glass">
+    <h1 class="h1">Ticket</h1>
+    <p><strong>Bus:</strong> <%= @ticket.bus_code %></p>
+    <p><strong>Route:</strong> <%= @ticket.start_node %> → <%= @ticket.end_node %> (<%= @ticket.distance_edges %> edges)</p>
+    <p><strong>Date:</strong> <%= @ticket.travel_date %></p>
+    <p><strong>Seats:</strong> <%= @ticket.seats %></p>
+
+    <hr class="divider" />
+
+    <h3 class="h3">Pricing</h3>
+    <p>Base: <strong><%= @ticket.price_base_s %></strong></p>
+    <p>Penalty: <strong><%= @ticket.price_penalty_s %></strong></p>
+    <p>Total: <strong><%= @ticket.price_total_s %></strong></p>
+
+    <% if @ticket.current_node.present? %>
+      <p class="muted">Tracker last seen at node <%= @ticket.current_node %>.</p>
+    <% end %>
+
+    <div class="actions">
+      <%= link_to "All tickets", tickets_path, class: "btn-secondary" %>
+      <%= link_to "Book new", new_ticket_path, class: "btn-glass" %>
+    </div>
+  </article>
+
+  <article class="card-glass">
+    <h2 class="h2">Rebook to another bus</h2>
+    <p class="muted">Penalty: max(0, (new_distance − old_distance)) × 50 × 0.8 × seats</p>
+    <%= form_with url: rebook_ticket_path(@ticket), method: :patch, class: "form-grid" do |f| %>
+      <label>New bus
+        <%= select_tag "ticket[bus_code]",
+              options_for_select(@buses.map { |b| ["Bus #{b[:code]} (#{b[:start_id]} → #{b[:end_id]})", b[:code]] }),
+              prompt: "Choose a bus", class: "select-glass", required: true %>
+      </label>
+      <%= f.submit "Rebook", class: "btn-primary" %>
+    <% end %>
+  </article>
+</section>

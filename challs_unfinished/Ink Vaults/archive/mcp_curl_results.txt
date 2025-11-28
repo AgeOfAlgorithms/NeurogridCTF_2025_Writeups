@@ -1,0 +1,28 @@
+Testing MCP Hook Bypass Techniques
+Target: http://154.57.164.77:30826/mcp
+============================================================
+=== Technique 1: Parameter Pollution ===
+{"jsonrpc":"2.0","error":{"code":-32000,"message":"Not Acceptable: Client must accept both application/json and text/event-stream"},"id":null}
+
+=== Technique 2: No Auth Header ===
+{"jsonrpc":"2.0","error":{"code":-32000,"message":"Not Acceptable: Client must accept both application/json and text/event-stream"},"id":null}
+
+=== Technique 3: Wrong Token Format ===
+{"jsonrpc":"2.0","error":{"code":-32000,"message":"Not Acceptable: Client must accept both application/json and text/event-stream"},"id":null}
+
+=== Technique 4: Custom Bypass Headers ===
+{"jsonrpc":"2.0","error":{"code":-32000,"message":"Not Acceptable: Client must accept both application/json and text/event-stream"},"id":null}
+
+=== Technique 5: Empty Auth ===
+{"jsonrpc":"2.0","error":{"code":-32000,"message":"Not Acceptable: Client must accept both application/json and text/event-stream"},"id":null}
+
+=== Technique 6: Unicode Variation ===
+{"jsonrpc":"2.0","error":{"code":-32000,"message":"Not Acceptable: Client must accept both application/json and text/event-stream"},"id":null}
+
+=== Technique 7: Mixed-Case Method ===
+{"jsonrpc":"2.0","error":{"code":-32000,"message":"Not Acceptable: Client must accept both application/json and text/event-stream"},"id":null}
+
+=== Technique 8: Array Params ===
+{"jsonrpc":"2.0","error":{"code":-32000,"message":"Not Acceptable: Client must accept both application/json and text/event-stream"},"id":null}
+
+Testing complete. Check results for any non-auth errors.

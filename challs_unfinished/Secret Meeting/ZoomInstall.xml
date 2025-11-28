@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zoom_installer_root>
+<install>
+    <fileop>
+        <file name="bin" op="addDir" dest="$bin$" ></file>
+		<file name="ringtone" op="addDir" dest="$bin$/Ringtone/" ></file>
+        <file name="bin" op="addDir" dest="$uninstall$" ></file>
+		<file name="Animojis" op="addDir" dest="$bin$/Animojis/" ></file>
+		<file name="OpenVINO_A" op="addDir" dest="$bin$/OpenVINO_A/" ></file>
+		<file name="OpenVINO_B" op="addDir" dest="$bin$/OpenVINO_B/" ></file>
+		<file name="ZoomOutlookMAPI" op="addDir" dest="$bin$/ZoomOutlookMAPI/" ></file>
+		<file name="language" op="addDir" dest="$bin$/language/" ></file>
+				<file name="msaalib.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="CmmBrowserEngine.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="Cmmlib.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="cmmbiz.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zUnifyWebView.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="CptHost.exe" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="CptShare.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="crashrpt_lang.ini" op="add" src="$src$" dest="$bin$" ></file>
+
+			<file name="ZUI.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zUIRes.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+
+				<file name="libcrypto-3-zm.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="mcm.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="nydus.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="ring.pcm" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="ring_spatial.pcm" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="dingdong.pcm" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="mute.pcm" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="unmute.pcm" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="dingdong1.pcm" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="record_start.pcm" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="record_stop.pcm" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="wr_ding.pcm" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="ssb_sdk.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="libssl-3-zm.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="tp.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="turbojpeg.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="util.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="viper.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zAutoUpdate.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zPTApp.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zChatApp.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zCommonChat.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zMsgAppCommon.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zMsgApp.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zChatUI.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zChatHuddleViewRes.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="Embedded.properties" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="Lexilla.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="Scintilla.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zCrashReport64.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zCrashReport.exe" op="add" src="$src$" dest="$bin$" optional="1"></file>
+				<file name="zCrashReport64.exe" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zData.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<!--zWinRes -->
+				<file name="zWinRes.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zLang_de.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_es.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_fr.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_id.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_it.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_jp.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_korean.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_nl.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_pl.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_ptg.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_ru.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_sv.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_tr.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_vi.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_zh_cn.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<file name="zLang_zh_tw.dll" op="add" src="$src$/language/" dest="$bin$/language/" optional="1"></file>
+				<!--zWinRes -->
+				<file name="zlt.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zmb.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="Zoom.exe" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="Zoom_launcher.exe" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="ZoomInstall.xml" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zTscoder.exe" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zVideoApp.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zVideoUI.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zWebService.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="ZoomTelemetry.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zEventTracker.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zNet.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zNetUtils.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="cares.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="annoter.dll" op="add" src="$src$" dest="$bin$" ></file>
+				<file name="zWBUIRes.dll" op="add" src="$src$" dest="$bin$"></file>
+				<file name="zWBUI.dll" op="add" src="$src$" dest="$bin$"></file>  
+				<file name="ZRCSdk.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+				<file name="clap-high.pcm" op="add" src="$src$" dest="$bin$"></file>
+				<file name="clap-medium.pcm" op="add" src="$src$" dest="$bin$"></file>
+
+            <file name="reslib.dll" op="add" src="$src$" dest="$bin$" ></file>
+            <file name="DuiLib.dll" op="add" src="$src$" dest="$bin$" ></file>   
+            <file name="directui_license.txt" op="add" src="$src$" dest="$bin$" ></file>
+            <file name="duilib_license.txt" op="add" src="$src$" dest="$bin$" ></file> 
+            <file name="airhost.exe" op="add" src="$src$" dest="$bin$" optional="1" ></file>
+            <file name="avcodec_zm-59.dll" op="add" src="$src$" dest="$bin$" optional="1" ></file>
+            <file name="avformat_zm-59.dll" op="add" src="$src$" dest="$bin$" optional="1" ></file>
+            <file name="avutil_zm-57.dll" op="add" src="$src$" dest="$bin$" optional="1" ></file>
+            <file name="swscale_zm-6.dll" op="add" src="$src$" dest="$bin$" optional="1" ></file>
+            <file name="mdnsclient.dll" op="add" src="$src$" dest="$bin$" optional="1" ></file>
+            <file name="mDNSResponder.dll" op="add" src="$src$" dest="$bin$" optional="1" ></file>
+            <file name="swresample_zm-4.dll" op="add" src="$src$" dest="$bin$" optional="1" ></file>
+            <file name="XmppDll.dll" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="asproxy.dll" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="leave.pcm" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="CptInstall.exe" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="CptService.exe" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="CptControl.exe" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="zzhost.dll" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="zSipCallApp.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zSipCallCommon.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zSipCallCommonBase.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zSIPSDK.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zAssistant.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="libmpg123.dll" op="add" src="$src$" dest="$bin$"></file>
+			<file name="zSipcallUI.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zPhoneUI.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="nanosvg_LICENSE.txt" op="add" src="$src$" dest="$bin$"></file>
+			<file name="zSipcallRes.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zPhoneRes.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="aomagent.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<!--aomhost-->
+			<file name="aomhost64.exe" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="libcml.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="mkldnn.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+	        <file name="clDNN64.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zmp.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="dvf.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="d3dcompiler_47.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="openvino.dll" op="add" src="$src$/OpenVINO_A/" dest="$bin$/OpenVINO_A/" optional="1"></file>
+			<file name="openvino_c.dll" op="add" src="$src$/OpenVINO_A/" dest="$bin$/OpenVINO_A/" optional="1"></file>
+			<file name="openvino_intel_gpu_plugin.dll" op="add" src="$src$/OpenVINO_A/" dest="$bin$/OpenVINO_A/" optional="1"></file>
+			<file name="openvino_ir_frontend.dll" op="add" src="$src$/OpenVINO_A/" dest="$bin$/OpenVINO_A/" optional="1"></file>
+			<file name="plugins.xml" op="add" src="$src$/OpenVINO_A/" dest="$bin$/OpenVINO_A/" optional="1"></file>
+			<file name="tbb.dll" op="add" src="$src$/OpenVINO_A/" dest="$bin$/OpenVINO_A/" optional="1"></file>
+			<file name="openvino.dll" op="add" src="$src$/OpenVINO_B/" dest="$bin$/OpenVINO_B/" optional="1"></file>
+			<file name="openvino_c.dll" op="add" src="$src$/OpenVINO_B/" dest="$bin$/OpenVINO_B/" optional="1"></file>
+			<file name="openvino_intel_npu_plugin.dll" op="add" src="$src$/OpenVINO_B/" dest="$bin$/OpenVINO_B/" optional="1"></file>
+			<file name="openvino_ir_frontend.dll" op="add" src="$src$/OpenVINO_B/" dest="$bin$/OpenVINO_B/" optional="1"></file>
+			<file name="tbb12.dll" op="add" src="$src$/OpenVINO_B/" dest="$bin$/OpenVINO_B/" optional="1"></file>
+			<file name="models.xml" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<!--aomhost-->
+			<file name="meeting_raisehand_chime.pcm" op="add" src="$src$" dest="$bin$" ></file>	
+			<file name="meeting_chat_chime.pcm" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="Droplet.pcm" op="add" src="$src$" dest="$bin$" ></file>	
+			<file name="zUpdater.exe" op="add" src="$src$" dest="$bin$"></file>	
+			<file name="win10rt.7z" op="unzip" src="$src$" dest="$bin$"></file>
+			<file name="ZoomOutlookIMPlugin.exe" op="add" src="$src$" dest="$bin$"></file>	
+			<file name="ZoomOutlookMAPI.exe" op="add" src="$src$" dest="$bin$/ZoomOutlookMAPI/" optional="1"></file>
+			<file name="ZoomOutlookMAPI64.exe" op="add" src="$src$" dest="$bin$/ZoomOutlookMAPI/" optional="1"></file>
+			<file name="zCCIVideo.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zCCIMeeting.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="viperex.dll" op="add" src="$src$" dest="$bin$" ></file>	
+			<file name="UIBase.dll" op="add" src="$src$" dest="$bin$"></file>		
+			<file name="sipphone_util.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>	
+			<file name="LibphoneWrapper.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>	
+			
+			<file name="localization.xml" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>
+			<file name="ringtone.xml" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>
+			<file name="G Arpeggio.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>	
+			<file name="G Step.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>	
+			<file name="Gamelan.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>	
+			<file name="Pizzicato Strings.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>	
+			<file name="Reed Organ.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>	
+			<file name="Ukulele G.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>	
+			<file name="Ukulele.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>	
+			<file name="Vibraphone.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>	
+			<file name="double_beep.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>	
+			<file name="Silent.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>
+			<file name="ring.pcm" op="add" src="$src$/ringtone/" dest="$bin$/ringtone/" optional="1"></file>
+			<file name="zOutlookIMUtil.dll" op="add" src="$src$" dest="$bin$"></file>	
+			<file name="zKBCrypto.dll" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="zPTKBCrypto.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zoombase_crypto_shared.dll" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="ZZHostIPCSDK.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="sipphone_audioctrl.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+            <file name="mfAdapter.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="archival.pcm" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="percussion.pcm" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="percussion_pause.pcm" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="viper_async_device.dll" op="add" src="$src$" dest="$bin$"></file>
+			<file name="zAppRes.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zAppUI.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zAppUISdk.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zApp.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zToolSuiteIPCHost.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zHuddlesApp.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zCCIUI.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zCustomizeMeetingUI.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zoom_meeting_bridge.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zWebview2Agent.exe" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="WebView2Loader.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zPreMeetingApp.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zCalendarUI.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zCalendarRes.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="MailClient.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zMailUI.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zMailRes.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zmScheduler.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zbt.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<!--Animojis-->
+			<file name="1f44d.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44d-1f3fb.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44d-1f3fc.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44d-1f3fd.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44d-1f3fe.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44d-1f3ff.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44f.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44f-1f3fb.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44f-1f3fc.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44f-1f3fd.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44f-1f3fe.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f44f-1f3ff.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f62e.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f389.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="1f602.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<file name="2764.json" op="add" src="$src$/Animojis/" dest="$bin$/Animojis/"></file>
+			<!--Animojis-->
+			<file name="zMeshNetAgent.dll" op="add" src="$src$" dest="$bin$"></file>
+			<file name="zDiagnostic.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zNetDiagnostic.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zPSApp.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zPSUI.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<!--ringtong-->
+			<file name="pcm" op="addDir" dest="$bin$/pcm/" ></file>
+			<file name="dtmf_0.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_1.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_2.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_3.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_4.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_5.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_6.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_7.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_8.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_9.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_a.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_star.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="dtmf_hash.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="ring_pstn.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="beep_intercom.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<file name="double_beep.pcm" op="add" src="$src$/pcm/" dest="$bin$/pcm/" optional="1"></file>
+			<!--ringtong-->
+			<file name="zBusinessUIComponent.dll" op="add" src="$src$" dest="$bin$"></file>
+			<file name="ZoomTask.dll" op="add" src="$src$" dest="$bin$" ></file>
+			<file name="zContinuityMedia.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="SpacesClient.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zSpaceRes.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zSpaceUI.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="ZMDB.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zm_conf_universal_ui.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="libmagic.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zLooper.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zTelemetryBiz.dll" op="add" src="$src$" dest="$bin$" optional="1"></file>
+			<file name="zContext.dll" op="add" src="$src$" dest="$bin$" ></file>
+	</fileop>
+
+    <regop>
+    	<!--
+        <reg op="adddir" root="hkcu" path="" zoomDir="" key="" value="" type=""></reg>
+        -->
+    </regop>
+    
+    <shortcutop>
+            <shortcut op="addDir" target="$startMenu$\Zoom"></shortcut>
+    		<shortcut op="add" target="$bin$\Zoom.exe" linkFile="$startMenu$\Zoom\Zoom Workplace.lnk" description="Zoom UMX" iconFile="$bin$\Zoom.exe" iconIdx="0" needAppID="1"></shortcut>
+    		<shortcut op="add" target="$uninstall$\Installer.exe" args="/uninstall" linkFile="$startMenu$\Zoom\Uninstall Zoom Workplace.lnk" description="Uninstall Zoom Workplace" iconFile="$bin$\Zoom.exe" iconIdx="0"></shortcut>
+    </shortcutop>
+</install>
+<uninstall>
+		<killprocess>
+			<process name="Zoom.exe"></process>	
+			<process name="zDevHelper.exe"></process>	
+			<process name="zTscoder.exe"></process>	
+			<process name="zCrashReport.exe"></process>	
+			<process name="zCrashReport64.exe"></process>
+			<process name="Zoom_launcher.exe"></process>	
+		</killprocess>
+		<fileop>
+			<file name="bin" op="removeDir" dest="$bin$" ></file>	
+		</fileop>
+		<regop>
+		</regop>
+		<shortcutop>
+			<shortcut op="remove" linkFile="$desktop$\Zoom Workplace.lnk"></shortcut>
+			<shortcut op="removeDir" target="$startMenu$\Zoom"></shortcut>
+		</shortcutop>
+</uninstall>
+</zoom_installer_root>

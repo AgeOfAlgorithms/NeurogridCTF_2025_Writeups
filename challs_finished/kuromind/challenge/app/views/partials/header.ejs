@@ -1,0 +1,49 @@
+<header style="background-color: var(--surface); border-bottom: 1px solid var(--border); backdrop-filter: blur(12px);" class="sticky top-0 z-50">
+  <nav class="container mx-auto px-4 py-4">
+    <div class="flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3 group">
+        <span class="text-2xl">🌀</span>
+        <div>
+          <div class="text-xl font-bold transition-colors" style="color: var(--shinju-glow); font-family: 'Jost', sans-serif;">
+            KuroMind
+          </div>
+        </div>
+      </a>
+      
+      <div class="flex items-center gap-4">
+        <% if (user) { %>
+          <% if (user.role === 'admin') { %>
+            <a href="/admin/dashboard" class="nav-link transition-colors" style="color: var(--text-secondary);">Dashboard</a>
+            <a href="/admin/users" class="nav-link transition-colors" style="color: var(--text-secondary);">Users</a>
+            <a href="/admin/all-knowledge" class="nav-link transition-colors" style="color: var(--text-secondary);">All Knowledge</a>
+          <% } else if (user.role === 'operator') { %>
+            <a href="/operator/dashboard" class="nav-link transition-colors" style="color: var(--text-secondary);">Dashboard</a>
+            <a href="/operator/users" class="nav-link transition-colors" style="color: var(--text-secondary);">Users</a>
+            <a href="/operator/history" class="nav-link transition-colors" style="color: var(--text-secondary);">History</a>
+          <% } else { %>
+            <a href="/user/dashboard" class="nav-link transition-colors" style="color: var(--text-secondary);">Dashboard</a>
+            <a href="/user/drafts" class="nav-link transition-colors" style="color: var(--text-secondary);">Drafts</a>
+            <a href="/user/history" class="nav-link transition-colors" style="color: var(--text-secondary);">History</a>
+          <% } %>
+
+          <a href="/logout" class="btn-secondary">Logout</a>
+        <% } else { %>
+          <a href="/login" class="nav-link transition-colors" style="color: var(--text-secondary);">Login</a>
+          <a href="/register" class="btn-primary">Register</a>
+        <% } %>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<% if (success && success.length > 0) { %>
+  <div class="px-4 py-3 container mx-auto mt-4 rounded-lg" role="alert" style="background: rgba(95, 133, 117, 0.15); border: 1px solid var(--success); color: var(--success);">
+    <%= success %>
+  </div>
+<% } %>
+
+<% if (error && error.length > 0) { %>
+  <div class="px-4 py-3 container mx-auto mt-4 rounded-lg" role="alert" style="background: rgba(139, 90, 90, 0.15); border: 1px solid var(--error); color: var(--error);">
+    <%= error %>
+  </div>
+<% } %>

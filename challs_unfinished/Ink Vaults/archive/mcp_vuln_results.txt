@@ -1,0 +1,39 @@
+Testing MCP Hook Bypass Techniques
+Target: http://154.57.164.77:30826/mcp
+============================================================
+=== Technique 1: Parameter Pollution ===
+Error: 'latin-1' codec can't encode character '\u9751' in position 7: ordinal not in range(256)
+
+=== Technique 2: Method Confusion ===
+Error: 'latin-1' codec can't encode character '\u9751' in position 7: ordinal not in range(256)
+
+=== Technique 3: Batch with Mixed Tools ===
+Error: 'latin-1' codec can't encode character '\u9751' in position 7: ordinal not in range(256)
+
+=== Technique 4: Timing Attack (Rapid Requests) ===
+Error: 'latin-1' codec can't encode character '\u9751' in position 7: ordinal not in range(256)
+
+=== Technique 5: Header Injection ===
+Error: 'latin-1' codec can't encode character '\u9751' in position 7: ordinal not in range(256)
+
+=== Technique 6: Broken JSON ===
+Error: 'latin-1' codec can't encode character '\u9751' in position 7: ordinal not in range(256)
+
+=== Technique 7: Unicode Normalization ===
+Error: 'latin-1' codec can't encode character '\u9751' in position 7: ordinal not in range(256)
+
+=== Technique 8: Case Variation ===
+Error: 'latin-1' codec can't encode character '\u9751' in position 7: ordinal not in range(256)
+
+============================================================
+=== ANALYSIS ===
+============================================================
+
+Success rate: 0/0 techniques
+
+============================================================
+=== DETAILED SUCCESSFUL RESPONSES ===
+
+============================================================
+Test complete. Check output above for potential bypasses.
+

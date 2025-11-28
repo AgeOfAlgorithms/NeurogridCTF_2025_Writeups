@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1 class="text-3xl font-semibold tracking-wide mb-8">Job Summary</h1>
+
+{% if not found %}
+  <div class="glass-strong rounded-2xl p-6">
+    <div class="h-6 w-48 rounded-lg bg-gradient-to-r from-white/10 via-white/20 to-white/10 bg-[length:200%_100%] animate-shimmer mb-3"></div>
+    <div class="h-4 w-full rounded-lg bg-gradient-to-r from-white/5 via-white/10 to-white/5 bg-[length:200%_100%] animate-shimmer"></div>
+    <p class="mt-4 text-slate-300/85">No result yet for <code class="px-2 py-1 rounded bg-black/30 border border-white/10">{{ job_id }}</code>.</p>
+  </div>
+  <script>
+    // Poll status even when result is not yet available; reload when it appears
+    (function(){
+      const poll = () => {
+        const url = new URL(window.location.href.replace(/\/summary$/, '/status'));
+        url.searchParams.set('_', Date.now());
+        fetch(url.toString(), { cache: 'no-store' })
+          .then(r => r.json())
+          .then(d => { if (d && d.found) { window.location.reload(); } })
+          .catch(()=>{});
+      };
+      const iv = setInterval(poll, 3000);
+      window.addEventListener('beforeunload', () => clearInterval(iv));
+    })();
+  </script>
+{% else %}
+  {% set s = (summary.status or 'SENT')|lower %}
+  <div id="summaryCard" data-jobid="{{ job_id }}" class="glass-strong rounded-2xl p-6 space-y-6 shadow-glow">
+    <div class="flex items-center justify-between flex-wrap gap-3">
+      <div>
+        <div class="text-sm opacity-80">Job</div>
+        <div class="font-mono text-lg">{{ job_id }}</div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span id="statusChip" data-status="{{ s }}" class="px-3 py-1.5 rounded-full border text-xs font-semibold tracking-wide
+          {% if s=='finished' %} border-emerald-400/60 text-emerald-300
+          {% elif s=='printing' %} border-amber-400/60 text-amber-300
+          {% elif s=='failed' %} border-rose-400/60 text-rose-300
+          {% else %} border-cyan-400/60 text-cyan-300{% endif %}">
+          {{ summary.status }}
+        </span>
+        <button id="refreshBtn" class="btn-ghost px-3 py-1.5 rounded-xl">Refresh</button>
+        <label class="text-sm flex items-center gap-2">
+          <input id="autoRefresh" type="checkbox" class="accent-cyan-400">
+          Auto
+        </label>
+      </div>
+    </div>
+
+    <!-- stepper -->
+    <div class="relative">
+      <div class="absolute left-0 right-0 top-4 h-px bg-white/10"></div>
+      <div class="grid grid-cols-3 text-sm">
+        <div class="text-center">
+          <div class="w-3 h-3 rounded-full mx-auto mb-2
+            {% if s in ['printing','finished','failed'] %} bg-emerald-400 {% else %} bg-cyan-400 {% endif %}"></div>
+          <div class="{% if s in ['printing','finished','failed'] %}text-emerald-300{% else %}text-cyan-300{% endif %}">Sent</div>
+        </div>
+        <div class="text-center">
+          <div class="w-3 h-3 rounded-full mx-auto mb-2
+            {% if s in ['finished','failed'] %} bg-emerald-400 {% elif s=='printing' %} bg-amber-400 {% else %} bg-white/20 {% endif %}"></div>
+          <div class="{% if s in ['finished','failed'] %}text-emerald-300{% elif s=='printing' %}text-amber-300{% else %}text-white/40{% endif %}">Printing</div>
+        </div>
+        <div class="text-center">
+          <div class="w-3 h-3 rounded-full mx-auto mb-2
+            {% if s=='finished' %} bg-emerald-400 {% elif s=='failed' %} bg-rose-400 {% else %} bg-white/20 {% endif %}"></div>
+          <div class="{% if s=='finished' %}text-emerald-300{% elif s=='failed' %}text-rose-300{% else %}text-white/40{% endif %}">{{ 'Finished' if s!='failed' else 'Failed' }}</div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="text-lg font-semibold mb-2">Details</h3>
+      <div class="grid sm:grid-cols-2 gap-3 text-sm">
+        <div id="field-name" class="glass-card rounded-xl p-3 {% if not summary.name %}hidden{% endif %}">
+          <div class="opacity-75">Document</div>
+          <div id="value-name" class="font-mono mt-1">{{ summary.name if summary.name }}</div>
+        </div>
+        <div id="field-submitted_by" class="glass-card rounded-xl p-3 {% if not summary.submitted_by %}hidden{% endif %}">
+          <div class="opacity-75">Submitted by</div>
+          <div id="value-submitted_by" class="mt-1">{{ summary.submitted_by if summary.submitted_by }}</div>
+        </div>
+        <div id="field-note" class="glass-card rounded-xl p-3 sm:col-span-2 {% if not summary.note %}hidden{% endif %}">
+          <div class="opacity-75">Note</div>
+          <div id="value-note" class="mt-1">{{ summary.note if summary.note }}</div>
+        </div>
+        <div id="field-time_done" class="glass-card rounded-xl p-3 sm:col-span-2 {% if not summary.time_done %}hidden{% endif %}">
+          <div class="opacity-75">Completed</div>
+          <div id="value-time_done" class="mt-1 font-mono">{{ summary.time_done if summary.time_done }}</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="log-stdout-container" class="{% if not summary.stdout %}hidden{% endif %}">
+      <h3 class="text-lg font-semibold mb-2">stdout</h3>
+      <pre id="log-stdout" class="rounded-xl border border-white/10 bg-black/30 backdrop-blur-xl p-4 overflow-auto">{{ summary.stdout if summary.stdout }}</pre>
+    </div>
+    <div id="log-stderr-container" class="{% if not summary.stderr %}hidden{% endif %}">
+      <h3 class="text-lg font-semibold mb-2">stderr</h3>
+      <pre id="log-stderr" class="rounded-xl border border-white/10 bg-black/30 backdrop-blur-xl p-4 overflow-auto">{{ summary.stderr if summary.stderr }}</pre>
+    </div>
+  </div>
+
+  <script>
+    let iv = null;
+    const classFor = (s) => {
+      if (s==='finished') return 'border-emerald-400/60 text-emerald-300';
+      if (s==='printing') return 'border-amber-400/60 text-amber-300';
+      if (s==='failed') return 'border-rose-400/60 text-rose-300';
+      return 'border-cyan-400/60 text-cyan-300';
+    };
+    const updateFromStatus = (data) => {
+      const chip = document.getElementById('statusChip');
+      const prev = chip?.dataset?.status || '';
+      const s = (data.status || 'sent').toLowerCase();
+      if (chip){
+        chip.dataset.status = s;
+        chip.textContent = data.status;
+        chip.className = chip.className.replace(/border-[^\s]+\/[0-9]+\s+text-[^\s]+/g, '').trim();
+        chip.className += ' ' + classFor(s);
+      }
+      const set = (id, val, containerId) => {
+        const el = document.getElementById(id);
+        const container = containerId ? document.getElementById(containerId) : null;
+        if (el){ el.textContent = val || ''; }
+        if (container){ container.classList.toggle('hidden', !val); }
+      };
+      set('value-name', data.name, 'field-name');
+      set('value-submitted_by', data.submitted_by, 'field-submitted_by');
+      set('value-note', data.note, 'field-note');
+      set('value-time_done', data.time_done, 'field-time_done');
+      set('log-stdout', data.stdout, 'log-stdout-container');
+      set('log-stderr', data.stderr, 'log-stderr-container');
+      if (['finished','failed'].includes(s) && iv){ clearInterval(iv); iv=null; }
+    };
+    const fetchStatus = () => {
+      const root = document.getElementById('summaryCard');
+      const jobId = root?.dataset?.jobid;
+      if (!jobId) return;
+      const url = new URL(`${window.location.origin}${window.location.pathname.replace(/\/summary$/, '')}/status`);
+      url.searchParams.set('_', Date.now());
+      fetch(url.toString(), { cache: 'no-store' })
+        .then(r => r.json()).then(updateFromStatus).catch(()=>{});
+    };
+    document.getElementById('refreshBtn')?.addEventListener('click', e => { e.preventDefault(); fetchStatus(); });
+    const auto = document.getElementById('autoRefresh');
+    auto?.addEventListener('change', () => {
+      if (auto.checked){ if (!iv) { iv=setInterval(fetchStatus, 3000); } }
+      else { if (iv) { clearInterval(iv); iv=null; } }
+    });
+    window.addEventListener('load', () => {
+      const chip = document.getElementById('statusChip');
+      const s = chip?.dataset?.status || '';
+      if (!['finished','failed'].includes(s)){
+        const cb = document.getElementById('autoRefresh'); if (cb) cb.checked = true;
+        iv = setInterval(fetchStatus, 3000);
+      }
+    });
+  </script>
+{% endif %}
+
+<p class="mt-6">
+  <a class="inline-flex items-center gap-2 px-3 py-2 rounded-xl btn-ghost" href="{{ url_for('dashboard') }}">← Back</a>
+</p>
+{% endblock %}

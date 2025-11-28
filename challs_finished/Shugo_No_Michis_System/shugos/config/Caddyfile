@@ -1,0 +1,15 @@
+:1337 {
+  encode gzip
+
+  @root {
+    path /
+  }
+
+	redir @root /challenge/ 302
+
+  @challenge path /challenge /challenge/*
+  handle @challenge {
+    reverse_proxy 127.0.0.1:3000
+  }
+
+}

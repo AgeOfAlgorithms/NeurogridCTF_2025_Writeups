@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - KuroMind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body style="background-color: var(--background);" class="text-neutral-100">
+  <%- include('../partials/header') %>
+
+  <main class="min-h-screen py-12">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center mb-8">
+        <div>
+          <h1 class="text-4xl font-bold mb-2" style="font-family: 'Jost', sans-serif; color: var(--text);">Knowledge Library</h1>
+          <p style="color: var(--text-secondary);">Thoughts Within the Mind</p>
+        </div>
+        <div class="flex gap-4">
+          <a href="/user/drafts" class="btn-secondary">
+            My Drafts (<%= drafts.length %>)
+          </a>
+          <a href="/user/add" class="btn-primary">
+            Create Draft
+          </a>
+        </div>
+      </div>
+
+      <% if (knowledge.length === 0) { %>
+        <div class="card text-center py-12" style="border-color: var(--border);">
+          <span class="text-5xl mb-4 block">🌀</span>
+          <p class="text-lg" style="color: var(--text-secondary);">No knowledge available yet.</p>
+        </div>
+      <% } else { %>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <% knowledge.forEach(item => { %>
+            <div class="card hover-lift" style="background: var(--surface); border-color: var(--border);">
+              <div class="relative mb-4">
+                <img
+                  src="/images/<%= item.image %>"
+                  alt="<%= item.title %>"
+                  class="w-full h-48 object-cover rounded-lg"
+                  style="border: 1px solid var(--border);"
+                >
+                <div class="absolute top-2 right-2 w-8 h-8 rounded-full flex items-center justify-center" style="background: rgba(26, 26, 36, 0.8); backdrop-filter: blur(8px);">
+                  <span class="text-sm">
+                    <% if (item.tags && item.tags.categories && item.tags.categories.includes('memory')) { %>🌙
+                    <% } else if (item.tags && item.tags.categories && item.tags.categories.includes('spell')) { %>📜
+                    <% } else if (item.tags && item.tags.categories && item.tags.categories.includes('jutsu')) { %>⚔️
+                    <% } else { %>📖<% } %>
+                  </span>
+                </div>
+              </div>
+              <% if (item.tags && item.tags.categories && item.tags.categories.length > 0) { %>
+                <div class="mb-3 flex flex-wrap gap-2">
+                  <% item.tags.categories.forEach(cat => { %>
+                    <span class="badge badge-<%= cat %>"><%= cat %></span>
+                  <% }); %>
+                  <% if (item.tags.difficulty && (item.tags.categories.includes('spell') || item.tags.categories.includes('jutsu'))) { %>
+                    <span class="badge" style="background: rgba(139, 122, 168, 0.15); color: var(--shinju-glow); border: 1px solid var(--shinju-glow); font-size: 0.65rem;">
+                      <%= item.tags.difficulty %>
+                    </span>
+                  <% } %>
+                  <% if (item.tags.element && item.tags.categories.includes('jutsu')) { %>
+                    <span class="badge" style="background: rgba(168, 139, 92, 0.15); color: var(--shrine-gold); border: 1px solid var(--shrine-gold); font-size: 0.65rem;">
+                      <%= item.tags.element %>
+                    </span>
+                  <% } %>
+                </div>
+              <% } %>
+              <h3 class="text-xl font-bold mb-2" style="color: var(--text);"><%= item.title %></h3>
+              <p class="mb-4 line-clamp-3" style="color: var(--text-secondary); font-size: 0.9rem;"><%= item.description %></p>
+              <a href="/user/knowledge/<%= item.id %>" class="btn-secondary w-full text-center">
+                View Details
+              </a>
+            </div>
+          <% }) %>
+        </div>
+      <% } %>
+    </div>
+  </main>
+
+
+</body>
+</html>

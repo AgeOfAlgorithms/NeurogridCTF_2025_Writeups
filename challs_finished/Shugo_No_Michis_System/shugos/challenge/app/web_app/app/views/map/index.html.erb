@@ -1,0 +1,35 @@
+<script>
+  window.__BUS_GRID = <%= raw @grid.to_json %>;
+</script>
+
+<section class="grid-gap">
+  <article class="card-glass">
+    <h1 class="h1">City Map ・ マップ</h1>
+    <p class="muted">
+      Pseudo-random routes with animated buses reaching boarding points. Purely visual.
+    </p>
+    <p class="muted" style="margin-top:.25rem">
+      Grid: <%= @grid[:rows] %>X<%= @grid[:cols] %> · Nodes: <%= @grid[:nodes].size %>
+    </p>
+  </article>
+
+  <article class="map-card"
+    data-controller="transit-map"
+    data-transit-map-source-url-value="<%= @tracker_url %>"
+    data-transit-map-poll-ms-value="1500"
+    data-transit-map-one-based-value="true"
+    data-transit-map-route-alpha-value="0.45"
+    data-transit-map-route-width-value="2"
+    data-transit-map-dot-radius-value="4">
+
+    <div class="map-toolbar">
+      <span class="map-metrics" data-transit-map-target="metrics"></span>
+    </div>
+
+    <canvas class="map-canvas" data-transit-map-target="canvas" aria-label="Transit map canvas"></canvas>
+
+    <noscript>
+      <p class="muted" style="padding:.75rem 1rem">Enable JavaScript to see the live map.</p>
+    </noscript>
+  </article>
+</section>

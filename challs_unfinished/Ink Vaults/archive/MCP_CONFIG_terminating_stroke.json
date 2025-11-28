@@ -1,0 +1,10 @@
+{
+  "type": "sse",
+  "url": "http://154.57.164.77:30826/mcp",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json, text/event-stream",
+    "Cookie": "chain_uuid=d73d7dcc-2347-445d-931d-6f7dcd32f35d",
+    "Authorization": "Bearer 靑"
+  }
+}

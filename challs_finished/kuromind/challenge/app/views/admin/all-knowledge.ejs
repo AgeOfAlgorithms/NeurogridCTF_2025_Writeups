@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Knowledge - Library of Thoughts</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    .sealed-row {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .sealed-overlay-row {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(107, 78, 113, 0.96), rgba(74, 68, 88, 0.96));
+      backdrop-filter: blur(12px);
+      border-radius: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.5s ease;
+      z-index: 10;
+      border: 2px solid rgba(155, 126, 74, 0.5);
+    }
+
+    .sealed-overlay-row:hover {
+      background: linear-gradient(135deg, rgba(107, 78, 113, 0.98), rgba(74, 68, 88, 0.98));
+      border-color: rgba(155, 126, 74, 0.8);
+      box-shadow: 0 8px 24px rgba(107, 78, 113, 0.4);
+    }
+
+    .sealed-content {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .sealed-icon-small {
+      width: 40px;
+      height: 40px;
+      filter: drop-shadow(0 0 8px rgba(168, 139, 92, 0.5));
+    }
+
+    .sealed-text-small {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #A88B5C;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      letter-spacing: 0.1em;
+    }
+
+    .sealed-row .row-content {
+      filter: blur(4px);
+      pointer-events: none;
+    }
+
+    .unsealed-row .sealed-overlay-row {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .unsealed-row .row-content {
+      filter: none;
+      pointer-events: auto;
+    }
+  </style>
+</head>
+<body class="bg-neutral-900 text-neutral-100">
+  <%- include('../partials/header') %>
+  
+  <main class="min-h-screen py-12">
+    <div class="container mx-auto px-4">
+      <div class="mb-6">
+        <a href="/admin/dashboard" class="text-primary hover:text-primary/80 transition-colors">
+          ← Back to Dashboard
+        </a>
+      </div>
+
+      <h1 class="text-4xl font-bold mb-8">Available Knowledge Database</h1>
+
+      <% if (items.length === 0) { %>
+        <div class="card text-center py-12">
+          <p class="text-neutral-400 text-lg">No available knowledge yet.</p>
+        </div>
+      <% } else { %>
+        <div class="space-y-4">
+          <% items.forEach(item => { %>
+            <div class="card <%= item.isRestricted ? 'sealed-row border-2 border-warning/30' : '' %>" data-id="<%= item.id %>">
+              <% if (item.isRestricted) { %>
+                <div class="sealed-overlay-row" data-action="unseal-row">
+                  <div class="sealed-content">
+                    <svg class="sealed-icon-small" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#A88B5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M2 17L12 22L22 17" stroke="#A88B5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M2 12L12 17L22 12" stroke="#A88B5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <circle cx="12" cy="12" r="2" fill="#A88B5C" opacity="0.8"/>
+                    </svg>
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+                      <div style="background: rgba(155, 126, 74, 0.2); border: 1px solid #A88B5C; padding: 0.25rem 1rem; border-radius: 0.25rem; font-size: 0.65rem; color: #A88B5C; letter-spacing: 0.15em;">
+                        ⚠️ HIGHLY SENSITIVE
+                      </div>
+                      <div class="sealed-text-small">🔒 SEALED - Click to unseal</div>
+                    </div>
+                  </div>
+                </div>
+              <% } %>
+              
+              <div class="row-content flex gap-6">
+                <img 
+                  src="/images/<%= item.image %>" 
+                  alt="<%= item.title %>"
+                  class="w-32 h-32 object-cover rounded-xl flex-shrink-0"
+                >
+                <div class="flex-1">
+                  <div class="flex items-start justify-between mb-3">
+                    <div>
+                      <h3 class="text-xl font-bold mb-2"><%= item.title %></h3>
+                      <% if (item.tags && item.tags.categories && item.tags.categories.length > 0) { %>
+                        <div class="mb-2 flex flex-wrap gap-2">
+                          <% item.tags.categories.forEach(cat => { %>
+                            <span class="badge badge-<%= cat %>"><%= cat %></span>
+                          <% }); %>
+                          <% if (item.tags.difficulty && (item.tags.categories.includes('spell') || item.tags.categories.includes('jutsu'))) { %>
+                            <span class="badge" style="background: rgba(139, 122, 168, 0.15); color: var(--shinju-glow); border: 1px solid var(--shinju-glow); font-size: 0.65rem;">
+                              <%= item.tags.difficulty %>
+                            </span>
+                          <% } %>
+                          <% if (item.tags.element && item.tags.categories.includes('jutsu')) { %>
+                            <span class="badge" style="background: rgba(168, 139, 92, 0.15); color: var(--shrine-gold); border: 1px solid var(--shrine-gold); font-size: 0.65rem;">
+                              <%= item.tags.element %>
+                            </span>
+                          <% } %>
+                          <% if (item.isRestricted) { %>
+                            <span class="badge badge-pending">
+                              PROTECTED
+                            </span>
+                          <% } %>
+                        </div>
+                      <% } %>
+                    </div>
+                  </div>
+                  <p class="text-neutral-400"><%= item.description %></p>
+                </div>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      <% } %>
+    </div>
+  </main>
+
+
+
+  <script src="/js/admin.js"></script>
+</body>
+</html>

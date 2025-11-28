@@ -1,0 +1,7 @@
+Flask
+celery
+redis
+markdown
+beautifulsoup4
+gunicorn
+flask-cors

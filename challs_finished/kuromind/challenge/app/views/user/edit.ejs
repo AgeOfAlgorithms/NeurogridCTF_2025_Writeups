@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Knowledge - Library of Thoughts</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-neutral-900 text-neutral-100">
+  <%- include('../partials/header') %>
+  
+  <main class="min-h-screen py-12">
+    <div class="container mx-auto px-4 max-w-2xl">
+      <div class="mb-6">
+        <a href="<%= isDraft ? '/user/drafts' : '/user/history' %>" class="text-primary hover:text-primary/80 transition-colors">
+          ← Back to <%= isDraft ? 'Drafts' : 'History' %>
+        </a>
+      </div>
+
+      <div class="card">
+        <h2 class="text-3xl font-bold mb-8"><%= isDraft ? 'Edit Draft' : 'Edit Knowledge' %></h2>
+        
+        <form action="/user/edit/<%= item.id %>" method="POST" enctype="multipart/form-data" class="space-y-6">
+          <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+          <div>
+            <label for="title" class="block text-sm font-medium mb-2">Title *</label>
+            <input 
+              type="text" 
+              id="title" 
+              name="title" 
+              required 
+              class="input-field"
+              value="<%= item.title %>"
+            >
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium mb-2">Tags</label>
+
+            <div class="mb-4">
+              <label class="block text-xs font-medium mb-2 text-neutral-400">Categories</label>
+              <div class="space-y-2">
+                <label class="flex items-center">
+                  <input type="checkbox" id="cat-memory" value="memory" class="mr-2">
+                  <span>Memory</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" id="cat-spell" value="spell" class="mr-2">
+                  <span>Spell</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" id="cat-jutsu" value="jutsu" class="mr-2">
+                  <span>Ninja Technique</span>
+                </label>
+              </div>
+            </div>
+
+            <div id="difficulty-section" class="mb-4" style="display: none;">
+              <label for="difficulty" class="block text-xs font-medium mb-2 text-neutral-400">Rank</label>
+              <select id="difficulty" class="input-field">
+                <option value="">Select rank</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+                <option value="expert">Expert</option>
+              </select>
+            </div>
+
+            <div id="element-section" class="mb-4" style="display: none;">
+              <label for="element" class="block text-xs font-medium mb-2 text-neutral-400">Element (for Ninja Technique)</label>
+              <select id="element" class="input-field">
+                <option value="">Select element</option>
+                <option value="fire">Fire</option>
+                <option value="water">Water</option>
+                <option value="earth">Earth</option>
+                <option value="wind">Wind</option>
+                <option value="lightning">Lightning</option>
+              </select>
+            </div>
+
+            <input type="hidden" id="tags-json" name="tags" value="<%= item.tags ? JSON.stringify(item.tags) : '' %>">
+          </div>
+
+          <script src="/js/user.js"></script>
+
+          <div>
+            <label for="image" class="block text-sm font-medium mb-2">Upload Image</label>
+            <% if (item.image) { %>
+              <div class="mb-2">
+                <img src="/images/<%= item.image %>" alt="Current image" class="w-32 h-32 object-cover rounded-lg">
+                <p class="text-xs text-neutral-500 mt-1">Current image (upload new to replace)</p>
+              </div>
+            <% } %>
+            <input 
+              type="file" 
+              id="image" 
+              name="image" 
+              accept="image/jpeg,image/jpg,image/png,image/gif,image/webp"
+              class="input-field"
+            >
+            <p class="text-xs text-neutral-500 mt-1">Accepted formats: JPEG, PNG, GIF, WebP (Max 5MB)</p>
+          </div>
+
+          <div>
+            <label for="description" class="block text-sm font-medium mb-2">Description *</label>
+            <textarea 
+              id="description" 
+              name="description" 
+              required 
+              rows="6"
+              class="input-field"
+            ><%= item.description %></textarea>
+          </div>
+
+          <div class="flex gap-4">
+            <button type="submit" class="btn-primary flex-1">
+              <%= isDraft ? 'Update Draft' : 'Update & Resubmit' %>
+            </button>
+            <a href="<%= isDraft ? '/user/drafts' : '/user/history' %>" class="btn-secondary flex-1 text-center">
+              Cancel
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+
+</body>
+</html>

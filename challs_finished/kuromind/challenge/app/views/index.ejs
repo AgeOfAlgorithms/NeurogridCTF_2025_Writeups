@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KuroMind - Mental Realm of Knowledge</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body style="background-color: var(--background);" class="text-neutral-100">
+  <%- include('partials/header') %>
+
+  <main class="min-h-screen">
+    <!-- Hero Section with Kageno Lore -->
+    <section class="relative overflow-hidden py-32" style="background: linear-gradient(180deg, var(--surface) 0%, var(--background) 100%);">
+      <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(circle at 2px 2px, var(--shinju-glow) 1px, transparent 0); background-size: 40px 40px;"></div>
+      <div class="absolute top-10 right-10 w-64 h-64 rounded-full opacity-10 blur-3xl shinju-glow" style="background: var(--shinju-glow);"></div>
+      <div class="absolute bottom-10 left-10 w-48 h-48 rounded-full opacity-10 blur-3xl" style="background: var(--kage-smoke);"></div>
+
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-4xl mx-auto text-center">
+
+          <h1 class="text-6xl font-bold mb-4 fade-in" style="color: var(--text); font-family: 'Jost', sans-serif; text-shadow: 0 0 30px rgba(139, 122, 168, 0.3);">
+            KuroMind
+          </h1>
+          <p class="text-xl mb-3" style="color: var(--shinju-glow); font-weight: 600;">
+            Where Consciousness Dwells
+          </p>
+          <p class="text-lg mb-12 max-w-2xl mx-auto leading-relaxed" style="color: var(--text-secondary);">
+            A mental realm where memories crystallize into knowledge, techniques manifest as thoughts, and experience becomes eternal. Within this mindscape, all understanding flows as pure consciousness.
+          </p>
+          <div class="flex gap-4 justify-center">
+            <a href="/login" class="btn-primary">
+              🌀 Enter the Mind
+            </a>
+            <a href="/register" class="btn-secondary">
+              Begin Your Journey
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Knowledge Types Section -->
+    <section class="py-20" style="background-color: var(--surface);">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold mb-4" style="font-family: 'Jost', sans-serif; color: var(--text);">Fragments of Consciousness</h2>
+          <p style="color: var(--text-secondary);">Knowledge categorized within the mindscape</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div class="card hover-lift">
+            <div class="w-16 h-16 rounded-lg flex items-center justify-center mb-6" style="background: linear-gradient(135deg, var(--clan-shadow), var(--kage-smoke)); border: 1px solid var(--shinju-glow);">
+              <span class="text-3xl">🌙</span>
+            </div>
+            <h3 class="text-2xl font-bold mb-2" style="color: var(--shinju-glow);">Memories</h3>
+            <p class="text-sm mb-3" style="color: var(--text-secondary);">Crystallized Experiences</p>
+            <p style="color: var(--text-secondary);">Personal recollections and learned wisdom, stored as mental fragments that shape understanding.</p>
+          </div>
+
+          <div class="card hover-lift">
+            <div class="w-16 h-16 rounded-lg flex items-center justify-center mb-6" style="background: linear-gradient(135deg, var(--clan-ward), var(--shrine-gold)); border: 1px solid var(--shrine-gold);">
+              <span class="text-3xl">📜</span>
+            </div>
+            <h3 class="text-2xl font-bold mb-2" style="color: var(--shrine-gold);">Spells</h3>
+            <p class="text-sm mb-3" style="color: var(--text-secondary);">Mystical Knowledge</p>
+            <p style="color: var(--text-secondary);">Incantations and rituals committed to memory, words that channel unseen forces through focused intent.</p>
+          </div>
+
+          <div class="card hover-lift">
+            <div class="w-16 h-16 rounded-lg flex items-center justify-center mb-6" style="background: linear-gradient(135deg, var(--clan-blade), var(--shadow-blade)); border: 1px solid var(--shadow-blade);">
+              <span class="text-3xl">⚔️</span>
+            </div>
+            <h3 class="text-2xl font-bold mb-2" style="color: var(--shadow-blade);">Jutsu</h3>
+            <p class="text-sm mb-3" style="color: var(--text-secondary);">Combat Techniques</p>
+            <p style="color: var(--text-secondary);">Martial skills and strategic methods, muscle memory encoded as thought, ready to be recalled.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+  </main>
+
+  
+</body>
+</html>

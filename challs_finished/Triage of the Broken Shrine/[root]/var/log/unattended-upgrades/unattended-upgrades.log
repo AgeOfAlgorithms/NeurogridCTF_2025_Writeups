@@ -1,0 +1,13 @@
+2025-11-10 18:09:13,245 WARNING Could not figure out development release: Distribution data outdated. Please check for an update for distro-info-data. See /usr/share/doc/distro-info-data/README.Debian for details.
+2025-11-10 18:09:13,246 INFO Starting unattended upgrades script
+2025-11-10 18:09:13,246 INFO Allowed origins are: o=Ubuntu,a=noble, o=Ubuntu,a=noble-security, o=UbuntuESMApps,a=noble-apps-security, o=UbuntuESM,a=noble-infra-security, o=Ubuntu,a=noble, o=Ubuntu,a=noble-security, o=UbuntuESMApps,a=noble-apps-security, o=UbuntuESM,a=noble-infra-security
+2025-11-10 18:09:13,246 INFO Initial blacklist: 
+2025-11-10 18:09:13,246 INFO Initial whitelist (not strict): 
+2025-11-10 18:09:56,715 INFO Packages that will be upgraded: bind9-dnsutils bind9-host bind9-libs cups cups-bsd cups-client cups-common cups-core-drivers cups-daemon cups-ipp-utils cups-ppdc cups-server-common dpkg ghostscript gir1.2-javascriptcoregtk-4.1 gir1.2-javascriptcoregtk-6.0 gir1.2-webkit-6.0 gir1.2-webkit2-4.1 gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-plugins-base gstreamer1.0-plugins-base-apps gstreamer1.0-plugins-good gstreamer1.0-x libcups2t64 libcupsimage2t64 libgs-common libgs10 libgs10-common libgstreamer-gl1.0-0 libgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0 libjavascriptcoregtk-4.1-0 libjavascriptcoregtk-6.0-1 libldb2 libopenjp2-7 libpam-modules libpam-modules-bin libpam-runtime libpam0g libpoppler-cpp0t64 libpoppler-glib8t64 libpoppler134 libpython3.12-minimal libpython3.12-stdlib libpython3.12t64 libsmbclient0 libsqlite3-0 libssh-4 libssl3t64 libtiff6 libudisks2-0 libwbclient0 libwebkit2gtk-4.1-0 libwebkitgtk-6.0-4 libxml2 openssl poppler-utils python3.12 python3.12-minimal samba-libs udisks2 vim-common vim-tiny xserver-common xserver-xephyr xserver-xorg-core xserver-xorg-legacy xwayland xxd
+2025-11-10 18:09:56,716 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2025-11-10 18:10:25,012 INFO All upgrades installed
+2025-11-17 19:46:56,437 WARNING Could not figure out development release: Distribution data outdated. Please check for an update for distro-info-data. See /usr/share/doc/distro-info-data/README.Debian for details.
+2025-11-17 19:46:56,437 INFO Starting unattended upgrades script
+2025-11-17 19:46:56,438 INFO Allowed origins are: o=Ubuntu,a=noble, o=Ubuntu,a=noble-security, o=UbuntuESMApps,a=noble-apps-security, o=UbuntuESM,a=noble-infra-security
+2025-11-17 19:46:56,438 INFO Initial blacklist: 
+2025-11-17 19:46:56,438 INFO Initial whitelist (not strict): 

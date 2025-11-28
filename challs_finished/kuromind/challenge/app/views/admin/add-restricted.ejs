@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Restricted Knowledge - Library of Thoughts</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-neutral-900 text-neutral-100">
+  <%- include('../partials/header') %>
+  
+  <main class="min-h-screen py-12">
+    <div class="container mx-auto px-4 max-w-2xl">
+      <div class="mb-6">
+        <a href="/admin/dashboard" class="text-primary hover:text-primary/80 transition-colors">
+          ← Back to Dashboard
+        </a>
+      </div>
+
+      <div class="card">
+        <div class="bg-error/10 border border-error rounded-2xl p-4 mb-6">
+          <p class="text-error font-semibold">⚠️ Adding Restricted/Forbidden Knowledge</p>
+        </div>
+
+        <h2 class="text-3xl font-bold mb-8">Add Restricted Knowledge</h2>
+        
+        <form action="/admin/add-restricted" method="POST" class="space-y-6">
+          <div>
+            <label for="title" class="block text-sm font-medium mb-2">Title *</label>
+            <input 
+              type="text" 
+              id="title" 
+              name="title" 
+              required 
+              class="input-field"
+              placeholder="e.g., Reaper Death Seal"
+            >
+          </div>
+
+          <div>
+            <label for="category" class="block text-sm font-medium mb-2">Category *</label>
+            <select id="category" name="category" required class="input-field">
+              <option value="">Select a category</option>
+              <option value="memory">Memory</option>
+              <option value="spell">Spell</option>
+              <option value="jutsu">Ninja Technique</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="dangerLevel" class="block text-sm font-medium mb-2">Danger Level *</label>
+            <select id="dangerLevel" name="dangerLevel" required class="input-field">
+              <option value="high">High</option>
+              <option value="extreme">Extreme</option>
+              <option value="forbidden">Forbidden</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="image" class="block text-sm font-medium mb-2">Image URL (Pexels)</label>
+            <input 
+              type="url" 
+              id="image" 
+              name="image" 
+              class="input-field"
+              placeholder="https://images.pexels.com/..."
+            >
+          </div>
+
+          <div>
+            <label for="description" class="block text-sm font-medium mb-2">Description *</label>
+            <textarea 
+              id="description" 
+              name="description" 
+              required 
+              rows="6"
+              class="input-field"
+              placeholder="Detailed description including dangers and consequences..."
+            ></textarea>
+          </div>
+
+          <div class="flex gap-4">
+            <button type="submit" class="btn-primary flex-1">
+              Add Restricted Knowledge
+            </button>
+            <a href="/admin/dashboard" class="btn-secondary flex-1 text-center">
+              Cancel
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+
+</body>
+</html>

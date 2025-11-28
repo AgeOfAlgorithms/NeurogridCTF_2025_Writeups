@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Rajdhani', 'Noto Sans JP', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+}
+
+.font-cyber {
+  font-family: 'Orbitron', monospace;
+}
+
+.font-samurai {
+  font-family: 'Noto Sans JP', 'Rajdhani', sans-serif;
+}
+
+.glow-red {
+  box-shadow: 0 0 15px rgba(220, 38, 38, 0.4);
+}
+
+.text-glow-red {
+  text-shadow: 0 0 10px #dc2626;
+}
+
+.cyber-border {
+  border: 1px solid #dc2626;
+}
+
+.samurai-border {
+  border: 1px solid rgba(107, 114, 128, 0.5);
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #dc2626 #1f2937;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #dc2626;
+  border-radius: 3px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #ef4444;
+}
+
+/* Japanese/Samurai inspired animations */
+@keyframes katana-slash {
+  0% { transform: translateX(-100px) rotate(-45deg); opacity: 0; }
+  50% { transform: translateX(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateX(100px) rotate(45deg); opacity: 0; }
+}
+
+.katana-slash {
+  animation: katana-slash 1.5s ease-in-out infinite;
+}
+
+@keyframes cherry-blossom {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(20px) rotate(180deg); opacity: 0; }
+}
+
+.cherry-blossom {
+  animation: cherry-blossom 3s ease-in-out infinite;
+}
+
+/* Simplified solid color patterns */
+.gradient-samurai {
+  background: rgba(220, 38, 38, 0.8);
+}
+
+.gradient-bushido {
+  background: rgba(220, 38, 38, 0.2);
+}

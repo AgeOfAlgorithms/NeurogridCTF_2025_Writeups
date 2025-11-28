@@ -1,0 +1,10 @@
+.select-glass option {
+  background-color: transparent;
+  color: black;
+}
+
+/* Also style the select itself */
+.select-glass {
+  background-color: transparent;
+  color: black;
+}

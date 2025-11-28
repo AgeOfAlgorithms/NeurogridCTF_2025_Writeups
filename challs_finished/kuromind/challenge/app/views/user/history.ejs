@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My History - Library of Thoughts</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-neutral-900 text-neutral-100">
+  <%- include('../partials/header') %>
+
+  <main class="min-h-screen py-12">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center mb-8">
+        <h1 class="text-4xl font-bold">My Submission History</h1>
+        <a href="/user/dashboard" class="btn-secondary">Back to Dashboard</a>
+      </div>
+
+      <% if (history.length === 0) { %>
+        <div class="card text-center py-12">
+          <p class="text-neutral-400 text-lg">No submission history yet. Start by creating your first draft!</p>
+          <a href="/user/add" class="btn-primary mt-4 inline-block">Create Draft</a>
+        </div>
+      <% } else { %>
+        <div class="space-y-6">
+          <% history.forEach(record => { %>
+            <div class="card">
+              <div class="flex items-start gap-4">
+                <img
+                  src="/images/<%= record.image %>"
+                  alt="<%= record.title %>"
+                  class="w-32 h-32 object-cover rounded-lg flex-shrink-0"
+                >
+
+                <div class="flex-1">
+                  <div class="flex items-center gap-3 mb-3">
+                    <h3 class="text-2xl font-bold"><%= record.title %></h3>
+                    <span class="badge badge-<%= record.category %>">
+                      <%= record.category %>
+                    </span>
+                    <% if (record.status === 'pending') { %>
+                      <span class="badge badge-warning">Pending Review</span>
+                    <% } else if (record.status === 'approved') { %>
+                      <span class="badge badge-success">Approved</span>
+                    <% } else if (record.status === 'rejected') { %>
+                      <span class="badge badge-danger">Rejected</span>
+                    <% } %>
+                    <% if (record.isRestricted) { %>
+                      <span class="badge badge-danger">Restricted</span>
+                    <% } %>
+                  </div>
+
+                  <p class="text-neutral-400 mb-4 line-clamp-2"><%= record.description %></p>
+
+                  <div class="grid md:grid-cols-2 gap-4 text-sm">
+                    <div>
+                      <p class="text-neutral-500">Submitted:</p>
+                      <p class="text-neutral-300"><%= new Date(record.createdAt).toLocaleString() %></p>
+                    </div>
+
+                    <% if (record.reviewAction) { %>
+                      <div>
+                        <p class="text-neutral-500">Reviewed by:</p>
+                        <p class="text-neutral-300"><%= record.reviewerName || 'Unknown' %></p>
+                      </div>
+
+                      <div>
+                        <p class="text-neutral-500">Review Date:</p>
+                        <p class="text-neutral-300"><%= new Date(record.reviewTimestamp).toLocaleString() %></p>
+                      </div>
+
+                      <div>
+                        <p class="text-neutral-500">Review Action:</p>
+                        <p class="text-neutral-300">
+                          <span class="badge badge-<%= record.reviewAction === 'approved' ? 'success' : 'danger' %>">
+                            <%= record.reviewAction %>
+                          </span>
+                        </p>
+                      </div>
+                    <% } %>
+
+                    <% if (record.dangerLevel) { %>
+                      <div>
+                        <p class="text-neutral-500">Danger Level:</p>
+                        <p class="text-neutral-300">
+                          <span class="badge badge-danger"><%= record.dangerLevel %></span>
+                        </p>
+                      </div>
+                    <% } %>
+                  </div>
+
+                  <% if (record.reviewFeedback) { %>
+                    <div class="mt-4 p-4 bg-neutral-800 rounded-lg border border-neutral-700">
+                      <p class="text-neutral-500 text-sm mb-1">Reviewer Feedback:</p>
+                      <p class="text-neutral-300"><%= record.reviewFeedback %></p>
+                    </div>
+                  <% } %>
+
+                  <% if (record.status === 'approved' || record.status === 'rejected') { %>
+                    <div class="mt-4 flex gap-3">
+                      <% if (record.status === 'approved' && !record.isRestricted) { %>
+                        <a href="/user/knowledge/<%= record.id %>" class="btn-secondary text-sm">View Public Page</a>
+                      <% } %>
+                      <% if (record.status === 'rejected') { %>
+                        <a href="/user/edit/<%= record.id %>" class="btn-primary text-sm">Edit & Resubmit</a>
+                      <% } %>
+                    </div>
+                  <% } %>
+                </div>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      <% } %>
+    </div>
+  </main>
+
+
+</body>
+</html>

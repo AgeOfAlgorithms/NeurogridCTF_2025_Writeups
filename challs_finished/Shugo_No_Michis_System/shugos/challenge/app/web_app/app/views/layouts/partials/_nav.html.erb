@@ -1,0 +1,28 @@
+<nav class="nav-glass" role="navigation" data-controller="menu">
+  <div class="nav-inner">
+    <div class="brand">
+      <span class="dot"></span>
+      <%= link_to "Shugō no Michi / 守護の道", root_path, class: "brand-link" %>
+      <span class="brand-sub">Bus System · 切符と運行</span>
+    </div>
+
+    <button class="nav-toggle" aria-label="Toggle menu" data-action="menu#toggle" aria-expanded="false">
+      ☰
+    </button>
+
+  <ul class="nav-links" data-menu-target="list">
+    <li><%= link_to "Map / マップ", map_path, class: "link-soft" %></li>
+    <li><%= link_to "Tickets / 切符", tickets_path, class: "link-soft" %></li>
+    <% if logged_in? %>
+      <li class="link-soft"><%= current_user.email %></li>
+      <li><%= link_to "Sign out", session_path, data: { turbo_method: :delete }, class: "btn-glass" %></li>
+    <% else %>
+      <li><%= link_to "Sign in", root_path(anchor: "signin"), class: "btn-glass" %></li>
+    <% end %>
+
+    <% if admin? %>
+      <li><%= link_to "Admin", admin_root_path, class: "btn-glass" %></li>
+    <% end %>
+  </ul>
+  </div>
+</nav>

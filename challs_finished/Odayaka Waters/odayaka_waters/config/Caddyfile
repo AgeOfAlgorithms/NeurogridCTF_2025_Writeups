@@ -1,0 +1,40 @@
+:1337 {
+	@root {
+		path /
+	}
+	redir @root /challenge/login 302
+
+	@challengeRoot path /challenge
+	redir @challengeRoot /challenge/login 302
+
+	@challengeRootSlash path /challenge/
+	redir @challengeRootSlash /challenge/login 302
+
+	handle_path /challenge* {
+		reverse_proxy 127.0.0.1:8000 {
+			trusted_proxies private_ranges
+
+			# forward host WITH port
+			header_up Host {http.request.hostport}
+			header_up X-Forwarded-Host {http.request.hostport}
+
+			# correct port & scheme placeholders
+			header_up X-Forwarded-Port {http.request.port}
+			header_up X-Forwarded-Proto {http.request.scheme}
+
+			# keep the path base for Laravel
+			header_up X-Forwarded-Prefix /challenge
+		}
+	}
+
+    handle /media* {
+        root * /app/main_app/public
+		file_server
+	}
+
+	log {
+		output stdout
+		format console
+	}
+	encode zstd gzip
+}

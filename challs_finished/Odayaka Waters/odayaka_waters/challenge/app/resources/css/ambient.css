@@ -1,0 +1,85 @@
+/* Calm gradient + subtle texture base */
+.ambient-root {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: radial-gradient(120% 120% at 80% 20%, #10394a 0%, #0c2733 37%, #0a1b27 100%);
+    isolation: isolate;
+  }
+  
+  .ambient-root canvas {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+  
+  .ambient-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 12px;
+  }
+  
+  .controls {
+    pointer-events: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: rgba(2,8,23,0.6);
+    border: 1px solid rgba(255,255,255,0.08);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    padding: 8px 10px;
+  }
+  
+  .controls .btn {
+    background: #2563eb;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .controls .btn:disabled { opacity: .6; cursor: default; }
+  
+  .controls input[type="range"] {
+    width: 140px;
+  }
+  .controls .quality {
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+    font-size: .85rem;
+    opacity: .9;
+  }
+  .controls select {
+    background: #0b1520;
+    color: #e5eef7;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 2px 6px;
+  }
+  
+  /* Tier-1 fallback shimmer (when canvas off / reduced motion) */
+  .ambient-root::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    mix-blend-mode: screen;
+    opacity: .06;
+    background: repeating-linear-gradient(
+      120deg,
+      rgba(255,255,255,.15) 0 2px,
+      transparent 2px 8px
+    );
+  }
+  
+  /* Respect reduced motion: hide canvas (JS will also disable anim loop) */
+  @media (prefers-reduced-motion: reduce) {
+    .ambient-root canvas { display: none; }
+  }
+  

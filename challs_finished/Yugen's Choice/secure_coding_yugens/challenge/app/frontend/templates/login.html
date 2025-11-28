@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="max-w-md mx-auto glass-strong rounded-2xl p-6 shadow-glow animate-fadeIn">
+  <h1 class="text-xl font-semibold mb-4">{{ title or 'Login' }}</h1>
+  <form method="post" class="space-y-4">
+    <label class="block">
+      <span class="text-sm opacity-85">Username</span>
+      <input type="text" name="username" required
+             class="mt-1 w-full rounded-xl border border-white/15 bg-black/30 backdrop-blur-xl px-3 py-2 hover:border-white/25 transition focus:outline-none focus:ring-2 focus:ring-cyan-400/30">
+    </label>
+    <label class="block">
+      <span class="text-sm opacity-85">Password</span>
+      <input type="password" name="password" required
+             class="mt-1 w-full rounded-xl border border-white/15 bg-black/30 backdrop-blur-xl px-3 py-2 hover:border-white/25 transition focus:outline-none focus:ring-2 focus:ring-cyan-400/30">
+    </label>
+    <button class="w-full btn-holo px-4 py-2.5 rounded-xl">{{ title or 'Login' }}</button>
+  </form>
+  {% if title != 'Register' %}
+  <p class="text-sm text-slate-300/90 mt-4">New here? <a class="underline hover:no-underline" href="{{ url_for('register') }}">Create an account</a>.</p>
+  {% endif %}
+</div>
+{% endblock %}

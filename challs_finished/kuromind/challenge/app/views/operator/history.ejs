@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review History - Library of Thoughts</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-neutral-900 text-neutral-100">
+  <%- include('../partials/header') %>
+  
+  <main class="min-h-screen py-12">
+    <div class="container mx-auto px-4">
+      <div class="mb-6">
+        <a href="/operator/dashboard" class="text-primary hover:text-primary/80 transition-colors">
+          ← Back to Dashboard
+        </a>
+      </div>
+
+      <h1 class="text-4xl font-bold mb-8">My Review History</h1>
+
+      <% if (history.length === 0) { %>
+        <div class="card text-center py-12">
+          <p class="text-neutral-400 text-lg">No review history yet.</p>
+        </div>
+      <% } else { %>
+        <div class="space-y-6">
+          <% history.forEach(record => { %>
+            <div class="card">
+              <div class="flex items-start gap-4">
+                <img
+                  src="/images/<%= record.knowledgeImage || 'the_unknown.png' %>"
+                  alt="<%= record.knowledgeTitle || 'Unknown Item' %>"
+                  class="w-32 h-32 object-cover rounded-lg flex-shrink-0"
+                >
+
+                <div class="flex-1">
+                  <h3 class="text-2xl font-bold mb-3"><%= record.knowledgeTitle || 'Unknown Item' %></h3>
+                  <% if (record.knowledgeTags && record.knowledgeTags.categories && record.knowledgeTags.categories.length > 0) { %>
+                    <div class="mb-3 flex flex-wrap gap-2">
+                      <% record.knowledgeTags.categories.forEach(cat => { %>
+                        <span class="badge badge-<%= cat %>"><%= cat %></span>
+                      <% }); %>
+                      <% if (record.knowledgeTags.difficulty && record.knowledgeTags.categories.includes('spell')) { %>
+                        <span class="text-xs bg-purple-600 px-2 py-1 rounded">Difficulty: <%= record.knowledgeTags.difficulty %></span>
+                      <% } %>
+                      <% if (record.knowledgeTags.element && record.knowledgeTags.categories.includes('jutsu')) { %>
+                        <span class="text-xs bg-orange-600 px-2 py-1 rounded">Element: <%= record.knowledgeTags.element %></span>
+                      <% } %>
+                      <span class="badge badge-<%= record.action === 'approved' ? 'success' : 'danger' %>">
+                        <%= record.action %>
+                      </span>
+                      <% if (record.knowledgeIsRestricted) { %>
+                        <span class="badge badge-danger">Restricted</span>
+                      <% } %>
+                    </div>
+                  <% } %>
+
+                  <% if (record.knowledgeDescription) { %>
+                    <p class="text-neutral-400 mb-4 line-clamp-2"><%= record.knowledgeDescription %></p>
+                  <% } %>
+
+                  <div class="grid md:grid-cols-2 gap-4 text-sm">
+                    <div>
+                      <p class="text-neutral-500">Submitted by:</p>
+                      <p class="text-neutral-300"><%= record.submitterName || 'Unknown' %></p>
+                    </div>
+
+                    <div>
+                      <p class="text-neutral-500">Reviewed on:</p>
+                      <p class="text-neutral-300"><%= new Date(record.timestamp).toLocaleString() %></p>
+                    </div>
+
+                    <div>
+                      <p class="text-neutral-500">Review Action:</p>
+                      <p class="text-neutral-300">
+                        <span class="badge badge-<%= record.action === 'approved' ? 'success' : 'danger' %>">
+                          <%= record.action %>
+                        </span>
+                      </p>
+                    </div>
+
+                    <% if (record.knowledgeDangerLevel) { %>
+                      <div>
+                        <p class="text-neutral-500">Danger Level:</p>
+                        <p class="text-neutral-300">
+                          <span class="badge badge-danger"><%= record.knowledgeDangerLevel %></span>
+                        </p>
+                      </div>
+                    <% } %>
+                  </div>
+
+                  <% if (record.feedback) { %>
+                    <div class="mt-4 p-4 bg-neutral-800 rounded-lg border border-neutral-700">
+                      <p class="text-neutral-500 text-sm mb-1">Review Feedback:</p>
+                      <p class="text-neutral-300"><%= record.feedback %></p>
+                    </div>
+                  <% } %>
+                </div>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      <% } %>
+    </div>
+  </main>
+
+
+</body>
+</html>

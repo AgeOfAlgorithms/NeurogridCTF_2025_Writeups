@@ -6,6 +6,7 @@ My writeups and solutions for NeurogridCTF 2025.
 
 - **Solved:** 29 challenges
 - **Unsolved:** 8 challenges
+- **Placement:** 6th
 
 ![Placement](result.png)
 

@@ -7,50 +7,54 @@ My writeups and solutions for NeurogridCTF 2025.
 - **Solved:** 29 challenges
 - **Unsolved:** 8 challenges
 
+![Placement](result.png)
+
 ## Solved Challenges
 
 | Challenge | Category |
 |-----------|----------|
-| ashenvault | - |
-| Blade_Master | - |
-| Codex_of_Failures | - |
-| Coordinator | - |
-| Dathash_or_Not_Dathash | - |
-| Drumming Shrine | - |
-| Elliptic Contribution | - |
-| Fivefold Door | - |
-| ForgottenVault | - |
-| FuseJi_book | - |
-| IronheartEcho | - |
-| kuromind | - |
-| Lanternfall | - |
-| mantra | - |
-| Manual | - |
-| Markov Scrolls | - |
-| Odayaka Waters | - |
-| RiceField | - |
-| Sakura's Embrace | - |
-| Shugo_No_Michis_System | - |
-| SilentOracle | - |
-| Stones | - |
-| The_Claim_That_Broke_The_Oath | - |
-| The_Contribution_That_Undid_The_Harbor | - |
-| The_Debt_That_Hunts_the_Poor | - |
-| The_Paper_Generals_Army | - |
-| Triage of the Broken Shrine | - |
-| Whisper_Vault | - |
-| Yugen's Choice | - |
+| ashenvault | Web |
+| Blade_Master | Algorithm |
+| Codex_of_Failures | Reversing |
+| Coordinator | Crypto |
+| Dathash_or_Not_Dathash | Crypto |
+| Drumming Shrine | ML/AI |
+| Elliptic Contribution | Crypto |
+| Fivefold Door | Algorithm |
+| ForgottenVault | Reversing |
+| FuseJi_book | AI/LLM |
+| IronheartEcho | Reversing |
+| kuromind | Web |
+| Lanternfall | Web |
+| mantra | Pwn |
+| Manual | Forensics |
+| Markov Scrolls | AI/MCP |
+| Odayaka Waters | Secure Coding |
+| RiceField | Pwn |
+| Sakura's Embrace | Secure Coding |
+| Shugo_No_Michis_System | Secure Coding |
+| SilentOracle | Reversing |
+| Stones | Crypto |
+| The_Claim_That_Broke_The_Oath | Blockchain |
+| The_Contribution_That_Undid_The_Harbor | Blockchain |
+| The_Debt_That_Hunts_the_Poor | Blockchain |
+| The_Paper_Generals_Army | Misc |
+| Triage of the Broken Shrine | Forensics |
+| Whisper_Vault | Pwn |
+| Yugen's Choice | Secure Coding |
 
 ## Unsolved Challenges
 
-- Gemsmith
-- Hai_tsukemono
-- Ink Vaults
-- Mantra
-- MirrorPort
-- Resurrection
-- Secret Meeting
-- The_Bank_That_Breathed_Numbers
+| Challenge | Category |
+|-----------|----------|
+| Gemsmith | Pwn |
+| Hai_tsukemono | Web/MCP |
+| Ink Vaults | AI |
+| Mantra | Pwn |
+| MirrorPort | Web |
+| Resurrection | Forensics |
+| Secret Meeting | Forensics |
+| The_Bank_That_Breathed_Numbers | Blockchain |
 
 ## Structure
 

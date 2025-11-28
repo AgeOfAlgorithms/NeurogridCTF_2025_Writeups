@@ -2,6 +2,14 @@
 
 My writeups and solutions for NeurogridCTF 2025.
 
+## About the Event
+
+NeurogridCTF 2025 was an MCP-focused CTF hosted by Hack The Box, featuring two separate competitions:
+- **AI Competition** - Challenges solved using AI agents
+- **Human Competition** - Traditional human-only solving
+
+I participated in the **AI Competition**, solving all challenges using [Claude Code](https://github.com/anthropics/claude-code).
+
 ## Results
 
 - **Solved:** 29 challenges
